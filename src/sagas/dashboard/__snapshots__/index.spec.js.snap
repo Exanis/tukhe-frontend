@@ -1,0 +1,1106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should process saga as expected 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "FORK",
+  },
+}
+`;
+
+exports[`Should process saga as expected 2`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "context": null,
+      "fn": [MockFunction],
+    },
+    "type": "CALL",
+  },
+}
+`;
+
+exports[`Should process saga as expected 3`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [
+        "test interval",
+      ],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "CALL",
+  },
+}
+`;
+
+exports[`Should process saga as expected 4`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "pattern": [Function],
+    },
+    "type": "TAKE",
+  },
+}
+`;
+
+exports[`Should process saga as expected 5`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": "@@redux-saga/SELF_CANCELLATION",
+    "type": "CANCEL",
+  },
+}
+`;
+
+exports[`Should process saga as expected 6`] = `
+Object {
+  "done": true,
+  "value": undefined,
+}
+`;
+
+exports[`Should run action with account as expected when param is a formdata 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "selector": [Function],
+    },
+    "type": "SELECT",
+  },
+}
+`;
+
+exports[`Should run action with account as expected when param is a formdata 2`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "CALL",
+  },
+}
+`;
+
+exports[`Should run action with account as expected when param is a formdata 3`] = `Promise {}`;
+
+exports[`Should run action with account as expected when param is a formdata 4`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "action": Object {
+        "payload": null,
+        "type": "user/setToken",
+      },
+      "channel": undefined,
+    },
+    "type": "PUT",
+  },
+}
+`;
+
+exports[`Should run action with account as expected when param is not a formdata 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "selector": [Function],
+    },
+    "type": "SELECT",
+  },
+}
+`;
+
+exports[`Should run action with account as expected when param is not a formdata 2`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "CALL",
+  },
+}
+`;
+
+exports[`Should run action with account as expected when param is not a formdata 3`] = `Promise {}`;
+
+exports[`Should run action with account as expected when param is not a formdata 4`] = `
+Object {
+  "done": true,
+  "value": undefined,
+}
+`;
+
+exports[`Should run action with account as expected when param is not a formdata 5`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "selector": [Function],
+    },
+    "type": "SELECT",
+  },
+}
+`;
+
+exports[`Should run action with account as expected when param is not a formdata 6`] = `
+Object {
+  "done": true,
+  "value": undefined,
+}
+`;
+
+exports[`Should run action without account as expected when param is a formdata 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "selector": [Function],
+    },
+    "type": "SELECT",
+  },
+}
+`;
+
+exports[`Should run action without account as expected when param is a formdata 2`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "CALL",
+  },
+}
+`;
+
+exports[`Should run action without account as expected when param is a formdata 3`] = `Promise {}`;
+
+exports[`Should run action without account as expected when param is a formdata 4`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "action": Object {
+        "payload": null,
+        "type": "user/setToken",
+      },
+      "channel": undefined,
+    },
+    "type": "PUT",
+  },
+}
+`;
+
+exports[`Should run action without account as expected when param is not a formdata 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "selector": [Function],
+    },
+    "type": "SELECT",
+  },
+}
+`;
+
+exports[`Should run action without account as expected when param is not a formdata 2`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "CALL",
+  },
+}
+`;
+
+exports[`Should run action without account as expected when param is not a formdata 3`] = `Promise {}`;
+
+exports[`Should run action without account as expected when param is not a formdata 4`] = `
+Object {
+  "done": true,
+  "value": undefined,
+}
+`;
+
+exports[`Should run action without account as expected when param is not a formdata 5`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "selector": [Function],
+    },
+    "type": "SELECT",
+  },
+}
+`;
+
+exports[`Should run action without account as expected when param is not a formdata 6`] = `
+Object {
+  "done": true,
+  "value": undefined,
+}
+`;
+
+exports[`Should run create dashboard saga as expected 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "CALL",
+  },
+}
+`;
+
+exports[`Should run create dashboard saga as expected 2`] = `Promise {}`;
+
+exports[`Should run create dashboard saga as expected 3`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "action": Object {
+        "payload": undefined,
+        "type": "dashboard/load/list",
+      },
+      "channel": undefined,
+    },
+    "type": "PUT",
+  },
+}
+`;
+
+exports[`Should run create dashboard saga as expected 4`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "action": Object {
+        "payload": null,
+        "type": "user/setToken",
+      },
+      "channel": undefined,
+    },
+    "type": "PUT",
+  },
+}
+`;
+
+exports[`Should run create saga as expected when there is an error 1`] = `
+Object {
+  "done": true,
+  "value": undefined,
+}
+`;
+
+exports[`Should run create widget saga as expected 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "selector": [Function],
+    },
+    "type": "SELECT",
+  },
+}
+`;
+
+exports[`Should run create widget saga as expected 2`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "CALL",
+  },
+}
+`;
+
+exports[`Should run create widget saga as expected 3`] = `Promise {}`;
+
+exports[`Should run create widget saga as expected 4`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": true,
+    "payload": Array [
+      Promise {},
+      Promise {},
+    ],
+    "type": "ALL",
+  },
+}
+`;
+
+exports[`Should run create widget saga as expected 5`] = `Promise {}`;
+
+exports[`Should run create widget saga as expected 6`] = `Promise {}`;
+
+exports[`Should run create widget saga as expected 7`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "action": Object {
+        "payload": "test",
+        "type": "dashboard/select",
+      },
+      "channel": undefined,
+    },
+    "type": "PUT",
+  },
+}
+`;
+
+exports[`Should run create widget saga as expected when there is an error 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "selector": [Function],
+    },
+    "type": "SELECT",
+  },
+}
+`;
+
+exports[`Should run create widget saga as expected when there is an error 2`] = `
+Object {
+  "done": true,
+  "value": undefined,
+}
+`;
+
+exports[`Should run dashboard load saga as expected 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "CALL",
+  },
+}
+`;
+
+exports[`Should run dashboard load saga as expected 2`] = `Promise {}`;
+
+exports[`Should run dashboard load saga as expected 3`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "selector": [Function],
+    },
+    "type": "SELECT",
+  },
+}
+`;
+
+exports[`Should run dashboard load saga as expected 4`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "action": Object {
+        "payload": Array [
+          Object {
+            "uuid": "test",
+          },
+        ],
+        "type": "dashboard/setDashboards",
+      },
+      "channel": undefined,
+    },
+    "type": "PUT",
+  },
+}
+`;
+
+exports[`Should run dashboard load saga as expected 5`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "action": Object {
+        "payload": "test",
+        "type": "dashboard/select",
+      },
+      "channel": undefined,
+    },
+    "type": "PUT",
+  },
+}
+`;
+
+exports[`Should run dashboard load saga as expected when there is a dashboard 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "CALL",
+  },
+}
+`;
+
+exports[`Should run dashboard load saga as expected when there is a dashboard 2`] = `Promise {}`;
+
+exports[`Should run dashboard load saga as expected when there is a dashboard 3`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "selector": [Function],
+    },
+    "type": "SELECT",
+  },
+}
+`;
+
+exports[`Should run dashboard load saga as expected when there is a dashboard 4`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "action": Object {
+        "payload": Array [
+          Object {
+            "uuid": "test",
+          },
+        ],
+        "type": "dashboard/setDashboards",
+      },
+      "channel": undefined,
+    },
+    "type": "PUT",
+  },
+}
+`;
+
+exports[`Should run dashboard load saga as expected when there is an error 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "CALL",
+  },
+}
+`;
+
+exports[`Should run dashboard load saga as expected when there is an error 2`] = `
+Object {
+  "done": true,
+  "value": undefined,
+}
+`;
+
+exports[`Should run refresh with account saga as expected 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "selector": [Function],
+    },
+    "type": "SELECT",
+  },
+}
+`;
+
+exports[`Should run refresh with account saga as expected 2`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "CALL",
+  },
+}
+`;
+
+exports[`Should run refresh with account saga as expected 3`] = `Promise {}`;
+
+exports[`Should run refresh with account saga as expected 4`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "action": Object {
+        "payload": Object {
+          "data": Array [],
+          "widget": "test",
+        },
+        "type": "dashboard/setData",
+      },
+      "channel": undefined,
+    },
+    "type": "PUT",
+  },
+}
+`;
+
+exports[`Should run refresh with account saga as expected when there is an error 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "selector": [Function],
+    },
+    "type": "SELECT",
+  },
+}
+`;
+
+exports[`Should run refresh with account saga as expected when there is an error 2`] = `
+Object {
+  "done": true,
+  "value": undefined,
+}
+`;
+
+exports[`Should run refresh without account saga as expected 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "selector": [Function],
+    },
+    "type": "SELECT",
+  },
+}
+`;
+
+exports[`Should run refresh without account saga as expected 2`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "CALL",
+  },
+}
+`;
+
+exports[`Should run refresh without account saga as expected 3`] = `Promise {}`;
+
+exports[`Should run refresh without account saga as expected 4`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "action": Object {
+        "payload": Object {
+          "data": Array [],
+          "widget": "test",
+        },
+        "type": "dashboard/setData",
+      },
+      "channel": undefined,
+    },
+    "type": "PUT",
+  },
+}
+`;
+
+exports[`Should run refresh without account saga as expected when there is an error 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "selector": [Function],
+    },
+    "type": "SELECT",
+  },
+}
+`;
+
+exports[`Should run refresh without account saga as expected when there is an error 2`] = `
+Object {
+  "done": true,
+  "value": undefined,
+}
+`;
+
+exports[`Should run select dashboard saga as expected 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "CALL",
+  },
+}
+`;
+
+exports[`Should run select dashboard saga as expected 2`] = `Promise {}`;
+
+exports[`Should run select dashboard saga as expected 3`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "action": Object {
+        "payload": "test",
+        "type": "dashboard/selectDashboard",
+      },
+      "channel": undefined,
+    },
+    "type": "PUT",
+  },
+}
+`;
+
+exports[`Should run select dashboard saga as expected 4`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "action": Object {
+        "payload": Array [],
+        "type": "dashboard/setWidgets",
+      },
+      "channel": undefined,
+    },
+    "type": "PUT",
+  },
+}
+`;
+
+exports[`Should run select dashboard saga as expected when there is an error 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "CALL",
+  },
+}
+`;
+
+exports[`Should run select dashboard saga as expected when there is an error 2`] = `
+Object {
+  "done": true,
+  "value": undefined,
+}
+`;
+
+exports[`Should run update layout saga as expected 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "selector": [Function],
+    },
+    "type": "SELECT",
+  },
+}
+`;
+
+exports[`Should run update layout saga as expected 2`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "CALL",
+  },
+}
+`;
+
+exports[`Should run update layout saga as expected 3`] = `Promise {}`;
+
+exports[`Should run update layout saga as expected 4`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "action": Object {
+        "payload": undefined,
+        "type": "dashboard/load/list",
+      },
+      "channel": undefined,
+    },
+    "type": "PUT",
+  },
+}
+`;
+
+exports[`Should run update layout saga as expected when there is an error 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "selector": [Function],
+    },
+    "type": "SELECT",
+  },
+}
+`;
+
+exports[`Should run update layout saga as expected when there is an error 2`] = `
+Object {
+  "done": true,
+  "value": undefined,
+}
+`;
+
+exports[`Should watch every sagas 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [
+        [Function],
+        [Function],
+      ],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "FORK",
+  },
+}
+`;
+
+exports[`Should watch every sagas 2`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [
+        [Function],
+        [Function],
+      ],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "FORK",
+  },
+}
+`;
+
+exports[`Should watch every sagas 3`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [
+        [Function],
+        [Function],
+      ],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "FORK",
+  },
+}
+`;
+
+exports[`Should watch every sagas 4`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [
+        [Function],
+        [Function],
+      ],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "FORK",
+  },
+}
+`;
+
+exports[`Should watch every sagas 5`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [
+        [Function],
+        [Function],
+      ],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "FORK",
+  },
+}
+`;
+
+exports[`Should watch every sagas 6`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [
+        [Function],
+        [Function],
+      ],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "FORK",
+  },
+}
+`;
+
+exports[`Should watch every sagas 7`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [
+        [Function],
+        [Function],
+      ],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "FORK",
+  },
+}
+`;
+
+exports[`Should watch every sagas 8`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [
+        [Function],
+        [Function],
+      ],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "FORK",
+  },
+}
+`;
+
+exports[`Should watch every sagas 9`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [
+        [Function],
+        [Function],
+      ],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "FORK",
+  },
+}
+`;
+
+exports[`Should watch every sagas 10`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [
+        [Function],
+        [Function],
+      ],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "FORK",
+  },
+}
+`;

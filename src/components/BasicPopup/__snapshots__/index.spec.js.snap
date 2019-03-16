@@ -1,0 +1,1190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render correctly with all props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <BasicPopup
+    actions={
+      Array [
+        <div>
+          Test div
+        </div>,
+      ]
+    }
+    additionalProp={Object {}}
+    onClose={[MockFunction]}
+    title="Test title"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "actions": Array [
+        <div>
+          Test div
+        </div>,
+      ],
+      "additionalProp": Object {},
+      "children": Array [
+        <InjectIntl(WithStyles(RawDialogTitle))
+          onClose={[MockFunction]}
+        >
+          Test title
+        </InjectIntl(WithStyles(RawDialogTitle))>,
+        <WithStyles(WithStyles(DialogContent)) />,
+        <WithStyles(WithStyles(DialogActions))>
+          <div>
+            Test div
+          </div>
+        </WithStyles(WithStyles(DialogActions))>,
+      ],
+      "onClose": [MockFunction],
+      "title": "Test title",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "Test title",
+          "onClose": [MockFunction],
+        },
+        "ref": null,
+        "rendered": "Test title",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <div>
+              Test div
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Test div",
+            },
+            "ref": null,
+            "rendered": "Test div",
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "actions": Array [
+          <div>
+            Test div
+          </div>,
+        ],
+        "additionalProp": Object {},
+        "children": Array [
+          <InjectIntl(WithStyles(RawDialogTitle))
+            onClose={[MockFunction]}
+          >
+            Test title
+          </InjectIntl(WithStyles(RawDialogTitle))>,
+          <WithStyles(WithStyles(DialogContent)) />,
+          <WithStyles(WithStyles(DialogActions))>
+            <div>
+              Test div
+            </div>
+          </WithStyles(WithStyles(DialogActions))>,
+        ],
+        "onClose": [MockFunction],
+        "title": "Test title",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Test title",
+            "onClose": [MockFunction],
+          },
+          "ref": null,
+          "rendered": "Test title",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <div>
+                Test div
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Test div",
+              },
+              "ref": null,
+              "rendered": "Test div",
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Should render correctly without actions 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <BasicPopup
+    onClose={[MockFunction]}
+    title="Test title"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <InjectIntl(WithStyles(RawDialogTitle))
+          onClose={[MockFunction]}
+        >
+          Test title
+        </InjectIntl(WithStyles(RawDialogTitle))>,
+        <WithStyles(WithStyles(DialogContent)) />,
+        null,
+      ],
+      "onClose": [MockFunction],
+      "title": "Test title",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "Test title",
+          "onClose": [MockFunction],
+        },
+        "ref": null,
+        "rendered": "Test title",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      null,
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <InjectIntl(WithStyles(RawDialogTitle))
+            onClose={[MockFunction]}
+          >
+            Test title
+          </InjectIntl(WithStyles(RawDialogTitle))>,
+          <WithStyles(WithStyles(DialogContent)) />,
+          null,
+        ],
+        "onClose": [MockFunction],
+        "title": "Test title",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Test title",
+            "onClose": [MockFunction],
+          },
+          "ref": null,
+          "rendered": "Test title",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Should render correctly without title 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <BasicPopup
+    actions={
+      Array [
+        <div>
+          Test div
+        </div>,
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "actions": Array [
+        <div>
+          Test div
+        </div>,
+      ],
+      "children": Array [
+        null,
+        <WithStyles(WithStyles(DialogContent)) />,
+        <WithStyles(WithStyles(DialogActions))>
+          <div>
+            Test div
+          </div>
+        </WithStyles(WithStyles(DialogActions))>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      null,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <div>
+              Test div
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Test div",
+            },
+            "ref": null,
+            "rendered": "Test div",
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "actions": Array [
+          <div>
+            Test div
+          </div>,
+        ],
+        "children": Array [
+          null,
+          <WithStyles(WithStyles(DialogContent)) />,
+          <WithStyles(WithStyles(DialogActions))>
+            <div>
+              Test div
+            </div>
+          </WithStyles(WithStyles(DialogActions))>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        null,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <div>
+                Test div
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Test div",
+              },
+              "ref": null,
+              "rendered": "Test div",
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Should render popup actions as expected 1`] = `
+initialize {
+  "0": Object {
+    "attribs": Object {
+      "class": "MuiDialogActions-root-61 WithStyles-DialogActions--root-60",
+    },
+    "children": Array [],
+    "name": "div",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "root": Object {
+      "attribs": Object {},
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "class": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "class": undefined,
+    },
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xml": false,
+  },
+}
+`;
+
+exports[`Should render popup content as expected 1`] = `
+initialize {
+  "0": Object {
+    "attribs": Object {
+      "class": "MuiDialogContent-root-59 WithStyles-DialogContent--root-58",
+    },
+    "children": Array [],
+    "name": "div",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "root": Object {
+      "attribs": Object {},
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "class": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "class": undefined,
+    },
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xml": false,
+  },
+}
+`;
+
+exports[`Should render popup title as expected 1`] = `
+initialize {
+  "0": Object {
+    "attribs": Object {
+      "class": "MuiDialogTitle-root-1 RawDialogTitle-root-56",
+    },
+    "children": Array [
+      Object {
+        "attribs": Object {
+          "class": "MuiTypography-root-2 MuiTypography-h6-19",
+        },
+        "children": Array [],
+        "name": "h6",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": [Circular],
+        "prev": null,
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+        },
+      },
+    ],
+    "name": "div",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "root": Object {
+      "attribs": Object {},
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "class": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "class": undefined,
+    },
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xml": false,
+  },
+}
+`;
+
+exports[`Should render title correctly with close button 1`] = `
+initialize {
+  "0": Object {
+    "attribs": Object {
+      "class": "MuiDialogTitle-root-1",
+    },
+    "children": Array [
+      Object {
+        "attribs": Object {
+          "class": "MuiTypography-root-2 MuiTypography-h6-19",
+        },
+        "children": Array [
+          Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Test",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "div",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+        ],
+        "name": "h6",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": Object {
+          "attribs": Object {
+            "class": "MuiButtonBase-root-44 MuiIconButton-root-38",
+            "tabindex": "0",
+            "type": "button",
+          },
+          "children": Array [
+            Object {
+              "attribs": Object {
+                "class": "MuiIconButton-label-43",
+              },
+              "children": Array [
+                Object {
+                  "attribs": Object {
+                    "aria-hidden": "true",
+                    "class": "MuiSvgIcon-root-47",
+                    "focusable": "false",
+                    "role": "presentation",
+                    "viewBox": "0 0 24 24",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "d": "M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z",
+                      },
+                      "children": Array [],
+                      "name": "path",
+                      "namespace": "http://www.w3.org/2000/svg",
+                      "next": Object {
+                        "attribs": Object {
+                          "d": "M0 0h24v24H0z",
+                          "fill": "none",
+                        },
+                        "children": Array [],
+                        "name": "path",
+                        "namespace": "http://www.w3.org/2000/svg",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "d": undefined,
+                          "fill": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "d": undefined,
+                          "fill": undefined,
+                        },
+                      },
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "d": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "d": undefined,
+                      },
+                    },
+                    Object {
+                      "attribs": Object {
+                        "d": "M0 0h24v24H0z",
+                        "fill": "none",
+                      },
+                      "children": Array [],
+                      "name": "path",
+                      "namespace": "http://www.w3.org/2000/svg",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {
+                          "d": "M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z",
+                        },
+                        "children": Array [],
+                        "name": "path",
+                        "namespace": "http://www.w3.org/2000/svg",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "d": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "d": undefined,
+                        },
+                      },
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "d": undefined,
+                        "fill": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "d": undefined,
+                        "fill": undefined,
+                      },
+                    },
+                  ],
+                  "name": "svg",
+                  "namespace": "http://www.w3.org/2000/svg",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "aria-hidden": undefined,
+                    "class": undefined,
+                    "focusable": undefined,
+                    "role": undefined,
+                    "viewBox": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "aria-hidden": undefined,
+                    "class": undefined,
+                    "focusable": undefined,
+                    "role": undefined,
+                    "viewBox": undefined,
+                  },
+                },
+              ],
+              "name": "span",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+              },
+            },
+          ],
+          "name": "button",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": [Circular],
+          "prev": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
+            "tabindex": undefined,
+            "type": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+            "tabindex": undefined,
+            "type": undefined,
+          },
+        },
+        "parent": [Circular],
+        "prev": null,
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+        },
+      },
+      Object {
+        "attribs": Object {
+          "class": "MuiButtonBase-root-44 MuiIconButton-root-38",
+          "tabindex": "0",
+          "type": "button",
+        },
+        "children": Array [
+          Object {
+            "attribs": Object {
+              "class": "MuiIconButton-label-43",
+            },
+            "children": Array [
+              Object {
+                "attribs": Object {
+                  "aria-hidden": "true",
+                  "class": "MuiSvgIcon-root-47",
+                  "focusable": "false",
+                  "role": "presentation",
+                  "viewBox": "0 0 24 24",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {
+                      "d": "M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z",
+                    },
+                    "children": Array [],
+                    "name": "path",
+                    "namespace": "http://www.w3.org/2000/svg",
+                    "next": Object {
+                      "attribs": Object {
+                        "d": "M0 0h24v24H0z",
+                        "fill": "none",
+                      },
+                      "children": Array [],
+                      "name": "path",
+                      "namespace": "http://www.w3.org/2000/svg",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "d": undefined,
+                        "fill": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "d": undefined,
+                        "fill": undefined,
+                      },
+                    },
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "d": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "d": undefined,
+                    },
+                  },
+                  Object {
+                    "attribs": Object {
+                      "d": "M0 0h24v24H0z",
+                      "fill": "none",
+                    },
+                    "children": Array [],
+                    "name": "path",
+                    "namespace": "http://www.w3.org/2000/svg",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {
+                        "d": "M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z",
+                      },
+                      "children": Array [],
+                      "name": "path",
+                      "namespace": "http://www.w3.org/2000/svg",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "d": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "d": undefined,
+                      },
+                    },
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "d": undefined,
+                      "fill": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "d": undefined,
+                      "fill": undefined,
+                    },
+                  },
+                ],
+                "name": "svg",
+                "namespace": "http://www.w3.org/2000/svg",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "aria-hidden": undefined,
+                  "class": undefined,
+                  "focusable": undefined,
+                  "role": undefined,
+                  "viewBox": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "aria-hidden": undefined,
+                  "class": undefined,
+                  "focusable": undefined,
+                  "role": undefined,
+                  "viewBox": undefined,
+                },
+              },
+            ],
+            "name": "span",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+            },
+          },
+        ],
+        "name": "button",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": [Circular],
+        "prev": Object {
+          "attribs": Object {
+            "class": "MuiTypography-root-2 MuiTypography-h6-19",
+          },
+          "children": Array [
+            Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Test",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "div",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+          ],
+          "name": "h6",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": [Circular],
+          "parent": [Circular],
+          "prev": null,
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+          },
+        },
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+          "tabindex": undefined,
+          "type": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+          "tabindex": undefined,
+          "type": undefined,
+        },
+      },
+    ],
+    "name": "div",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "root": Object {
+      "attribs": Object {},
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "class": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "class": undefined,
+    },
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xml": false,
+  },
+}
+`;
+
+exports[`Should render title correctly without close button 1`] = `
+initialize {
+  "0": Object {
+    "attribs": Object {
+      "class": "MuiDialogTitle-root-1",
+    },
+    "children": Array [
+      Object {
+        "attribs": Object {
+          "class": "MuiTypography-root-2 MuiTypography-h6-19",
+        },
+        "children": Array [
+          Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Test",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "div",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+        ],
+        "name": "h6",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": [Circular],
+        "prev": null,
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+        },
+      },
+    ],
+    "name": "div",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "root": Object {
+      "attribs": Object {},
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "class": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "class": undefined,
+    },
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xml": false,
+  },
+}
+`;

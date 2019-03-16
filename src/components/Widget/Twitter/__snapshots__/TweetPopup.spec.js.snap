@@ -1,0 +1,2255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should display proper dropzone 1`] = `
+<section>
+  <div>
+    <input />
+    <p>
+      test
+    </p>
+  </div>
+</section>
+`;
+
+exports[`Should keep styling consistent 1`] = `
+Object {
+  "dropZone": Object {
+    "& img, & video": Object {
+      "&img:hover": Object {
+        "border": "1px solid #aef",
+        "cursor": "pointer",
+      },
+      "borderRadius": 5,
+      "height": 100,
+      "margin": 10,
+      "objectFit": "cover",
+      "width": 100,
+    },
+    "border": "1px solid #000",
+    "borderRadius": 5,
+    "color": "#f00",
+    "fontSize": 24,
+    "fontWeight": "bold",
+    "padding": 10,
+    "textAlign": "center",
+  },
+}
+`;
+
+exports[`Should manage gif correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RawTweetPopup
+    classes={Object {}}
+    intl={
+      Object {
+        "formatMessage": [Function],
+      }
+    }
+    onUpdateFiles={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Array [
+              "file1",
+              "file2",
+              "file3",
+              "file4",
+            ],
+          ],
+          Array [
+            Array [
+              "file1",
+              "file3",
+              "file4",
+              "file2",
+            ],
+          ],
+          Array [
+            Array [
+              "video",
+            ],
+          ],
+          Array [
+            Array [
+              "test",
+            ],
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    onUpdateText={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <TweetInputBox
+          label="test"
+          onUpdateText={[MockFunction]}
+        />,
+        <WithStyles(IconButton)
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)>
+            add_photo_alternate
+          </WithStyles(Icon)>
+        </WithStyles(IconButton)>,
+        <WithStyles(IconButton)
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)>
+            gif
+          </WithStyles(Icon)>
+        </WithStyles(IconButton)>,
+        <WithStyles(IconButton)
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)>
+            videocam
+          </WithStyles(Icon)>
+        </WithStyles(IconButton)>,
+        <ConditionalComponent
+          render={false}
+        >
+          <m
+            accept="image/*"
+            multiple={true}
+            onDrop={[Function]}
+          >
+            [Function]
+          </m>
+        </ConditionalComponent>,
+        <ConditionalComponent
+          render={true}
+        >
+          <img
+            onClick={[Function]}
+            src="test"
+          />
+        </ConditionalComponent>,
+        <ConditionalComponent
+          render={false}
+        >
+          <m
+            accept="video/*"
+            multiple={true}
+            onDrop={[Function]}
+          >
+            [Function]
+          </m>
+        </ConditionalComponent>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "label": "test",
+          "onUpdateText": [MockFunction],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <WithStyles(Icon)>
+            add_photo_alternate
+          </WithStyles(Icon)>,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "add_photo_alternate",
+          },
+          "ref": null,
+          "rendered": "add_photo_alternate",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <WithStyles(Icon)>
+            gif
+          </WithStyles(Icon)>,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "gif",
+          },
+          "ref": null,
+          "rendered": "gif",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <WithStyles(Icon)>
+            videocam
+          </WithStyles(Icon)>,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "videocam",
+          },
+          "ref": null,
+          "rendered": "videocam",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <m
+            accept="image/*"
+            multiple={true}
+            onDrop={[Function]}
+          >
+            [Function]
+          </m>,
+          "render": false,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "accept": "image/*",
+            "children": [Function],
+            "multiple": true,
+            "onDrop": [Function],
+          },
+          "ref": null,
+          "rendered": [Function],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <img
+            onClick={[Function]}
+            src="test"
+          />,
+          "render": true,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "onClick": [Function],
+            "src": "test",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <m
+            accept="video/*"
+            multiple={true}
+            onDrop={[Function]}
+          >
+            [Function]
+          </m>,
+          "render": false,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "accept": "video/*",
+            "children": [Function],
+            "multiple": true,
+            "onDrop": [Function],
+          },
+          "ref": null,
+          "rendered": [Function],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <TweetInputBox
+            label="test"
+            onUpdateText={[MockFunction]}
+          />,
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              add_photo_alternate
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>,
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              gif
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>,
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              videocam
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>,
+          <ConditionalComponent
+            render={false}
+          >
+            <m
+              accept="image/*"
+              multiple={true}
+              onDrop={[Function]}
+            >
+              [Function]
+            </m>
+          </ConditionalComponent>,
+          <ConditionalComponent
+            render={true}
+          >
+            <img
+              onClick={[Function]}
+              src="test"
+            />
+          </ConditionalComponent>,
+          <ConditionalComponent
+            render={false}
+          >
+            <m
+              accept="video/*"
+              multiple={true}
+              onDrop={[Function]}
+            >
+              [Function]
+            </m>
+          </ConditionalComponent>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "label": "test",
+            "onUpdateText": [MockFunction],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(Icon)>
+              add_photo_alternate
+            </WithStyles(Icon)>,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "add_photo_alternate",
+            },
+            "ref": null,
+            "rendered": "add_photo_alternate",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(Icon)>
+              gif
+            </WithStyles(Icon)>,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "gif",
+            },
+            "ref": null,
+            "rendered": "gif",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(Icon)>
+              videocam
+            </WithStyles(Icon)>,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "videocam",
+            },
+            "ref": null,
+            "rendered": "videocam",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <m
+              accept="image/*"
+              multiple={true}
+              onDrop={[Function]}
+            >
+              [Function]
+            </m>,
+            "render": false,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "accept": "image/*",
+              "children": [Function],
+              "multiple": true,
+              "onDrop": [Function],
+            },
+            "ref": null,
+            "rendered": [Function],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <img
+              onClick={[Function]}
+              src="test"
+            />,
+            "render": true,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onClick": [Function],
+              "src": "test",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <m
+              accept="video/*"
+              multiple={true}
+              onDrop={[Function]}
+            >
+              [Function]
+            </m>,
+            "render": false,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "accept": "video/*",
+              "children": [Function],
+              "multiple": true,
+              "onDrop": [Function],
+            },
+            "ref": null,
+            "rendered": [Function],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Should manage images correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RawTweetPopup
+    classes={Object {}}
+    intl={
+      Object {
+        "formatMessage": [Function],
+      }
+    }
+    onUpdateFiles={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Array [
+              "file1",
+              "file2",
+              "file3",
+              "file4",
+            ],
+          ],
+          Array [
+            Array [
+              "file1",
+              "file3",
+              "file4",
+              "file2",
+            ],
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    onUpdateText={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <TweetInputBox
+          label="test"
+          onUpdateText={[MockFunction]}
+        />,
+        <WithStyles(IconButton)
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)>
+            add_photo_alternate
+          </WithStyles(Icon)>
+        </WithStyles(IconButton)>,
+        <WithStyles(IconButton)
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)>
+            gif
+          </WithStyles(Icon)>
+        </WithStyles(IconButton)>,
+        <WithStyles(IconButton)
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)>
+            videocam
+          </WithStyles(Icon)>
+        </WithStyles(IconButton)>,
+        <ConditionalComponent
+          render={true}
+        >
+          <m
+            accept="image/*"
+            multiple={true}
+            onDrop={[Function]}
+          >
+            [Function]
+          </m>
+        </ConditionalComponent>,
+        <ConditionalComponent
+          render={false}
+        >
+          <WithStyles(RawGiphy)
+            onGifSelected={[Function]}
+          />
+        </ConditionalComponent>,
+        <ConditionalComponent
+          render={false}
+        >
+          <m
+            accept="video/*"
+            multiple={true}
+            onDrop={[Function]}
+          >
+            [Function]
+          </m>
+        </ConditionalComponent>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "label": "test",
+          "onUpdateText": [MockFunction],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <WithStyles(Icon)>
+            add_photo_alternate
+          </WithStyles(Icon)>,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "add_photo_alternate",
+          },
+          "ref": null,
+          "rendered": "add_photo_alternate",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <WithStyles(Icon)>
+            gif
+          </WithStyles(Icon)>,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "gif",
+          },
+          "ref": null,
+          "rendered": "gif",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <WithStyles(Icon)>
+            videocam
+          </WithStyles(Icon)>,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "videocam",
+          },
+          "ref": null,
+          "rendered": "videocam",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <m
+            accept="image/*"
+            multiple={true}
+            onDrop={[Function]}
+          >
+            [Function]
+          </m>,
+          "render": true,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "accept": "image/*",
+            "children": [Function],
+            "multiple": true,
+            "onDrop": [Function],
+          },
+          "ref": null,
+          "rendered": [Function],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <WithStyles(RawGiphy)
+            onGifSelected={[Function]}
+          />,
+          "render": false,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "onGifSelected": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <m
+            accept="video/*"
+            multiple={true}
+            onDrop={[Function]}
+          >
+            [Function]
+          </m>,
+          "render": false,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "accept": "video/*",
+            "children": [Function],
+            "multiple": true,
+            "onDrop": [Function],
+          },
+          "ref": null,
+          "rendered": [Function],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <TweetInputBox
+            label="test"
+            onUpdateText={[MockFunction]}
+          />,
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              add_photo_alternate
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>,
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              gif
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>,
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              videocam
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>,
+          <ConditionalComponent
+            render={true}
+          >
+            <m
+              accept="image/*"
+              multiple={true}
+              onDrop={[Function]}
+            >
+              [Function]
+            </m>
+          </ConditionalComponent>,
+          <ConditionalComponent
+            render={false}
+          >
+            <WithStyles(RawGiphy)
+              onGifSelected={[Function]}
+            />
+          </ConditionalComponent>,
+          <ConditionalComponent
+            render={false}
+          >
+            <m
+              accept="video/*"
+              multiple={true}
+              onDrop={[Function]}
+            >
+              [Function]
+            </m>
+          </ConditionalComponent>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "label": "test",
+            "onUpdateText": [MockFunction],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(Icon)>
+              add_photo_alternate
+            </WithStyles(Icon)>,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "add_photo_alternate",
+            },
+            "ref": null,
+            "rendered": "add_photo_alternate",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(Icon)>
+              gif
+            </WithStyles(Icon)>,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "gif",
+            },
+            "ref": null,
+            "rendered": "gif",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(Icon)>
+              videocam
+            </WithStyles(Icon)>,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "videocam",
+            },
+            "ref": null,
+            "rendered": "videocam",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <m
+              accept="image/*"
+              multiple={true}
+              onDrop={[Function]}
+            >
+              [Function]
+            </m>,
+            "render": true,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "accept": "image/*",
+              "children": [Function],
+              "multiple": true,
+              "onDrop": [Function],
+            },
+            "ref": null,
+            "rendered": [Function],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <WithStyles(RawGiphy)
+              onGifSelected={[Function]}
+            />,
+            "render": false,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "onGifSelected": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <m
+              accept="video/*"
+              multiple={true}
+              onDrop={[Function]}
+            >
+              [Function]
+            </m>,
+            "render": false,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "accept": "video/*",
+              "children": [Function],
+              "multiple": true,
+              "onDrop": [Function],
+            },
+            "ref": null,
+            "rendered": [Function],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Should manage videos correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RawTweetPopup
+    classes={Object {}}
+    intl={
+      Object {
+        "formatMessage": [Function],
+      }
+    }
+    onUpdateFiles={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Array [
+              "file1",
+              "file2",
+              "file3",
+              "file4",
+            ],
+          ],
+          Array [
+            Array [
+              "file1",
+              "file3",
+              "file4",
+              "file2",
+            ],
+          ],
+          Array [
+            Array [
+              "video",
+            ],
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    onUpdateText={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <TweetInputBox
+          label="test"
+          onUpdateText={[MockFunction]}
+        />,
+        <WithStyles(IconButton)
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)>
+            add_photo_alternate
+          </WithStyles(Icon)>
+        </WithStyles(IconButton)>,
+        <WithStyles(IconButton)
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)>
+            gif
+          </WithStyles(Icon)>
+        </WithStyles(IconButton)>,
+        <WithStyles(IconButton)
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)>
+            videocam
+          </WithStyles(Icon)>
+        </WithStyles(IconButton)>,
+        <ConditionalComponent
+          render={false}
+        >
+          <m
+            accept="image/*"
+            multiple={true}
+            onDrop={[Function]}
+          >
+            [Function]
+          </m>
+        </ConditionalComponent>,
+        <ConditionalComponent
+          render={false}
+        >
+          <WithStyles(RawGiphy)
+            onGifSelected={[Function]}
+          />
+        </ConditionalComponent>,
+        <ConditionalComponent
+          render={true}
+        >
+          <m
+            accept="video/*"
+            multiple={true}
+            onDrop={[Function]}
+          >
+            [Function]
+          </m>
+        </ConditionalComponent>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "label": "test",
+          "onUpdateText": [MockFunction],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <WithStyles(Icon)>
+            add_photo_alternate
+          </WithStyles(Icon)>,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "add_photo_alternate",
+          },
+          "ref": null,
+          "rendered": "add_photo_alternate",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <WithStyles(Icon)>
+            gif
+          </WithStyles(Icon)>,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "gif",
+          },
+          "ref": null,
+          "rendered": "gif",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <WithStyles(Icon)>
+            videocam
+          </WithStyles(Icon)>,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "videocam",
+          },
+          "ref": null,
+          "rendered": "videocam",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <m
+            accept="image/*"
+            multiple={true}
+            onDrop={[Function]}
+          >
+            [Function]
+          </m>,
+          "render": false,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "accept": "image/*",
+            "children": [Function],
+            "multiple": true,
+            "onDrop": [Function],
+          },
+          "ref": null,
+          "rendered": [Function],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <WithStyles(RawGiphy)
+            onGifSelected={[Function]}
+          />,
+          "render": false,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "onGifSelected": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <m
+            accept="video/*"
+            multiple={true}
+            onDrop={[Function]}
+          >
+            [Function]
+          </m>,
+          "render": true,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "accept": "video/*",
+            "children": [Function],
+            "multiple": true,
+            "onDrop": [Function],
+          },
+          "ref": null,
+          "rendered": [Function],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <TweetInputBox
+            label="test"
+            onUpdateText={[MockFunction]}
+          />,
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              add_photo_alternate
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>,
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              gif
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>,
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              videocam
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>,
+          <ConditionalComponent
+            render={false}
+          >
+            <m
+              accept="image/*"
+              multiple={true}
+              onDrop={[Function]}
+            >
+              [Function]
+            </m>
+          </ConditionalComponent>,
+          <ConditionalComponent
+            render={false}
+          >
+            <WithStyles(RawGiphy)
+              onGifSelected={[Function]}
+            />
+          </ConditionalComponent>,
+          <ConditionalComponent
+            render={true}
+          >
+            <m
+              accept="video/*"
+              multiple={true}
+              onDrop={[Function]}
+            >
+              [Function]
+            </m>
+          </ConditionalComponent>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "label": "test",
+            "onUpdateText": [MockFunction],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(Icon)>
+              add_photo_alternate
+            </WithStyles(Icon)>,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "add_photo_alternate",
+            },
+            "ref": null,
+            "rendered": "add_photo_alternate",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(Icon)>
+              gif
+            </WithStyles(Icon)>,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "gif",
+            },
+            "ref": null,
+            "rendered": "gif",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(Icon)>
+              videocam
+            </WithStyles(Icon)>,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "videocam",
+            },
+            "ref": null,
+            "rendered": "videocam",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <m
+              accept="image/*"
+              multiple={true}
+              onDrop={[Function]}
+            >
+              [Function]
+            </m>,
+            "render": false,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "accept": "image/*",
+              "children": [Function],
+              "multiple": true,
+              "onDrop": [Function],
+            },
+            "ref": null,
+            "rendered": [Function],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <WithStyles(RawGiphy)
+              onGifSelected={[Function]}
+            />,
+            "render": false,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "onGifSelected": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <m
+              accept="video/*"
+              multiple={true}
+              onDrop={[Function]}
+            >
+              [Function]
+            </m>,
+            "render": true,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "accept": "video/*",
+              "children": [Function],
+              "multiple": true,
+              "onDrop": [Function],
+            },
+            "ref": null,
+            "rendered": [Function],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RawTweetPopup
+    classes={Object {}}
+    intl={
+      Object {
+        "formatMessage": [Function],
+      }
+    }
+    onUpdateFiles={[MockFunction]}
+    onUpdateText={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <TweetInputBox
+          label="test"
+          onUpdateText={[MockFunction]}
+        />,
+        <WithStyles(IconButton)
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)>
+            add_photo_alternate
+          </WithStyles(Icon)>
+        </WithStyles(IconButton)>,
+        <WithStyles(IconButton)
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)>
+            gif
+          </WithStyles(Icon)>
+        </WithStyles(IconButton)>,
+        <WithStyles(IconButton)
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)>
+            videocam
+          </WithStyles(Icon)>
+        </WithStyles(IconButton)>,
+        <ConditionalComponent
+          render={false}
+        >
+          <m
+            accept="image/*"
+            multiple={true}
+            onDrop={[Function]}
+          >
+            [Function]
+          </m>
+        </ConditionalComponent>,
+        <ConditionalComponent
+          render={false}
+        >
+          <WithStyles(RawGiphy)
+            onGifSelected={[Function]}
+          />
+        </ConditionalComponent>,
+        <ConditionalComponent
+          render={false}
+        >
+          <m
+            accept="video/*"
+            multiple={true}
+            onDrop={[Function]}
+          >
+            [Function]
+          </m>
+        </ConditionalComponent>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "label": "test",
+          "onUpdateText": [MockFunction],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <WithStyles(Icon)>
+            add_photo_alternate
+          </WithStyles(Icon)>,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "add_photo_alternate",
+          },
+          "ref": null,
+          "rendered": "add_photo_alternate",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <WithStyles(Icon)>
+            gif
+          </WithStyles(Icon)>,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "gif",
+          },
+          "ref": null,
+          "rendered": "gif",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <WithStyles(Icon)>
+            videocam
+          </WithStyles(Icon)>,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "videocam",
+          },
+          "ref": null,
+          "rendered": "videocam",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <m
+            accept="image/*"
+            multiple={true}
+            onDrop={[Function]}
+          >
+            [Function]
+          </m>,
+          "render": false,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "accept": "image/*",
+            "children": [Function],
+            "multiple": true,
+            "onDrop": [Function],
+          },
+          "ref": null,
+          "rendered": [Function],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <WithStyles(RawGiphy)
+            onGifSelected={[Function]}
+          />,
+          "render": false,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "onGifSelected": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <m
+            accept="video/*"
+            multiple={true}
+            onDrop={[Function]}
+          >
+            [Function]
+          </m>,
+          "render": false,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "accept": "video/*",
+            "children": [Function],
+            "multiple": true,
+            "onDrop": [Function],
+          },
+          "ref": null,
+          "rendered": [Function],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <TweetInputBox
+            label="test"
+            onUpdateText={[MockFunction]}
+          />,
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              add_photo_alternate
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>,
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              gif
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>,
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              videocam
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>,
+          <ConditionalComponent
+            render={false}
+          >
+            <m
+              accept="image/*"
+              multiple={true}
+              onDrop={[Function]}
+            >
+              [Function]
+            </m>
+          </ConditionalComponent>,
+          <ConditionalComponent
+            render={false}
+          >
+            <WithStyles(RawGiphy)
+              onGifSelected={[Function]}
+            />
+          </ConditionalComponent>,
+          <ConditionalComponent
+            render={false}
+          >
+            <m
+              accept="video/*"
+              multiple={true}
+              onDrop={[Function]}
+            >
+              [Function]
+            </m>
+          </ConditionalComponent>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "label": "test",
+            "onUpdateText": [MockFunction],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(Icon)>
+              add_photo_alternate
+            </WithStyles(Icon)>,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "add_photo_alternate",
+            },
+            "ref": null,
+            "rendered": "add_photo_alternate",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(Icon)>
+              gif
+            </WithStyles(Icon)>,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "gif",
+            },
+            "ref": null,
+            "rendered": "gif",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(Icon)>
+              videocam
+            </WithStyles(Icon)>,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "videocam",
+            },
+            "ref": null,
+            "rendered": "videocam",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <m
+              accept="image/*"
+              multiple={true}
+              onDrop={[Function]}
+            >
+              [Function]
+            </m>,
+            "render": false,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "accept": "image/*",
+              "children": [Function],
+              "multiple": true,
+              "onDrop": [Function],
+            },
+            "ref": null,
+            "rendered": [Function],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <WithStyles(RawGiphy)
+              onGifSelected={[Function]}
+            />,
+            "render": false,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "onGifSelected": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <m
+              accept="video/*"
+              multiple={true}
+              onDrop={[Function]}
+            >
+              [Function]
+            </m>,
+            "render": false,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "accept": "video/*",
+              "children": [Function],
+              "multiple": true,
+              "onDrop": [Function],
+            },
+            "ref": null,
+            "rendered": [Function],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

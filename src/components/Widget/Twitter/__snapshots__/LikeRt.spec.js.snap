@@ -1,0 +1,2472 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should keep theming coherent 1`] = `
+Object {
+  "likeRtContainer": Object {
+    "marginTop": 5,
+  },
+  "likeRtIcon": Object {
+    "fontSize": 14,
+    "marginRight": 2,
+    "paddingTop": 2,
+  },
+  "likeRtIconContainer": Object {
+    "display": "inline-block",
+    "fontSize": 14,
+    "marginLeft": 10,
+  },
+}
+`;
+
+exports[`Should render correctly with props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RawLikeRt
+    actionWithAccount={[MockFunction]}
+    addToWidgetData={[MockFunction]}
+    classes={Object {}}
+    closeElementPopup={[MockFunction]}
+    displayElementInPopup={[MockFunction]}
+    intl={
+      Object {
+        "formatMessage": [Function],
+      }
+    }
+    tweet={
+      Object {
+        "author": Object {
+          "screen_name": "test_user",
+        },
+        "id": "tweet",
+        "like_count": 42,
+        "retweet_count": 12,
+        "user_liked": true,
+        "user_retweeted": true,
+      }
+    }
+    updateElement={[MockFunction]}
+    updatePopupProps={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div>
+          <WithStyles(Icon)
+            color="secondary"
+            onClick={[Function]}
+          >
+            sync
+          </WithStyles(Icon)>
+          12
+        </div>,
+        <div>
+          <WithStyles(Icon)
+            color="secondary"
+            onClick={[Function]}
+          >
+            favorite
+          </WithStyles(Icon)>
+          42
+        </div>,
+        <WithStyles(Menu)
+          anchorEl={null}
+          onClose={[Function]}
+          open={false}
+        >
+          <WithStyles(MenuItem)
+            onClick={[Function]}
+          >
+            <ConditionalComponent
+              render={false}
+            >
+              <FormattedMessage
+                defaultMessage="Retweet"
+                id="widget.twitter.tweet.retweet"
+                values={Object {}}
+              />
+            </ConditionalComponent>
+            <ConditionalComponent
+              render={true}
+            >
+              <FormattedMessage
+                defaultMessage="Un-retweet"
+                id="widget.twitter.tweet.unretweet"
+                values={Object {}}
+              />
+            </ConditionalComponent>
+          </WithStyles(MenuItem)>
+          <WithStyles(MenuItem)
+            onClick={[Function]}
+          >
+            <FormattedMessage
+              defaultMessage="Quote"
+              id="widget.twitter.tweet.quote"
+              values={Object {}}
+            />
+          </WithStyles(MenuItem)>
+        </WithStyles(Menu)>,
+      ],
+      "className": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <WithStyles(Icon)
+              color="secondary"
+              onClick={[Function]}
+            >
+              sync
+            </WithStyles(Icon)>,
+            12,
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "sync",
+              "className": undefined,
+              "color": "secondary",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "sync",
+            "type": [Function],
+          },
+          12,
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <WithStyles(Icon)
+              color="secondary"
+              onClick={[Function]}
+            >
+              favorite
+            </WithStyles(Icon)>,
+            42,
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "favorite",
+              "className": undefined,
+              "color": "secondary",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "favorite",
+            "type": [Function],
+          },
+          42,
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "anchorEl": null,
+          "children": Array [
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <ConditionalComponent
+                render={false}
+              >
+                <FormattedMessage
+                  defaultMessage="Retweet"
+                  id="widget.twitter.tweet.retweet"
+                  values={Object {}}
+                />
+              </ConditionalComponent>
+              <ConditionalComponent
+                render={true}
+              >
+                <FormattedMessage
+                  defaultMessage="Un-retweet"
+                  id="widget.twitter.tweet.unretweet"
+                  values={Object {}}
+                />
+              </ConditionalComponent>
+            </WithStyles(MenuItem)>,
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <FormattedMessage
+                defaultMessage="Quote"
+                id="widget.twitter.tweet.quote"
+                values={Object {}}
+              />
+            </WithStyles(MenuItem)>,
+          ],
+          "onClose": [Function],
+          "open": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <ConditionalComponent
+                  render={false}
+                >
+                  <FormattedMessage
+                    defaultMessage="Retweet"
+                    id="widget.twitter.tweet.retweet"
+                    values={Object {}}
+                  />
+                </ConditionalComponent>,
+                <ConditionalComponent
+                  render={true}
+                >
+                  <FormattedMessage
+                    defaultMessage="Un-retweet"
+                    id="widget.twitter.tweet.unretweet"
+                    values={Object {}}
+                  />
+                </ConditionalComponent>,
+              ],
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Retweet"
+                    id="widget.twitter.tweet.retweet"
+                    values={Object {}}
+                  />,
+                  "render": false,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Retweet",
+                    "id": "widget.twitter.tweet.retweet",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Un-retweet"
+                    id="widget.twitter.tweet.unretweet"
+                    values={Object {}}
+                  />,
+                  "render": true,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Un-retweet",
+                    "id": "widget.twitter.tweet.unretweet",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <FormattedMessage
+                defaultMessage="Quote"
+                id="widget.twitter.tweet.quote"
+                values={Object {}}
+              />,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "defaultMessage": "Quote",
+                "id": "widget.twitter.tweet.quote",
+                "values": Object {},
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div>
+            <WithStyles(Icon)
+              color="secondary"
+              onClick={[Function]}
+            >
+              sync
+            </WithStyles(Icon)>
+            12
+          </div>,
+          <div>
+            <WithStyles(Icon)
+              color="secondary"
+              onClick={[Function]}
+            >
+              favorite
+            </WithStyles(Icon)>
+            42
+          </div>,
+          <WithStyles(Menu)
+            anchorEl={null}
+            onClose={[Function]}
+            open={false}
+          >
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <ConditionalComponent
+                render={false}
+              >
+                <FormattedMessage
+                  defaultMessage="Retweet"
+                  id="widget.twitter.tweet.retweet"
+                  values={Object {}}
+                />
+              </ConditionalComponent>
+              <ConditionalComponent
+                render={true}
+              >
+                <FormattedMessage
+                  defaultMessage="Un-retweet"
+                  id="widget.twitter.tweet.unretweet"
+                  values={Object {}}
+                />
+              </ConditionalComponent>
+            </WithStyles(MenuItem)>
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <FormattedMessage
+                defaultMessage="Quote"
+                id="widget.twitter.tweet.quote"
+                values={Object {}}
+              />
+            </WithStyles(MenuItem)>
+          </WithStyles(Menu)>,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <WithStyles(Icon)
+                color="secondary"
+                onClick={[Function]}
+              >
+                sync
+              </WithStyles(Icon)>,
+              12,
+            ],
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "sync",
+                "className": undefined,
+                "color": "secondary",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "sync",
+              "type": [Function],
+            },
+            12,
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <WithStyles(Icon)
+                color="secondary"
+                onClick={[Function]}
+              >
+                favorite
+              </WithStyles(Icon)>,
+              42,
+            ],
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "favorite",
+                "className": undefined,
+                "color": "secondary",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "favorite",
+              "type": [Function],
+            },
+            42,
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "anchorEl": null,
+            "children": Array [
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                <ConditionalComponent
+                  render={false}
+                >
+                  <FormattedMessage
+                    defaultMessage="Retweet"
+                    id="widget.twitter.tweet.retweet"
+                    values={Object {}}
+                  />
+                </ConditionalComponent>
+                <ConditionalComponent
+                  render={true}
+                >
+                  <FormattedMessage
+                    defaultMessage="Un-retweet"
+                    id="widget.twitter.tweet.unretweet"
+                    values={Object {}}
+                  />
+                </ConditionalComponent>
+              </WithStyles(MenuItem)>,
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                <FormattedMessage
+                  defaultMessage="Quote"
+                  id="widget.twitter.tweet.quote"
+                  values={Object {}}
+                />
+              </WithStyles(MenuItem)>,
+            ],
+            "onClose": [Function],
+            "open": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <ConditionalComponent
+                    render={false}
+                  >
+                    <FormattedMessage
+                      defaultMessage="Retweet"
+                      id="widget.twitter.tweet.retweet"
+                      values={Object {}}
+                    />
+                  </ConditionalComponent>,
+                  <ConditionalComponent
+                    render={true}
+                  >
+                    <FormattedMessage
+                      defaultMessage="Un-retweet"
+                      id="widget.twitter.tweet.unretweet"
+                      values={Object {}}
+                    />
+                  </ConditionalComponent>,
+                ],
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Retweet"
+                      id="widget.twitter.tweet.retweet"
+                      values={Object {}}
+                    />,
+                    "render": false,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Retweet",
+                      "id": "widget.twitter.tweet.retweet",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Un-retweet"
+                      id="widget.twitter.tweet.unretweet"
+                      values={Object {}}
+                    />,
+                    "render": true,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Un-retweet",
+                      "id": "widget.twitter.tweet.unretweet",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <FormattedMessage
+                  defaultMessage="Quote"
+                  id="widget.twitter.tweet.quote"
+                  values={Object {}}
+                />,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultMessage": "Quote",
+                  "id": "widget.twitter.tweet.quote",
+                  "values": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Should use action when liked 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RawLikeRt
+    actionWithAccount={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "quote",
+            Object {
+              "message": "test",
+              "tweet_from": "test_user",
+              "tweet_id": "tweet",
+            },
+            [Function],
+          ],
+          Array [
+            "unretweet",
+            Object {
+              "tweet": "tweet",
+            },
+            [Function],
+          ],
+          Array [
+            "retweet",
+            Object {
+              "tweet": "tweet",
+            },
+            [Function],
+          ],
+          Array [
+            "dislike",
+            Object {
+              "tweet": "tweet",
+            },
+            [Function],
+          ],
+          Array [
+            "like",
+            Object {
+              "tweet": "tweet",
+            },
+            [Function],
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    addToWidgetData={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "test",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    classes={Object {}}
+    closeElementPopup={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    displayElementInPopup={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            <InjectIntl(RawQuotePopup)
+              onUpdateText={[Function]}
+              tweet={
+                Object {
+                  "author": Object {
+                    "screen_name": "test_user",
+                  },
+                  "id": "tweet",
+                  "like_count": 42,
+                  "retweet_count": 12,
+                  "user_liked": true,
+                  "user_retweeted": true,
+                }
+              }
+            />,
+            Object {
+              "actions": Array [
+                <WithStyles(Button)
+                  color="primary"
+                  onClick={[Function]}
+                  variant="contained"
+                >
+                  <FormattedMessage
+                    defaultMessage="Quote"
+                    id="widget.twitter.tweet.quote"
+                    values={Object {}}
+                  />
+                </WithStyles(Button)>,
+              ],
+              "fullWidth": true,
+              "maxWidth": "sm",
+              "title": "test",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    intl={
+      Object {
+        "formatMessage": [Function],
+      }
+    }
+    tweet={
+      Object {
+        "author": Object {
+          "screen_name": "test_user",
+        },
+        "id": "tweet",
+        "like_count": 42,
+        "retweet_count": 12,
+        "user_liked": false,
+        "user_retweeted": true,
+      }
+    }
+    updateElement={[MockFunction]}
+    updatePopupProps={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "actions": Array [
+                <WithStyles(Button)
+                  color="primary"
+                  onClick={[Function]}
+                  variant="contained"
+                >
+                  <FormattedMessage
+                    defaultMessage="Quote"
+                    id="widget.twitter.tweet.quote"
+                    values={Object {}}
+                  />
+                </WithStyles(Button)>,
+              ],
+            },
+          ],
+          Array [
+            Object {
+              "actions": Array [
+                <WithStyles(Button)
+                  color="primary"
+                  disabled={true}
+                  onClick={[Function]}
+                  variant="contained"
+                >
+                  <FormattedMessage
+                    defaultMessage="Quote"
+                    id="widget.twitter.tweet.quote"
+                    values={Object {}}
+                  />
+                </WithStyles(Button)>,
+              ],
+            },
+          ],
+          Array [
+            Object {
+              "actions": Array [
+                <WithStyles(Button)
+                  color="primary"
+                  onClick={[Function]}
+                  variant="contained"
+                >
+                  <FormattedMessage
+                    defaultMessage="Quote"
+                    id="widget.twitter.tweet.quote"
+                    values={Object {}}
+                  />
+                </WithStyles(Button)>,
+              ],
+            },
+          ],
+          Array [
+            Object {
+              "actions": Array [
+                <WithStyles(Button)
+                  color="primary"
+                  onClick={[Function]}
+                  variant="contained"
+                >
+                  <FormattedMessage
+                    defaultMessage="Quote"
+                    id="widget.twitter.tweet.quote"
+                    values={Object {}}
+                  />
+                </WithStyles(Button)>,
+              ],
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div>
+          <WithStyles(Icon)
+            color="secondary"
+            onClick={[Function]}
+          >
+            sync
+          </WithStyles(Icon)>
+          12
+        </div>,
+        <div>
+          <WithStyles(Icon)
+            color="inherit"
+            onClick={[Function]}
+          >
+            favorite
+          </WithStyles(Icon)>
+          42
+        </div>,
+        <WithStyles(Menu)
+          anchorEl={null}
+          onClose={[Function]}
+          open={false}
+        >
+          <WithStyles(MenuItem)
+            onClick={[Function]}
+          >
+            <ConditionalComponent
+              render={false}
+            >
+              <FormattedMessage
+                defaultMessage="Retweet"
+                id="widget.twitter.tweet.retweet"
+                values={Object {}}
+              />
+            </ConditionalComponent>
+            <ConditionalComponent
+              render={true}
+            >
+              <FormattedMessage
+                defaultMessage="Un-retweet"
+                id="widget.twitter.tweet.unretweet"
+                values={Object {}}
+              />
+            </ConditionalComponent>
+          </WithStyles(MenuItem)>
+          <WithStyles(MenuItem)
+            onClick={[Function]}
+          >
+            <FormattedMessage
+              defaultMessage="Quote"
+              id="widget.twitter.tweet.quote"
+              values={Object {}}
+            />
+          </WithStyles(MenuItem)>
+        </WithStyles(Menu)>,
+      ],
+      "className": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <WithStyles(Icon)
+              color="secondary"
+              onClick={[Function]}
+            >
+              sync
+            </WithStyles(Icon)>,
+            12,
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "sync",
+              "className": undefined,
+              "color": "secondary",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "sync",
+            "type": [Function],
+          },
+          12,
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <WithStyles(Icon)
+              color="inherit"
+              onClick={[Function]}
+            >
+              favorite
+            </WithStyles(Icon)>,
+            42,
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "favorite",
+              "className": undefined,
+              "color": "inherit",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "favorite",
+            "type": [Function],
+          },
+          42,
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "anchorEl": null,
+          "children": Array [
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <ConditionalComponent
+                render={false}
+              >
+                <FormattedMessage
+                  defaultMessage="Retweet"
+                  id="widget.twitter.tweet.retweet"
+                  values={Object {}}
+                />
+              </ConditionalComponent>
+              <ConditionalComponent
+                render={true}
+              >
+                <FormattedMessage
+                  defaultMessage="Un-retweet"
+                  id="widget.twitter.tweet.unretweet"
+                  values={Object {}}
+                />
+              </ConditionalComponent>
+            </WithStyles(MenuItem)>,
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <FormattedMessage
+                defaultMessage="Quote"
+                id="widget.twitter.tweet.quote"
+                values={Object {}}
+              />
+            </WithStyles(MenuItem)>,
+          ],
+          "onClose": [Function],
+          "open": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <ConditionalComponent
+                  render={false}
+                >
+                  <FormattedMessage
+                    defaultMessage="Retweet"
+                    id="widget.twitter.tweet.retweet"
+                    values={Object {}}
+                  />
+                </ConditionalComponent>,
+                <ConditionalComponent
+                  render={true}
+                >
+                  <FormattedMessage
+                    defaultMessage="Un-retweet"
+                    id="widget.twitter.tweet.unretweet"
+                    values={Object {}}
+                  />
+                </ConditionalComponent>,
+              ],
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Retweet"
+                    id="widget.twitter.tweet.retweet"
+                    values={Object {}}
+                  />,
+                  "render": false,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Retweet",
+                    "id": "widget.twitter.tweet.retweet",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Un-retweet"
+                    id="widget.twitter.tweet.unretweet"
+                    values={Object {}}
+                  />,
+                  "render": true,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Un-retweet",
+                    "id": "widget.twitter.tweet.unretweet",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <FormattedMessage
+                defaultMessage="Quote"
+                id="widget.twitter.tweet.quote"
+                values={Object {}}
+              />,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "defaultMessage": "Quote",
+                "id": "widget.twitter.tweet.quote",
+                "values": Object {},
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div>
+            <WithStyles(Icon)
+              color="secondary"
+              onClick={[Function]}
+            >
+              sync
+            </WithStyles(Icon)>
+            12
+          </div>,
+          <div>
+            <WithStyles(Icon)
+              color="inherit"
+              onClick={[Function]}
+            >
+              favorite
+            </WithStyles(Icon)>
+            42
+          </div>,
+          <WithStyles(Menu)
+            anchorEl={null}
+            onClose={[Function]}
+            open={false}
+          >
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <ConditionalComponent
+                render={false}
+              >
+                <FormattedMessage
+                  defaultMessage="Retweet"
+                  id="widget.twitter.tweet.retweet"
+                  values={Object {}}
+                />
+              </ConditionalComponent>
+              <ConditionalComponent
+                render={true}
+              >
+                <FormattedMessage
+                  defaultMessage="Un-retweet"
+                  id="widget.twitter.tweet.unretweet"
+                  values={Object {}}
+                />
+              </ConditionalComponent>
+            </WithStyles(MenuItem)>
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <FormattedMessage
+                defaultMessage="Quote"
+                id="widget.twitter.tweet.quote"
+                values={Object {}}
+              />
+            </WithStyles(MenuItem)>
+          </WithStyles(Menu)>,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <WithStyles(Icon)
+                color="secondary"
+                onClick={[Function]}
+              >
+                sync
+              </WithStyles(Icon)>,
+              12,
+            ],
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "sync",
+                "className": undefined,
+                "color": "secondary",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "sync",
+              "type": [Function],
+            },
+            12,
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <WithStyles(Icon)
+                color="inherit"
+                onClick={[Function]}
+              >
+                favorite
+              </WithStyles(Icon)>,
+              42,
+            ],
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "favorite",
+                "className": undefined,
+                "color": "inherit",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "favorite",
+              "type": [Function],
+            },
+            42,
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "anchorEl": null,
+            "children": Array [
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                <ConditionalComponent
+                  render={false}
+                >
+                  <FormattedMessage
+                    defaultMessage="Retweet"
+                    id="widget.twitter.tweet.retweet"
+                    values={Object {}}
+                  />
+                </ConditionalComponent>
+                <ConditionalComponent
+                  render={true}
+                >
+                  <FormattedMessage
+                    defaultMessage="Un-retweet"
+                    id="widget.twitter.tweet.unretweet"
+                    values={Object {}}
+                  />
+                </ConditionalComponent>
+              </WithStyles(MenuItem)>,
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                <FormattedMessage
+                  defaultMessage="Quote"
+                  id="widget.twitter.tweet.quote"
+                  values={Object {}}
+                />
+              </WithStyles(MenuItem)>,
+            ],
+            "onClose": [Function],
+            "open": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <ConditionalComponent
+                    render={false}
+                  >
+                    <FormattedMessage
+                      defaultMessage="Retweet"
+                      id="widget.twitter.tweet.retweet"
+                      values={Object {}}
+                    />
+                  </ConditionalComponent>,
+                  <ConditionalComponent
+                    render={true}
+                  >
+                    <FormattedMessage
+                      defaultMessage="Un-retweet"
+                      id="widget.twitter.tweet.unretweet"
+                      values={Object {}}
+                    />
+                  </ConditionalComponent>,
+                ],
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Retweet"
+                      id="widget.twitter.tweet.retweet"
+                      values={Object {}}
+                    />,
+                    "render": false,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Retweet",
+                      "id": "widget.twitter.tweet.retweet",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Un-retweet"
+                      id="widget.twitter.tweet.unretweet"
+                      values={Object {}}
+                    />,
+                    "render": true,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Un-retweet",
+                      "id": "widget.twitter.tweet.unretweet",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <FormattedMessage
+                  defaultMessage="Quote"
+                  id="widget.twitter.tweet.quote"
+                  values={Object {}}
+                />,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultMessage": "Quote",
+                  "id": "widget.twitter.tweet.quote",
+                  "values": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Should use action when retweet 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RawLikeRt
+    actionWithAccount={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "quote",
+            Object {
+              "message": "test",
+              "tweet_from": "test_user",
+              "tweet_id": "tweet",
+            },
+            [Function],
+          ],
+          Array [
+            "unretweet",
+            Object {
+              "tweet": "tweet",
+            },
+            [Function],
+          ],
+          Array [
+            "retweet",
+            Object {
+              "tweet": "tweet",
+            },
+            [Function],
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    addToWidgetData={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "test",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    classes={Object {}}
+    closeElementPopup={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    displayElementInPopup={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            <InjectIntl(RawQuotePopup)
+              onUpdateText={[Function]}
+              tweet={
+                Object {
+                  "author": Object {
+                    "screen_name": "test_user",
+                  },
+                  "id": "tweet",
+                  "like_count": 42,
+                  "retweet_count": 12,
+                  "user_liked": true,
+                  "user_retweeted": true,
+                }
+              }
+            />,
+            Object {
+              "actions": Array [
+                <WithStyles(Button)
+                  color="primary"
+                  onClick={[Function]}
+                  variant="contained"
+                >
+                  <FormattedMessage
+                    defaultMessage="Quote"
+                    id="widget.twitter.tweet.quote"
+                    values={Object {}}
+                  />
+                </WithStyles(Button)>,
+              ],
+              "fullWidth": true,
+              "maxWidth": "sm",
+              "title": "test",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    intl={
+      Object {
+        "formatMessage": [Function],
+      }
+    }
+    tweet={
+      Object {
+        "author": Object {
+          "screen_name": "test_user",
+        },
+        "id": "tweet",
+        "like_count": 42,
+        "retweet_count": 12,
+        "user_liked": true,
+        "user_retweeted": false,
+      }
+    }
+    updateElement={[MockFunction]}
+    updatePopupProps={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "actions": Array [
+                <WithStyles(Button)
+                  color="primary"
+                  onClick={[Function]}
+                  variant="contained"
+                >
+                  <FormattedMessage
+                    defaultMessage="Quote"
+                    id="widget.twitter.tweet.quote"
+                    values={Object {}}
+                  />
+                </WithStyles(Button)>,
+              ],
+            },
+          ],
+          Array [
+            Object {
+              "actions": Array [
+                <WithStyles(Button)
+                  color="primary"
+                  disabled={true}
+                  onClick={[Function]}
+                  variant="contained"
+                >
+                  <FormattedMessage
+                    defaultMessage="Quote"
+                    id="widget.twitter.tweet.quote"
+                    values={Object {}}
+                  />
+                </WithStyles(Button)>,
+              ],
+            },
+          ],
+          Array [
+            Object {
+              "actions": Array [
+                <WithStyles(Button)
+                  color="primary"
+                  onClick={[Function]}
+                  variant="contained"
+                >
+                  <FormattedMessage
+                    defaultMessage="Quote"
+                    id="widget.twitter.tweet.quote"
+                    values={Object {}}
+                  />
+                </WithStyles(Button)>,
+              ],
+            },
+          ],
+          Array [
+            Object {
+              "actions": Array [
+                <WithStyles(Button)
+                  color="primary"
+                  onClick={[Function]}
+                  variant="contained"
+                >
+                  <FormattedMessage
+                    defaultMessage="Quote"
+                    id="widget.twitter.tweet.quote"
+                    values={Object {}}
+                  />
+                </WithStyles(Button)>,
+              ],
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div>
+          <WithStyles(Icon)
+            color="inherit"
+            onClick={[Function]}
+          >
+            sync
+          </WithStyles(Icon)>
+          12
+        </div>,
+        <div>
+          <WithStyles(Icon)
+            color="secondary"
+            onClick={[Function]}
+          >
+            favorite
+          </WithStyles(Icon)>
+          42
+        </div>,
+        <WithStyles(Menu)
+          anchorEl={null}
+          onClose={[Function]}
+          open={false}
+        >
+          <WithStyles(MenuItem)
+            onClick={[Function]}
+          >
+            <ConditionalComponent
+              render={true}
+            >
+              <FormattedMessage
+                defaultMessage="Retweet"
+                id="widget.twitter.tweet.retweet"
+                values={Object {}}
+              />
+            </ConditionalComponent>
+            <ConditionalComponent
+              render={false}
+            >
+              <FormattedMessage
+                defaultMessage="Un-retweet"
+                id="widget.twitter.tweet.unretweet"
+                values={Object {}}
+              />
+            </ConditionalComponent>
+          </WithStyles(MenuItem)>
+          <WithStyles(MenuItem)
+            onClick={[Function]}
+          >
+            <FormattedMessage
+              defaultMessage="Quote"
+              id="widget.twitter.tweet.quote"
+              values={Object {}}
+            />
+          </WithStyles(MenuItem)>
+        </WithStyles(Menu)>,
+      ],
+      "className": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <WithStyles(Icon)
+              color="inherit"
+              onClick={[Function]}
+            >
+              sync
+            </WithStyles(Icon)>,
+            12,
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "sync",
+              "className": undefined,
+              "color": "inherit",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "sync",
+            "type": [Function],
+          },
+          12,
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <WithStyles(Icon)
+              color="secondary"
+              onClick={[Function]}
+            >
+              favorite
+            </WithStyles(Icon)>,
+            42,
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "favorite",
+              "className": undefined,
+              "color": "secondary",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "favorite",
+            "type": [Function],
+          },
+          42,
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "anchorEl": null,
+          "children": Array [
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <ConditionalComponent
+                render={true}
+              >
+                <FormattedMessage
+                  defaultMessage="Retweet"
+                  id="widget.twitter.tweet.retweet"
+                  values={Object {}}
+                />
+              </ConditionalComponent>
+              <ConditionalComponent
+                render={false}
+              >
+                <FormattedMessage
+                  defaultMessage="Un-retweet"
+                  id="widget.twitter.tweet.unretweet"
+                  values={Object {}}
+                />
+              </ConditionalComponent>
+            </WithStyles(MenuItem)>,
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <FormattedMessage
+                defaultMessage="Quote"
+                id="widget.twitter.tweet.quote"
+                values={Object {}}
+              />
+            </WithStyles(MenuItem)>,
+          ],
+          "onClose": [Function],
+          "open": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <ConditionalComponent
+                  render={true}
+                >
+                  <FormattedMessage
+                    defaultMessage="Retweet"
+                    id="widget.twitter.tweet.retweet"
+                    values={Object {}}
+                  />
+                </ConditionalComponent>,
+                <ConditionalComponent
+                  render={false}
+                >
+                  <FormattedMessage
+                    defaultMessage="Un-retweet"
+                    id="widget.twitter.tweet.unretweet"
+                    values={Object {}}
+                  />
+                </ConditionalComponent>,
+              ],
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Retweet"
+                    id="widget.twitter.tweet.retweet"
+                    values={Object {}}
+                  />,
+                  "render": true,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Retweet",
+                    "id": "widget.twitter.tweet.retweet",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Un-retweet"
+                    id="widget.twitter.tweet.unretweet"
+                    values={Object {}}
+                  />,
+                  "render": false,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Un-retweet",
+                    "id": "widget.twitter.tweet.unretweet",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <FormattedMessage
+                defaultMessage="Quote"
+                id="widget.twitter.tweet.quote"
+                values={Object {}}
+              />,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "defaultMessage": "Quote",
+                "id": "widget.twitter.tweet.quote",
+                "values": Object {},
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div>
+            <WithStyles(Icon)
+              color="inherit"
+              onClick={[Function]}
+            >
+              sync
+            </WithStyles(Icon)>
+            12
+          </div>,
+          <div>
+            <WithStyles(Icon)
+              color="secondary"
+              onClick={[Function]}
+            >
+              favorite
+            </WithStyles(Icon)>
+            42
+          </div>,
+          <WithStyles(Menu)
+            anchorEl={null}
+            onClose={[Function]}
+            open={false}
+          >
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <ConditionalComponent
+                render={true}
+              >
+                <FormattedMessage
+                  defaultMessage="Retweet"
+                  id="widget.twitter.tweet.retweet"
+                  values={Object {}}
+                />
+              </ConditionalComponent>
+              <ConditionalComponent
+                render={false}
+              >
+                <FormattedMessage
+                  defaultMessage="Un-retweet"
+                  id="widget.twitter.tweet.unretweet"
+                  values={Object {}}
+                />
+              </ConditionalComponent>
+            </WithStyles(MenuItem)>
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <FormattedMessage
+                defaultMessage="Quote"
+                id="widget.twitter.tweet.quote"
+                values={Object {}}
+              />
+            </WithStyles(MenuItem)>
+          </WithStyles(Menu)>,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <WithStyles(Icon)
+                color="inherit"
+                onClick={[Function]}
+              >
+                sync
+              </WithStyles(Icon)>,
+              12,
+            ],
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "sync",
+                "className": undefined,
+                "color": "inherit",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "sync",
+              "type": [Function],
+            },
+            12,
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <WithStyles(Icon)
+                color="secondary"
+                onClick={[Function]}
+              >
+                favorite
+              </WithStyles(Icon)>,
+              42,
+            ],
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "favorite",
+                "className": undefined,
+                "color": "secondary",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "favorite",
+              "type": [Function],
+            },
+            42,
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "anchorEl": null,
+            "children": Array [
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                <ConditionalComponent
+                  render={true}
+                >
+                  <FormattedMessage
+                    defaultMessage="Retweet"
+                    id="widget.twitter.tweet.retweet"
+                    values={Object {}}
+                  />
+                </ConditionalComponent>
+                <ConditionalComponent
+                  render={false}
+                >
+                  <FormattedMessage
+                    defaultMessage="Un-retweet"
+                    id="widget.twitter.tweet.unretweet"
+                    values={Object {}}
+                  />
+                </ConditionalComponent>
+              </WithStyles(MenuItem)>,
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                <FormattedMessage
+                  defaultMessage="Quote"
+                  id="widget.twitter.tweet.quote"
+                  values={Object {}}
+                />
+              </WithStyles(MenuItem)>,
+            ],
+            "onClose": [Function],
+            "open": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <ConditionalComponent
+                    render={true}
+                  >
+                    <FormattedMessage
+                      defaultMessage="Retweet"
+                      id="widget.twitter.tweet.retweet"
+                      values={Object {}}
+                    />
+                  </ConditionalComponent>,
+                  <ConditionalComponent
+                    render={false}
+                  >
+                    <FormattedMessage
+                      defaultMessage="Un-retweet"
+                      id="widget.twitter.tweet.unretweet"
+                      values={Object {}}
+                    />
+                  </ConditionalComponent>,
+                ],
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Retweet"
+                      id="widget.twitter.tweet.retweet"
+                      values={Object {}}
+                    />,
+                    "render": true,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Retweet",
+                      "id": "widget.twitter.tweet.retweet",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Un-retweet"
+                      id="widget.twitter.tweet.unretweet"
+                      values={Object {}}
+                    />,
+                    "render": false,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Un-retweet",
+                      "id": "widget.twitter.tweet.unretweet",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <FormattedMessage
+                  defaultMessage="Quote"
+                  id="widget.twitter.tweet.quote"
+                  values={Object {}}
+                />,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultMessage": "Quote",
+                  "id": "widget.twitter.tweet.quote",
+                  "values": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

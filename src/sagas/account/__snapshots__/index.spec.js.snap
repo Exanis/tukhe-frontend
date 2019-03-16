@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should delete accounts as expected 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "CALL",
+  },
+}
+`;
+
+exports[`Should delete accounts as expected 2`] = `Promise {}`;
+
+exports[`Should delete accounts as expected 3`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "action": Object {
+        "payload": undefined,
+        "type": "accounts/load/list",
+      },
+      "channel": undefined,
+    },
+    "type": "PUT",
+  },
+}
+`;
+
+exports[`Should handle error on delete 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "CALL",
+  },
+}
+`;
+
+exports[`Should handle error on delete 2`] = `
+Object {
+  "done": true,
+  "value": undefined,
+}
+`;
+
+exports[`Should handle error on load accounts as expected 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "CALL",
+  },
+}
+`;
+
+exports[`Should handle error on load accounts as expected 2`] = `
+Object {
+  "done": true,
+  "value": undefined,
+}
+`;
+
+exports[`Should have a watcher saga as expected 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [
+        [Function],
+        [Function],
+      ],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "FORK",
+  },
+}
+`;
+
+exports[`Should have a watcher saga as expected 2`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [
+        [Function],
+        [Function],
+      ],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "FORK",
+  },
+}
+`;
+
+exports[`Should have a watcher saga as expected 3`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [
+        [Function],
+        [Function],
+      ],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "FORK",
+  },
+}
+`;
+
+exports[`Should load accounts as expected 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "CALL",
+  },
+}
+`;
+
+exports[`Should load accounts as expected 2`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "action": Object {
+        "payload": Array [],
+        "type": "account/setAccounts",
+      },
+      "channel": undefined,
+    },
+    "type": "PUT",
+  },
+}
+`;
+
+exports[`Should prepare ajax requests as expected 1`] = `Promise {}`;
+
+exports[`Should prepare ajax requests as expected 2`] = `Promise {}`;

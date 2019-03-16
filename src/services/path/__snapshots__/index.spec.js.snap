@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should construct correct path 1`] = `"https://test:443/test"`;
+
+exports[`Should construct correct path 2`] = `"http://test:80/test"`;
+
+exports[`Should construct correct path 3`] = `"https://test:8080/test"`;
+
+exports[`Should construct correct path 4`] = `"https://test:443/test"`;
+
+exports[`Should correctly parse query string 1`] = `Object {}`;
+
+exports[`Should correctly parse query string 2`] = `
+Object {
+  "test": true,
+}
+`;
+
+exports[`Should correctly parse query string 3`] = `
+Object {
+  "test": true,
+  "test2": "val",
+}
+`;
+
+exports[`Should have correct urls 1`] = `"undefinedtest"`;
+
+exports[`Should have correct urls 2`] = `undefined`;

@@ -1,0 +1,325 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should keep styling consistant 1`] = `
+Object {
+  "icon": Object {
+    "color": "#aaa",
+    "fontSize": 12,
+    "marginRight": 5,
+  },
+  "spaced": Object {
+    "display": "inline-block",
+    "marginRight": 5,
+  },
+}
+`;
+
+exports[`Should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RawTweetUserName
+    classes={Object {}}
+    user={
+      Object {
+        "name": "Test user",
+        "protected": true,
+        "screen_name": "test_user",
+        "verified": true,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <WithStyles(Typography)
+          component="span"
+          inline={true}
+          variant="subtitle1"
+        >
+          Test user
+        </WithStyles(Typography)>,
+        <ConditionalComponent
+          render={true}
+        >
+          <WithStyles(Icon)>
+            lock
+          </WithStyles(Icon)>
+        </ConditionalComponent>,
+        <ConditionalComponent
+          render={true}
+        >
+          <WithStyles(Icon)>
+            verified_user
+          </WithStyles(Icon)>
+        </ConditionalComponent>,
+        <WithStyles(Typography)
+          color="textSecondary"
+          component="span"
+          inline={true}
+          variant="caption"
+        >
+          @
+          test_user
+        </WithStyles(Typography)>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "Test user",
+          "className": undefined,
+          "component": "span",
+          "inline": true,
+          "variant": "subtitle1",
+        },
+        "ref": null,
+        "rendered": "Test user",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <WithStyles(Icon)>
+            lock
+          </WithStyles(Icon)>,
+          "render": true,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "lock",
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": "lock",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <WithStyles(Icon)>
+            verified_user
+          </WithStyles(Icon)>,
+          "render": true,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "verified_user",
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": "verified_user",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            "@",
+            "test_user",
+          ],
+          "className": undefined,
+          "color": "textSecondary",
+          "component": "span",
+          "inline": true,
+          "variant": "caption",
+        },
+        "ref": null,
+        "rendered": Array [
+          "@",
+          "test_user",
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <WithStyles(Typography)
+            component="span"
+            inline={true}
+            variant="subtitle1"
+          >
+            Test user
+          </WithStyles(Typography)>,
+          <ConditionalComponent
+            render={true}
+          >
+            <WithStyles(Icon)>
+              lock
+            </WithStyles(Icon)>
+          </ConditionalComponent>,
+          <ConditionalComponent
+            render={true}
+          >
+            <WithStyles(Icon)>
+              verified_user
+            </WithStyles(Icon)>
+          </ConditionalComponent>,
+          <WithStyles(Typography)
+            color="textSecondary"
+            component="span"
+            inline={true}
+            variant="caption"
+          >
+            @
+            test_user
+          </WithStyles(Typography)>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Test user",
+            "className": undefined,
+            "component": "span",
+            "inline": true,
+            "variant": "subtitle1",
+          },
+          "ref": null,
+          "rendered": "Test user",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <WithStyles(Icon)>
+              lock
+            </WithStyles(Icon)>,
+            "render": true,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "lock",
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": "lock",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <WithStyles(Icon)>
+              verified_user
+            </WithStyles(Icon)>,
+            "render": true,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "verified_user",
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": "verified_user",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              "@",
+              "test_user",
+            ],
+            "className": undefined,
+            "color": "textSecondary",
+            "component": "span",
+            "inline": true,
+            "variant": "caption",
+          },
+          "ref": null,
+          "rendered": Array [
+            "@",
+            "test_user",
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

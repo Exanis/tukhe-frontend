@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should execute steps as expected when there is a token 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "CALL",
+  },
+}
+`;
+
+exports[`Should execute steps as expected when there is a token 2`] = `Promise {}`;
+
+exports[`Should execute steps as expected when there is a token 3`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [
+        500,
+      ],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "CALL",
+  },
+}
+`;
+
+exports[`Should execute steps as expected when there is a token 4`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "CALL",
+  },
+}
+`;
+
+exports[`Should execute steps as expected when there is a token 5`] = `Promise {}`;
+
+exports[`Should execute steps as expected when there is a token 6`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "action": Object {
+        "payload": undefined,
+        "type": "accounts/load/list",
+      },
+      "channel": undefined,
+    },
+    "type": "PUT",
+  },
+}
+`;
+
+exports[`Should execute steps as expected when there is no token 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "CALL",
+  },
+}
+`;
+
+exports[`Should execute steps as expected when there is no token 2`] = `Promise {}`;
+
+exports[`Should execute steps as expected when there is no token 3`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [
+        500,
+      ],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "CALL",
+  },
+}
+`;
+
+exports[`Should execute steps as expected when there is no token 4`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "CALL",
+  },
+}
+`;
+
+exports[`Should execute steps as expected when there is no token 5`] = `Promise {}`;

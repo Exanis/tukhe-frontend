@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should have all the correct listeners 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": true,
+    "payload": Array [
+      Object {},
+      Object {},
+      Object {},
+    ],
+    "type": "ALL",
+  },
+}
+`;

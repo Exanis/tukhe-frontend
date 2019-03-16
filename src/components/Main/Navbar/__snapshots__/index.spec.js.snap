@@ -1,0 +1,3381 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render correctly when in edit mode 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Navbar
+    createDashboard={[MockFunction]}
+    current="dashboard1"
+    dashboards={
+      Array [
+        Object {
+          "icon": "home",
+          "uuid": "dashboard1",
+        },
+        Object {
+          "icon": "money",
+          "uuid": "dashboard2",
+        },
+      ]
+    }
+    editable={true}
+    onAccount={[MockFunction]}
+    onAddWidget={[MockFunction]}
+    onLogout={[MockFunction]}
+    onSaveLayout={[MockFunction]}
+    onUnlock={[MockFunction]}
+    selectDashboard={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <WithStyles(Toolbar)>
+        <WithStyles(IconButton)
+          color="inherit"
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)
+            fontSize="large"
+          >
+            home
+          </WithStyles(Icon)>
+        </WithStyles(IconButton)>
+        <WithStyles(IconButton)
+          color="inherit"
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)
+            fontSize="small"
+          >
+            money
+          </WithStyles(Icon)>
+        </WithStyles(IconButton)>
+        <div
+          style={
+            Object {
+              "flexGrow": 1,
+            }
+          }
+        />
+        <ConditionalComponent
+          render={true}
+        >
+          <WithStyles(IconButton)
+            color="inherit"
+            onClick={[MockFunction]}
+          >
+            <pure(SaveIcon) />
+          </WithStyles(IconButton)>
+        </ConditionalComponent>
+        <WithStyles(IconButton)
+          aria-haspopup="true"
+          color="inherit"
+          onClick={[Function]}
+        >
+          <pure(MenuIcon) />
+        </WithStyles(IconButton)>
+        <WithStyles(Menu)
+          anchorEl={null}
+          anchorOrigin={
+            Object {
+              "horizontal": "right",
+              "vertical": "top",
+            }
+          }
+          id="app-menu"
+          onClose={[Function]}
+          open={false}
+          transformOrigin={
+            Object {
+              "horizontal": "right",
+              "vertical": "top",
+            }
+          }
+        >
+          <WithStyles(MenuItem)
+            onClick={[Function]}
+          >
+            <WithStyles(ListItemIcon)>
+              <pure(NoteAddIcon) />
+            </WithStyles(ListItemIcon)>
+            <FormattedMessage
+              defaultMessage="Add widget"
+              id="core.menu.createWidget"
+              values={Object {}}
+            />
+          </WithStyles(MenuItem)>
+          <ConditionalComponent
+            render={false}
+          >
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <WithStyles(ListItemIcon)>
+                <pure(LockOpenIcon) />
+              </WithStyles(ListItemIcon)>
+              <FormattedMessage
+                defaultMessage="Unlock layout"
+                id="core.menu.unlock"
+                values={Object {}}
+              />
+            </WithStyles(MenuItem)>
+          </ConditionalComponent>
+          <WithStyles(Divider) />
+          <WithStyles(MenuItem)
+            onClick={[Function]}
+          >
+            <WithStyles(ListItemIcon)>
+              <pure(CreateNewFolderIcon) />
+            </WithStyles(ListItemIcon)>
+            <FormattedMessage
+              defaultMessage="New dashboard"
+              id="core.menu.createDashboard"
+              values={Object {}}
+            />
+          </WithStyles(MenuItem)>
+          <WithStyles(Divider) />
+          <WithStyles(MenuItem)
+            onClick={[Function]}
+          >
+            <WithStyles(ListItemIcon)>
+              <pure(AccountBoxIcon) />
+            </WithStyles(ListItemIcon)>
+            <FormattedMessage
+              defaultMessage="Connected accounts"
+              id="core.menu.account"
+              values={Object {}}
+            />
+          </WithStyles(MenuItem)>
+          <WithStyles(MenuItem)
+            onClick={[Function]}
+          >
+            <WithStyles(ListItemIcon)>
+              <pure(ExitToAppIcon) />
+            </WithStyles(ListItemIcon)>
+            <FormattedMessage
+              defaultMessage="Logout"
+              id="core.menu.logout"
+              values={Object {}}
+            />
+          </WithStyles(MenuItem)>
+        </WithStyles(Menu)>
+      </WithStyles(Toolbar)>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          Array [
+            <WithStyles(IconButton)
+              color="inherit"
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)
+                fontSize="large"
+              >
+                home
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+            <WithStyles(IconButton)
+              color="inherit"
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)
+                fontSize="small"
+              >
+                money
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+          ],
+          <div
+            style={
+              Object {
+                "flexGrow": 1,
+              }
+            }
+          />,
+          <ConditionalComponent
+            render={true}
+          >
+            <WithStyles(IconButton)
+              color="inherit"
+              onClick={[MockFunction]}
+            >
+              <pure(SaveIcon) />
+            </WithStyles(IconButton)>
+          </ConditionalComponent>,
+          <WithStyles(IconButton)
+            aria-haspopup="true"
+            color="inherit"
+            onClick={[Function]}
+          >
+            <pure(MenuIcon) />
+          </WithStyles(IconButton)>,
+          <WithStyles(Menu)
+            anchorEl={null}
+            anchorOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "top",
+              }
+            }
+            id="app-menu"
+            onClose={[Function]}
+            open={false}
+            transformOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "top",
+              }
+            }
+          >
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <WithStyles(ListItemIcon)>
+                <pure(NoteAddIcon) />
+              </WithStyles(ListItemIcon)>
+              <FormattedMessage
+                defaultMessage="Add widget"
+                id="core.menu.createWidget"
+                values={Object {}}
+              />
+            </WithStyles(MenuItem)>
+            <ConditionalComponent
+              render={false}
+            >
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                <WithStyles(ListItemIcon)>
+                  <pure(LockOpenIcon) />
+                </WithStyles(ListItemIcon)>
+                <FormattedMessage
+                  defaultMessage="Unlock layout"
+                  id="core.menu.unlock"
+                  values={Object {}}
+                />
+              </WithStyles(MenuItem)>
+            </ConditionalComponent>
+            <WithStyles(Divider) />
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <WithStyles(ListItemIcon)>
+                <pure(CreateNewFolderIcon) />
+              </WithStyles(ListItemIcon)>
+              <FormattedMessage
+                defaultMessage="New dashboard"
+                id="core.menu.createDashboard"
+                values={Object {}}
+              />
+            </WithStyles(MenuItem)>
+            <WithStyles(Divider) />
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <WithStyles(ListItemIcon)>
+                <pure(AccountBoxIcon) />
+              </WithStyles(ListItemIcon)>
+              <FormattedMessage
+                defaultMessage="Connected accounts"
+                id="core.menu.account"
+                values={Object {}}
+              />
+            </WithStyles(MenuItem)>
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <WithStyles(ListItemIcon)>
+                <pure(ExitToAppIcon) />
+              </WithStyles(ListItemIcon)>
+              <FormattedMessage
+                defaultMessage="Logout"
+                id="core.menu.logout"
+                values={Object {}}
+              />
+            </WithStyles(MenuItem)>
+          </WithStyles(Menu)>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "dashboard1",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(Icon)
+              fontSize="large"
+            >
+              home
+            </WithStyles(Icon)>,
+            "color": "inherit",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "home",
+              "fontSize": "large",
+            },
+            "ref": null,
+            "rendered": "home",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "dashboard2",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(Icon)
+              fontSize="small"
+            >
+              money
+            </WithStyles(Icon)>,
+            "color": "inherit",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "money",
+              "fontSize": "small",
+            },
+            "ref": null,
+            "rendered": "money",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "style": Object {
+              "flexGrow": 1,
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <WithStyles(IconButton)
+              color="inherit"
+              onClick={[MockFunction]}
+            >
+              <pure(SaveIcon) />
+            </WithStyles(IconButton)>,
+            "render": true,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <pure(SaveIcon) />,
+              "color": "inherit",
+              "onClick": [MockFunction],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "aria-haspopup": "true",
+            "aria-owns": undefined,
+            "children": <pure(MenuIcon) />,
+            "color": "inherit",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "anchorEl": null,
+            "anchorOrigin": Object {
+              "horizontal": "right",
+              "vertical": "top",
+            },
+            "children": Array [
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                <WithStyles(ListItemIcon)>
+                  <pure(NoteAddIcon) />
+                </WithStyles(ListItemIcon)>
+                <FormattedMessage
+                  defaultMessage="Add widget"
+                  id="core.menu.createWidget"
+                  values={Object {}}
+                />
+              </WithStyles(MenuItem)>,
+              <ConditionalComponent
+                render={false}
+              >
+                <WithStyles(MenuItem)
+                  onClick={[Function]}
+                >
+                  <WithStyles(ListItemIcon)>
+                    <pure(LockOpenIcon) />
+                  </WithStyles(ListItemIcon)>
+                  <FormattedMessage
+                    defaultMessage="Unlock layout"
+                    id="core.menu.unlock"
+                    values={Object {}}
+                  />
+                </WithStyles(MenuItem)>
+              </ConditionalComponent>,
+              <WithStyles(Divider) />,
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                <WithStyles(ListItemIcon)>
+                  <pure(CreateNewFolderIcon) />
+                </WithStyles(ListItemIcon)>
+                <FormattedMessage
+                  defaultMessage="New dashboard"
+                  id="core.menu.createDashboard"
+                  values={Object {}}
+                />
+              </WithStyles(MenuItem)>,
+              <WithStyles(Divider) />,
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                <WithStyles(ListItemIcon)>
+                  <pure(AccountBoxIcon) />
+                </WithStyles(ListItemIcon)>
+                <FormattedMessage
+                  defaultMessage="Connected accounts"
+                  id="core.menu.account"
+                  values={Object {}}
+                />
+              </WithStyles(MenuItem)>,
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                <WithStyles(ListItemIcon)>
+                  <pure(ExitToAppIcon) />
+                </WithStyles(ListItemIcon)>
+                <FormattedMessage
+                  defaultMessage="Logout"
+                  id="core.menu.logout"
+                  values={Object {}}
+                />
+              </WithStyles(MenuItem)>,
+            ],
+            "id": "app-menu",
+            "onClose": [Function],
+            "open": false,
+            "transformOrigin": Object {
+              "horizontal": "right",
+              "vertical": "top",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(ListItemIcon)>
+                    <pure(NoteAddIcon) />
+                  </WithStyles(ListItemIcon)>,
+                  <FormattedMessage
+                    defaultMessage="Add widget"
+                    id="core.menu.createWidget"
+                    values={Object {}}
+                  />,
+                ],
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <pure(NoteAddIcon) />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Add widget",
+                    "id": "core.menu.createWidget",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <WithStyles(MenuItem)
+                  onClick={[Function]}
+                >
+                  <WithStyles(ListItemIcon)>
+                    <pure(LockOpenIcon) />
+                  </WithStyles(ListItemIcon)>
+                  <FormattedMessage
+                    defaultMessage="Unlock layout"
+                    id="core.menu.unlock"
+                    values={Object {}}
+                  />
+                </WithStyles(MenuItem)>,
+                "render": false,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(ListItemIcon)>
+                      <pure(LockOpenIcon) />
+                    </WithStyles(ListItemIcon)>,
+                    <FormattedMessage
+                      defaultMessage="Unlock layout"
+                      id="core.menu.unlock"
+                      values={Object {}}
+                    />,
+                  ],
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <pure(LockOpenIcon) />,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Unlock layout",
+                      "id": "core.menu.unlock",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(ListItemIcon)>
+                    <pure(CreateNewFolderIcon) />
+                  </WithStyles(ListItemIcon)>,
+                  <FormattedMessage
+                    defaultMessage="New dashboard"
+                    id="core.menu.createDashboard"
+                    values={Object {}}
+                  />,
+                ],
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <pure(CreateNewFolderIcon) />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "New dashboard",
+                    "id": "core.menu.createDashboard",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(ListItemIcon)>
+                    <pure(AccountBoxIcon) />
+                  </WithStyles(ListItemIcon)>,
+                  <FormattedMessage
+                    defaultMessage="Connected accounts"
+                    id="core.menu.account"
+                    values={Object {}}
+                  />,
+                ],
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <pure(AccountBoxIcon) />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Connected accounts",
+                    "id": "core.menu.account",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(ListItemIcon)>
+                    <pure(ExitToAppIcon) />
+                  </WithStyles(ListItemIcon)>,
+                  <FormattedMessage
+                    defaultMessage="Logout"
+                    id="core.menu.logout"
+                    values={Object {}}
+                  />,
+                ],
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <pure(ExitToAppIcon) />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Logout",
+                    "id": "core.menu.logout",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <WithStyles(Toolbar)>
+          <WithStyles(IconButton)
+            color="inherit"
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)
+              fontSize="large"
+            >
+              home
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+          <WithStyles(IconButton)
+            color="inherit"
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)
+              fontSize="small"
+            >
+              money
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+          <div
+            style={
+              Object {
+                "flexGrow": 1,
+              }
+            }
+          />
+          <ConditionalComponent
+            render={true}
+          >
+            <WithStyles(IconButton)
+              color="inherit"
+              onClick={[MockFunction]}
+            >
+              <pure(SaveIcon) />
+            </WithStyles(IconButton)>
+          </ConditionalComponent>
+          <WithStyles(IconButton)
+            aria-haspopup="true"
+            color="inherit"
+            onClick={[Function]}
+          >
+            <pure(MenuIcon) />
+          </WithStyles(IconButton)>
+          <WithStyles(Menu)
+            anchorEl={null}
+            anchorOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "top",
+              }
+            }
+            id="app-menu"
+            onClose={[Function]}
+            open={false}
+            transformOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "top",
+              }
+            }
+          >
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <WithStyles(ListItemIcon)>
+                <pure(NoteAddIcon) />
+              </WithStyles(ListItemIcon)>
+              <FormattedMessage
+                defaultMessage="Add widget"
+                id="core.menu.createWidget"
+                values={Object {}}
+              />
+            </WithStyles(MenuItem)>
+            <ConditionalComponent
+              render={false}
+            >
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                <WithStyles(ListItemIcon)>
+                  <pure(LockOpenIcon) />
+                </WithStyles(ListItemIcon)>
+                <FormattedMessage
+                  defaultMessage="Unlock layout"
+                  id="core.menu.unlock"
+                  values={Object {}}
+                />
+              </WithStyles(MenuItem)>
+            </ConditionalComponent>
+            <WithStyles(Divider) />
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <WithStyles(ListItemIcon)>
+                <pure(CreateNewFolderIcon) />
+              </WithStyles(ListItemIcon)>
+              <FormattedMessage
+                defaultMessage="New dashboard"
+                id="core.menu.createDashboard"
+                values={Object {}}
+              />
+            </WithStyles(MenuItem)>
+            <WithStyles(Divider) />
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <WithStyles(ListItemIcon)>
+                <pure(AccountBoxIcon) />
+              </WithStyles(ListItemIcon)>
+              <FormattedMessage
+                defaultMessage="Connected accounts"
+                id="core.menu.account"
+                values={Object {}}
+              />
+            </WithStyles(MenuItem)>
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <WithStyles(ListItemIcon)>
+                <pure(ExitToAppIcon) />
+              </WithStyles(ListItemIcon)>
+              <FormattedMessage
+                defaultMessage="Logout"
+                id="core.menu.logout"
+                values={Object {}}
+              />
+            </WithStyles(MenuItem)>
+          </WithStyles(Menu)>
+        </WithStyles(Toolbar)>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            Array [
+              <WithStyles(IconButton)
+                color="inherit"
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)
+                  fontSize="large"
+                >
+                  home
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+              <WithStyles(IconButton)
+                color="inherit"
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)
+                  fontSize="small"
+                >
+                  money
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+            ],
+            <div
+              style={
+                Object {
+                  "flexGrow": 1,
+                }
+              }
+            />,
+            <ConditionalComponent
+              render={true}
+            >
+              <WithStyles(IconButton)
+                color="inherit"
+                onClick={[MockFunction]}
+              >
+                <pure(SaveIcon) />
+              </WithStyles(IconButton)>
+            </ConditionalComponent>,
+            <WithStyles(IconButton)
+              aria-haspopup="true"
+              color="inherit"
+              onClick={[Function]}
+            >
+              <pure(MenuIcon) />
+            </WithStyles(IconButton)>,
+            <WithStyles(Menu)
+              anchorEl={null}
+              anchorOrigin={
+                Object {
+                  "horizontal": "right",
+                  "vertical": "top",
+                }
+              }
+              id="app-menu"
+              onClose={[Function]}
+              open={false}
+              transformOrigin={
+                Object {
+                  "horizontal": "right",
+                  "vertical": "top",
+                }
+              }
+            >
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                <WithStyles(ListItemIcon)>
+                  <pure(NoteAddIcon) />
+                </WithStyles(ListItemIcon)>
+                <FormattedMessage
+                  defaultMessage="Add widget"
+                  id="core.menu.createWidget"
+                  values={Object {}}
+                />
+              </WithStyles(MenuItem)>
+              <ConditionalComponent
+                render={false}
+              >
+                <WithStyles(MenuItem)
+                  onClick={[Function]}
+                >
+                  <WithStyles(ListItemIcon)>
+                    <pure(LockOpenIcon) />
+                  </WithStyles(ListItemIcon)>
+                  <FormattedMessage
+                    defaultMessage="Unlock layout"
+                    id="core.menu.unlock"
+                    values={Object {}}
+                  />
+                </WithStyles(MenuItem)>
+              </ConditionalComponent>
+              <WithStyles(Divider) />
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                <WithStyles(ListItemIcon)>
+                  <pure(CreateNewFolderIcon) />
+                </WithStyles(ListItemIcon)>
+                <FormattedMessage
+                  defaultMessage="New dashboard"
+                  id="core.menu.createDashboard"
+                  values={Object {}}
+                />
+              </WithStyles(MenuItem)>
+              <WithStyles(Divider) />
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                <WithStyles(ListItemIcon)>
+                  <pure(AccountBoxIcon) />
+                </WithStyles(ListItemIcon)>
+                <FormattedMessage
+                  defaultMessage="Connected accounts"
+                  id="core.menu.account"
+                  values={Object {}}
+                />
+              </WithStyles(MenuItem)>
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                <WithStyles(ListItemIcon)>
+                  <pure(ExitToAppIcon) />
+                </WithStyles(ListItemIcon)>
+                <FormattedMessage
+                  defaultMessage="Logout"
+                  id="core.menu.logout"
+                  values={Object {}}
+                />
+              </WithStyles(MenuItem)>
+            </WithStyles(Menu)>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "dashboard1",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)
+                fontSize="large"
+              >
+                home
+              </WithStyles(Icon)>,
+              "color": "inherit",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "home",
+                "fontSize": "large",
+              },
+              "ref": null,
+              "rendered": "home",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "dashboard2",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)
+                fontSize="small"
+              >
+                money
+              </WithStyles(Icon)>,
+              "color": "inherit",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "money",
+                "fontSize": "small",
+              },
+              "ref": null,
+              "rendered": "money",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "style": Object {
+                "flexGrow": 1,
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <WithStyles(IconButton)
+                color="inherit"
+                onClick={[MockFunction]}
+              >
+                <pure(SaveIcon) />
+              </WithStyles(IconButton)>,
+              "render": true,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <pure(SaveIcon) />,
+                "color": "inherit",
+                "onClick": [MockFunction],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "aria-haspopup": "true",
+              "aria-owns": undefined,
+              "children": <pure(MenuIcon) />,
+              "color": "inherit",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "anchorEl": null,
+              "anchorOrigin": Object {
+                "horizontal": "right",
+                "vertical": "top",
+              },
+              "children": Array [
+                <WithStyles(MenuItem)
+                  onClick={[Function]}
+                >
+                  <WithStyles(ListItemIcon)>
+                    <pure(NoteAddIcon) />
+                  </WithStyles(ListItemIcon)>
+                  <FormattedMessage
+                    defaultMessage="Add widget"
+                    id="core.menu.createWidget"
+                    values={Object {}}
+                  />
+                </WithStyles(MenuItem)>,
+                <ConditionalComponent
+                  render={false}
+                >
+                  <WithStyles(MenuItem)
+                    onClick={[Function]}
+                  >
+                    <WithStyles(ListItemIcon)>
+                      <pure(LockOpenIcon) />
+                    </WithStyles(ListItemIcon)>
+                    <FormattedMessage
+                      defaultMessage="Unlock layout"
+                      id="core.menu.unlock"
+                      values={Object {}}
+                    />
+                  </WithStyles(MenuItem)>
+                </ConditionalComponent>,
+                <WithStyles(Divider) />,
+                <WithStyles(MenuItem)
+                  onClick={[Function]}
+                >
+                  <WithStyles(ListItemIcon)>
+                    <pure(CreateNewFolderIcon) />
+                  </WithStyles(ListItemIcon)>
+                  <FormattedMessage
+                    defaultMessage="New dashboard"
+                    id="core.menu.createDashboard"
+                    values={Object {}}
+                  />
+                </WithStyles(MenuItem)>,
+                <WithStyles(Divider) />,
+                <WithStyles(MenuItem)
+                  onClick={[Function]}
+                >
+                  <WithStyles(ListItemIcon)>
+                    <pure(AccountBoxIcon) />
+                  </WithStyles(ListItemIcon)>
+                  <FormattedMessage
+                    defaultMessage="Connected accounts"
+                    id="core.menu.account"
+                    values={Object {}}
+                  />
+                </WithStyles(MenuItem)>,
+                <WithStyles(MenuItem)
+                  onClick={[Function]}
+                >
+                  <WithStyles(ListItemIcon)>
+                    <pure(ExitToAppIcon) />
+                  </WithStyles(ListItemIcon)>
+                  <FormattedMessage
+                    defaultMessage="Logout"
+                    id="core.menu.logout"
+                    values={Object {}}
+                  />
+                </WithStyles(MenuItem)>,
+              ],
+              "id": "app-menu",
+              "onClose": [Function],
+              "open": false,
+              "transformOrigin": Object {
+                "horizontal": "right",
+                "vertical": "top",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(ListItemIcon)>
+                      <pure(NoteAddIcon) />
+                    </WithStyles(ListItemIcon)>,
+                    <FormattedMessage
+                      defaultMessage="Add widget"
+                      id="core.menu.createWidget"
+                      values={Object {}}
+                    />,
+                  ],
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <pure(NoteAddIcon) />,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Add widget",
+                      "id": "core.menu.createWidget",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <WithStyles(MenuItem)
+                    onClick={[Function]}
+                  >
+                    <WithStyles(ListItemIcon)>
+                      <pure(LockOpenIcon) />
+                    </WithStyles(ListItemIcon)>
+                    <FormattedMessage
+                      defaultMessage="Unlock layout"
+                      id="core.menu.unlock"
+                      values={Object {}}
+                    />
+                  </WithStyles(MenuItem)>,
+                  "render": false,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <WithStyles(ListItemIcon)>
+                        <pure(LockOpenIcon) />
+                      </WithStyles(ListItemIcon)>,
+                      <FormattedMessage
+                        defaultMessage="Unlock layout"
+                        id="core.menu.unlock"
+                        values={Object {}}
+                      />,
+                    ],
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <pure(LockOpenIcon) />,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {},
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "defaultMessage": "Unlock layout",
+                        "id": "core.menu.unlock",
+                        "values": Object {},
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(ListItemIcon)>
+                      <pure(CreateNewFolderIcon) />
+                    </WithStyles(ListItemIcon)>,
+                    <FormattedMessage
+                      defaultMessage="New dashboard"
+                      id="core.menu.createDashboard"
+                      values={Object {}}
+                    />,
+                  ],
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <pure(CreateNewFolderIcon) />,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "New dashboard",
+                      "id": "core.menu.createDashboard",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(ListItemIcon)>
+                      <pure(AccountBoxIcon) />
+                    </WithStyles(ListItemIcon)>,
+                    <FormattedMessage
+                      defaultMessage="Connected accounts"
+                      id="core.menu.account"
+                      values={Object {}}
+                    />,
+                  ],
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <pure(AccountBoxIcon) />,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Connected accounts",
+                      "id": "core.menu.account",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(ListItemIcon)>
+                      <pure(ExitToAppIcon) />
+                    </WithStyles(ListItemIcon)>,
+                    <FormattedMessage
+                      defaultMessage="Logout"
+                      id="core.menu.logout"
+                      values={Object {}}
+                    />,
+                  ],
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <pure(ExitToAppIcon) />,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Logout",
+                      "id": "core.menu.logout",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Should render correctly with props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Navbar
+    createDashboard={[MockFunction]}
+    current="dashboard1"
+    dashboards={
+      Array [
+        Object {
+          "icon": "home",
+          "uuid": "dashboard1",
+        },
+        Object {
+          "icon": "money",
+          "uuid": "dashboard2",
+        },
+      ]
+    }
+    editable={false}
+    onAccount={[MockFunction]}
+    onAddWidget={[MockFunction]}
+    onLogout={[MockFunction]}
+    onSaveLayout={[MockFunction]}
+    onUnlock={[MockFunction]}
+    selectDashboard={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <WithStyles(Toolbar)>
+        <WithStyles(IconButton)
+          color="inherit"
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)
+            fontSize="large"
+          >
+            home
+          </WithStyles(Icon)>
+        </WithStyles(IconButton)>
+        <WithStyles(IconButton)
+          color="inherit"
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)
+            fontSize="small"
+          >
+            money
+          </WithStyles(Icon)>
+        </WithStyles(IconButton)>
+        <div
+          style={
+            Object {
+              "flexGrow": 1,
+            }
+          }
+        />
+        <ConditionalComponent
+          render={false}
+        >
+          <WithStyles(IconButton)
+            color="inherit"
+            onClick={[MockFunction]}
+          >
+            <pure(SaveIcon) />
+          </WithStyles(IconButton)>
+        </ConditionalComponent>
+        <WithStyles(IconButton)
+          aria-haspopup="true"
+          color="inherit"
+          onClick={[Function]}
+        >
+          <pure(MenuIcon) />
+        </WithStyles(IconButton)>
+        <WithStyles(Menu)
+          anchorEl={null}
+          anchorOrigin={
+            Object {
+              "horizontal": "right",
+              "vertical": "top",
+            }
+          }
+          id="app-menu"
+          onClose={[Function]}
+          open={false}
+          transformOrigin={
+            Object {
+              "horizontal": "right",
+              "vertical": "top",
+            }
+          }
+        >
+          <WithStyles(MenuItem)
+            onClick={[Function]}
+          >
+            <WithStyles(ListItemIcon)>
+              <pure(NoteAddIcon) />
+            </WithStyles(ListItemIcon)>
+            <FormattedMessage
+              defaultMessage="Add widget"
+              id="core.menu.createWidget"
+              values={Object {}}
+            />
+          </WithStyles(MenuItem)>
+          <ConditionalComponent
+            render={true}
+          >
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <WithStyles(ListItemIcon)>
+                <pure(LockOpenIcon) />
+              </WithStyles(ListItemIcon)>
+              <FormattedMessage
+                defaultMessage="Unlock layout"
+                id="core.menu.unlock"
+                values={Object {}}
+              />
+            </WithStyles(MenuItem)>
+          </ConditionalComponent>
+          <WithStyles(Divider) />
+          <WithStyles(MenuItem)
+            onClick={[Function]}
+          >
+            <WithStyles(ListItemIcon)>
+              <pure(CreateNewFolderIcon) />
+            </WithStyles(ListItemIcon)>
+            <FormattedMessage
+              defaultMessage="New dashboard"
+              id="core.menu.createDashboard"
+              values={Object {}}
+            />
+          </WithStyles(MenuItem)>
+          <WithStyles(Divider) />
+          <WithStyles(MenuItem)
+            onClick={[Function]}
+          >
+            <WithStyles(ListItemIcon)>
+              <pure(AccountBoxIcon) />
+            </WithStyles(ListItemIcon)>
+            <FormattedMessage
+              defaultMessage="Connected accounts"
+              id="core.menu.account"
+              values={Object {}}
+            />
+          </WithStyles(MenuItem)>
+          <WithStyles(MenuItem)
+            onClick={[Function]}
+          >
+            <WithStyles(ListItemIcon)>
+              <pure(ExitToAppIcon) />
+            </WithStyles(ListItemIcon)>
+            <FormattedMessage
+              defaultMessage="Logout"
+              id="core.menu.logout"
+              values={Object {}}
+            />
+          </WithStyles(MenuItem)>
+        </WithStyles(Menu)>
+      </WithStyles(Toolbar)>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          Array [
+            <WithStyles(IconButton)
+              color="inherit"
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)
+                fontSize="large"
+              >
+                home
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+            <WithStyles(IconButton)
+              color="inherit"
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)
+                fontSize="small"
+              >
+                money
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+          ],
+          <div
+            style={
+              Object {
+                "flexGrow": 1,
+              }
+            }
+          />,
+          <ConditionalComponent
+            render={false}
+          >
+            <WithStyles(IconButton)
+              color="inherit"
+              onClick={[MockFunction]}
+            >
+              <pure(SaveIcon) />
+            </WithStyles(IconButton)>
+          </ConditionalComponent>,
+          <WithStyles(IconButton)
+            aria-haspopup="true"
+            color="inherit"
+            onClick={[Function]}
+          >
+            <pure(MenuIcon) />
+          </WithStyles(IconButton)>,
+          <WithStyles(Menu)
+            anchorEl={null}
+            anchorOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "top",
+              }
+            }
+            id="app-menu"
+            onClose={[Function]}
+            open={false}
+            transformOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "top",
+              }
+            }
+          >
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <WithStyles(ListItemIcon)>
+                <pure(NoteAddIcon) />
+              </WithStyles(ListItemIcon)>
+              <FormattedMessage
+                defaultMessage="Add widget"
+                id="core.menu.createWidget"
+                values={Object {}}
+              />
+            </WithStyles(MenuItem)>
+            <ConditionalComponent
+              render={true}
+            >
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                <WithStyles(ListItemIcon)>
+                  <pure(LockOpenIcon) />
+                </WithStyles(ListItemIcon)>
+                <FormattedMessage
+                  defaultMessage="Unlock layout"
+                  id="core.menu.unlock"
+                  values={Object {}}
+                />
+              </WithStyles(MenuItem)>
+            </ConditionalComponent>
+            <WithStyles(Divider) />
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <WithStyles(ListItemIcon)>
+                <pure(CreateNewFolderIcon) />
+              </WithStyles(ListItemIcon)>
+              <FormattedMessage
+                defaultMessage="New dashboard"
+                id="core.menu.createDashboard"
+                values={Object {}}
+              />
+            </WithStyles(MenuItem)>
+            <WithStyles(Divider) />
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <WithStyles(ListItemIcon)>
+                <pure(AccountBoxIcon) />
+              </WithStyles(ListItemIcon)>
+              <FormattedMessage
+                defaultMessage="Connected accounts"
+                id="core.menu.account"
+                values={Object {}}
+              />
+            </WithStyles(MenuItem)>
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <WithStyles(ListItemIcon)>
+                <pure(ExitToAppIcon) />
+              </WithStyles(ListItemIcon)>
+              <FormattedMessage
+                defaultMessage="Logout"
+                id="core.menu.logout"
+                values={Object {}}
+              />
+            </WithStyles(MenuItem)>
+          </WithStyles(Menu)>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "dashboard1",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(Icon)
+              fontSize="large"
+            >
+              home
+            </WithStyles(Icon)>,
+            "color": "inherit",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "home",
+              "fontSize": "large",
+            },
+            "ref": null,
+            "rendered": "home",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "dashboard2",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(Icon)
+              fontSize="small"
+            >
+              money
+            </WithStyles(Icon)>,
+            "color": "inherit",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "money",
+              "fontSize": "small",
+            },
+            "ref": null,
+            "rendered": "money",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "style": Object {
+              "flexGrow": 1,
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <WithStyles(IconButton)
+              color="inherit"
+              onClick={[MockFunction]}
+            >
+              <pure(SaveIcon) />
+            </WithStyles(IconButton)>,
+            "render": false,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <pure(SaveIcon) />,
+              "color": "inherit",
+              "onClick": [MockFunction],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "aria-haspopup": "true",
+            "aria-owns": undefined,
+            "children": <pure(MenuIcon) />,
+            "color": "inherit",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "anchorEl": null,
+            "anchorOrigin": Object {
+              "horizontal": "right",
+              "vertical": "top",
+            },
+            "children": Array [
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                <WithStyles(ListItemIcon)>
+                  <pure(NoteAddIcon) />
+                </WithStyles(ListItemIcon)>
+                <FormattedMessage
+                  defaultMessage="Add widget"
+                  id="core.menu.createWidget"
+                  values={Object {}}
+                />
+              </WithStyles(MenuItem)>,
+              <ConditionalComponent
+                render={true}
+              >
+                <WithStyles(MenuItem)
+                  onClick={[Function]}
+                >
+                  <WithStyles(ListItemIcon)>
+                    <pure(LockOpenIcon) />
+                  </WithStyles(ListItemIcon)>
+                  <FormattedMessage
+                    defaultMessage="Unlock layout"
+                    id="core.menu.unlock"
+                    values={Object {}}
+                  />
+                </WithStyles(MenuItem)>
+              </ConditionalComponent>,
+              <WithStyles(Divider) />,
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                <WithStyles(ListItemIcon)>
+                  <pure(CreateNewFolderIcon) />
+                </WithStyles(ListItemIcon)>
+                <FormattedMessage
+                  defaultMessage="New dashboard"
+                  id="core.menu.createDashboard"
+                  values={Object {}}
+                />
+              </WithStyles(MenuItem)>,
+              <WithStyles(Divider) />,
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                <WithStyles(ListItemIcon)>
+                  <pure(AccountBoxIcon) />
+                </WithStyles(ListItemIcon)>
+                <FormattedMessage
+                  defaultMessage="Connected accounts"
+                  id="core.menu.account"
+                  values={Object {}}
+                />
+              </WithStyles(MenuItem)>,
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                <WithStyles(ListItemIcon)>
+                  <pure(ExitToAppIcon) />
+                </WithStyles(ListItemIcon)>
+                <FormattedMessage
+                  defaultMessage="Logout"
+                  id="core.menu.logout"
+                  values={Object {}}
+                />
+              </WithStyles(MenuItem)>,
+            ],
+            "id": "app-menu",
+            "onClose": [Function],
+            "open": false,
+            "transformOrigin": Object {
+              "horizontal": "right",
+              "vertical": "top",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(ListItemIcon)>
+                    <pure(NoteAddIcon) />
+                  </WithStyles(ListItemIcon)>,
+                  <FormattedMessage
+                    defaultMessage="Add widget"
+                    id="core.menu.createWidget"
+                    values={Object {}}
+                  />,
+                ],
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <pure(NoteAddIcon) />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Add widget",
+                    "id": "core.menu.createWidget",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <WithStyles(MenuItem)
+                  onClick={[Function]}
+                >
+                  <WithStyles(ListItemIcon)>
+                    <pure(LockOpenIcon) />
+                  </WithStyles(ListItemIcon)>
+                  <FormattedMessage
+                    defaultMessage="Unlock layout"
+                    id="core.menu.unlock"
+                    values={Object {}}
+                  />
+                </WithStyles(MenuItem)>,
+                "render": true,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(ListItemIcon)>
+                      <pure(LockOpenIcon) />
+                    </WithStyles(ListItemIcon)>,
+                    <FormattedMessage
+                      defaultMessage="Unlock layout"
+                      id="core.menu.unlock"
+                      values={Object {}}
+                    />,
+                  ],
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <pure(LockOpenIcon) />,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Unlock layout",
+                      "id": "core.menu.unlock",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(ListItemIcon)>
+                    <pure(CreateNewFolderIcon) />
+                  </WithStyles(ListItemIcon)>,
+                  <FormattedMessage
+                    defaultMessage="New dashboard"
+                    id="core.menu.createDashboard"
+                    values={Object {}}
+                  />,
+                ],
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <pure(CreateNewFolderIcon) />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "New dashboard",
+                    "id": "core.menu.createDashboard",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(ListItemIcon)>
+                    <pure(AccountBoxIcon) />
+                  </WithStyles(ListItemIcon)>,
+                  <FormattedMessage
+                    defaultMessage="Connected accounts"
+                    id="core.menu.account"
+                    values={Object {}}
+                  />,
+                ],
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <pure(AccountBoxIcon) />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Connected accounts",
+                    "id": "core.menu.account",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(ListItemIcon)>
+                    <pure(ExitToAppIcon) />
+                  </WithStyles(ListItemIcon)>,
+                  <FormattedMessage
+                    defaultMessage="Logout"
+                    id="core.menu.logout"
+                    values={Object {}}
+                  />,
+                ],
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <pure(ExitToAppIcon) />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Logout",
+                    "id": "core.menu.logout",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <WithStyles(Toolbar)>
+          <WithStyles(IconButton)
+            color="inherit"
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)
+              fontSize="large"
+            >
+              home
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+          <WithStyles(IconButton)
+            color="inherit"
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)
+              fontSize="small"
+            >
+              money
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+          <div
+            style={
+              Object {
+                "flexGrow": 1,
+              }
+            }
+          />
+          <ConditionalComponent
+            render={false}
+          >
+            <WithStyles(IconButton)
+              color="inherit"
+              onClick={[MockFunction]}
+            >
+              <pure(SaveIcon) />
+            </WithStyles(IconButton)>
+          </ConditionalComponent>
+          <WithStyles(IconButton)
+            aria-haspopup="true"
+            color="inherit"
+            onClick={[Function]}
+          >
+            <pure(MenuIcon) />
+          </WithStyles(IconButton)>
+          <WithStyles(Menu)
+            anchorEl={null}
+            anchorOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "top",
+              }
+            }
+            id="app-menu"
+            onClose={[Function]}
+            open={false}
+            transformOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "top",
+              }
+            }
+          >
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <WithStyles(ListItemIcon)>
+                <pure(NoteAddIcon) />
+              </WithStyles(ListItemIcon)>
+              <FormattedMessage
+                defaultMessage="Add widget"
+                id="core.menu.createWidget"
+                values={Object {}}
+              />
+            </WithStyles(MenuItem)>
+            <ConditionalComponent
+              render={true}
+            >
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                <WithStyles(ListItemIcon)>
+                  <pure(LockOpenIcon) />
+                </WithStyles(ListItemIcon)>
+                <FormattedMessage
+                  defaultMessage="Unlock layout"
+                  id="core.menu.unlock"
+                  values={Object {}}
+                />
+              </WithStyles(MenuItem)>
+            </ConditionalComponent>
+            <WithStyles(Divider) />
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <WithStyles(ListItemIcon)>
+                <pure(CreateNewFolderIcon) />
+              </WithStyles(ListItemIcon)>
+              <FormattedMessage
+                defaultMessage="New dashboard"
+                id="core.menu.createDashboard"
+                values={Object {}}
+              />
+            </WithStyles(MenuItem)>
+            <WithStyles(Divider) />
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <WithStyles(ListItemIcon)>
+                <pure(AccountBoxIcon) />
+              </WithStyles(ListItemIcon)>
+              <FormattedMessage
+                defaultMessage="Connected accounts"
+                id="core.menu.account"
+                values={Object {}}
+              />
+            </WithStyles(MenuItem)>
+            <WithStyles(MenuItem)
+              onClick={[Function]}
+            >
+              <WithStyles(ListItemIcon)>
+                <pure(ExitToAppIcon) />
+              </WithStyles(ListItemIcon)>
+              <FormattedMessage
+                defaultMessage="Logout"
+                id="core.menu.logout"
+                values={Object {}}
+              />
+            </WithStyles(MenuItem)>
+          </WithStyles(Menu)>
+        </WithStyles(Toolbar)>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            Array [
+              <WithStyles(IconButton)
+                color="inherit"
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)
+                  fontSize="large"
+                >
+                  home
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+              <WithStyles(IconButton)
+                color="inherit"
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)
+                  fontSize="small"
+                >
+                  money
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+            ],
+            <div
+              style={
+                Object {
+                  "flexGrow": 1,
+                }
+              }
+            />,
+            <ConditionalComponent
+              render={false}
+            >
+              <WithStyles(IconButton)
+                color="inherit"
+                onClick={[MockFunction]}
+              >
+                <pure(SaveIcon) />
+              </WithStyles(IconButton)>
+            </ConditionalComponent>,
+            <WithStyles(IconButton)
+              aria-haspopup="true"
+              color="inherit"
+              onClick={[Function]}
+            >
+              <pure(MenuIcon) />
+            </WithStyles(IconButton)>,
+            <WithStyles(Menu)
+              anchorEl={null}
+              anchorOrigin={
+                Object {
+                  "horizontal": "right",
+                  "vertical": "top",
+                }
+              }
+              id="app-menu"
+              onClose={[Function]}
+              open={false}
+              transformOrigin={
+                Object {
+                  "horizontal": "right",
+                  "vertical": "top",
+                }
+              }
+            >
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                <WithStyles(ListItemIcon)>
+                  <pure(NoteAddIcon) />
+                </WithStyles(ListItemIcon)>
+                <FormattedMessage
+                  defaultMessage="Add widget"
+                  id="core.menu.createWidget"
+                  values={Object {}}
+                />
+              </WithStyles(MenuItem)>
+              <ConditionalComponent
+                render={true}
+              >
+                <WithStyles(MenuItem)
+                  onClick={[Function]}
+                >
+                  <WithStyles(ListItemIcon)>
+                    <pure(LockOpenIcon) />
+                  </WithStyles(ListItemIcon)>
+                  <FormattedMessage
+                    defaultMessage="Unlock layout"
+                    id="core.menu.unlock"
+                    values={Object {}}
+                  />
+                </WithStyles(MenuItem)>
+              </ConditionalComponent>
+              <WithStyles(Divider) />
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                <WithStyles(ListItemIcon)>
+                  <pure(CreateNewFolderIcon) />
+                </WithStyles(ListItemIcon)>
+                <FormattedMessage
+                  defaultMessage="New dashboard"
+                  id="core.menu.createDashboard"
+                  values={Object {}}
+                />
+              </WithStyles(MenuItem)>
+              <WithStyles(Divider) />
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                <WithStyles(ListItemIcon)>
+                  <pure(AccountBoxIcon) />
+                </WithStyles(ListItemIcon)>
+                <FormattedMessage
+                  defaultMessage="Connected accounts"
+                  id="core.menu.account"
+                  values={Object {}}
+                />
+              </WithStyles(MenuItem)>
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                <WithStyles(ListItemIcon)>
+                  <pure(ExitToAppIcon) />
+                </WithStyles(ListItemIcon)>
+                <FormattedMessage
+                  defaultMessage="Logout"
+                  id="core.menu.logout"
+                  values={Object {}}
+                />
+              </WithStyles(MenuItem)>
+            </WithStyles(Menu)>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "dashboard1",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)
+                fontSize="large"
+              >
+                home
+              </WithStyles(Icon)>,
+              "color": "inherit",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "home",
+                "fontSize": "large",
+              },
+              "ref": null,
+              "rendered": "home",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "dashboard2",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)
+                fontSize="small"
+              >
+                money
+              </WithStyles(Icon)>,
+              "color": "inherit",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "money",
+                "fontSize": "small",
+              },
+              "ref": null,
+              "rendered": "money",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "style": Object {
+                "flexGrow": 1,
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <WithStyles(IconButton)
+                color="inherit"
+                onClick={[MockFunction]}
+              >
+                <pure(SaveIcon) />
+              </WithStyles(IconButton)>,
+              "render": false,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <pure(SaveIcon) />,
+                "color": "inherit",
+                "onClick": [MockFunction],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "aria-haspopup": "true",
+              "aria-owns": undefined,
+              "children": <pure(MenuIcon) />,
+              "color": "inherit",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "anchorEl": null,
+              "anchorOrigin": Object {
+                "horizontal": "right",
+                "vertical": "top",
+              },
+              "children": Array [
+                <WithStyles(MenuItem)
+                  onClick={[Function]}
+                >
+                  <WithStyles(ListItemIcon)>
+                    <pure(NoteAddIcon) />
+                  </WithStyles(ListItemIcon)>
+                  <FormattedMessage
+                    defaultMessage="Add widget"
+                    id="core.menu.createWidget"
+                    values={Object {}}
+                  />
+                </WithStyles(MenuItem)>,
+                <ConditionalComponent
+                  render={true}
+                >
+                  <WithStyles(MenuItem)
+                    onClick={[Function]}
+                  >
+                    <WithStyles(ListItemIcon)>
+                      <pure(LockOpenIcon) />
+                    </WithStyles(ListItemIcon)>
+                    <FormattedMessage
+                      defaultMessage="Unlock layout"
+                      id="core.menu.unlock"
+                      values={Object {}}
+                    />
+                  </WithStyles(MenuItem)>
+                </ConditionalComponent>,
+                <WithStyles(Divider) />,
+                <WithStyles(MenuItem)
+                  onClick={[Function]}
+                >
+                  <WithStyles(ListItemIcon)>
+                    <pure(CreateNewFolderIcon) />
+                  </WithStyles(ListItemIcon)>
+                  <FormattedMessage
+                    defaultMessage="New dashboard"
+                    id="core.menu.createDashboard"
+                    values={Object {}}
+                  />
+                </WithStyles(MenuItem)>,
+                <WithStyles(Divider) />,
+                <WithStyles(MenuItem)
+                  onClick={[Function]}
+                >
+                  <WithStyles(ListItemIcon)>
+                    <pure(AccountBoxIcon) />
+                  </WithStyles(ListItemIcon)>
+                  <FormattedMessage
+                    defaultMessage="Connected accounts"
+                    id="core.menu.account"
+                    values={Object {}}
+                  />
+                </WithStyles(MenuItem)>,
+                <WithStyles(MenuItem)
+                  onClick={[Function]}
+                >
+                  <WithStyles(ListItemIcon)>
+                    <pure(ExitToAppIcon) />
+                  </WithStyles(ListItemIcon)>
+                  <FormattedMessage
+                    defaultMessage="Logout"
+                    id="core.menu.logout"
+                    values={Object {}}
+                  />
+                </WithStyles(MenuItem)>,
+              ],
+              "id": "app-menu",
+              "onClose": [Function],
+              "open": false,
+              "transformOrigin": Object {
+                "horizontal": "right",
+                "vertical": "top",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(ListItemIcon)>
+                      <pure(NoteAddIcon) />
+                    </WithStyles(ListItemIcon)>,
+                    <FormattedMessage
+                      defaultMessage="Add widget"
+                      id="core.menu.createWidget"
+                      values={Object {}}
+                    />,
+                  ],
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <pure(NoteAddIcon) />,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Add widget",
+                      "id": "core.menu.createWidget",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <WithStyles(MenuItem)
+                    onClick={[Function]}
+                  >
+                    <WithStyles(ListItemIcon)>
+                      <pure(LockOpenIcon) />
+                    </WithStyles(ListItemIcon)>
+                    <FormattedMessage
+                      defaultMessage="Unlock layout"
+                      id="core.menu.unlock"
+                      values={Object {}}
+                    />
+                  </WithStyles(MenuItem)>,
+                  "render": true,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <WithStyles(ListItemIcon)>
+                        <pure(LockOpenIcon) />
+                      </WithStyles(ListItemIcon)>,
+                      <FormattedMessage
+                        defaultMessage="Unlock layout"
+                        id="core.menu.unlock"
+                        values={Object {}}
+                      />,
+                    ],
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <pure(LockOpenIcon) />,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {},
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "defaultMessage": "Unlock layout",
+                        "id": "core.menu.unlock",
+                        "values": Object {},
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(ListItemIcon)>
+                      <pure(CreateNewFolderIcon) />
+                    </WithStyles(ListItemIcon)>,
+                    <FormattedMessage
+                      defaultMessage="New dashboard"
+                      id="core.menu.createDashboard"
+                      values={Object {}}
+                    />,
+                  ],
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <pure(CreateNewFolderIcon) />,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "New dashboard",
+                      "id": "core.menu.createDashboard",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(ListItemIcon)>
+                      <pure(AccountBoxIcon) />
+                    </WithStyles(ListItemIcon)>,
+                    <FormattedMessage
+                      defaultMessage="Connected accounts"
+                      id="core.menu.account"
+                      values={Object {}}
+                    />,
+                  ],
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <pure(AccountBoxIcon) />,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Connected accounts",
+                      "id": "core.menu.account",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(ListItemIcon)>
+                      <pure(ExitToAppIcon) />
+                    </WithStyles(ListItemIcon)>,
+                    <FormattedMessage
+                      defaultMessage="Logout"
+                      id="core.menu.logout"
+                      values={Object {}}
+                    />,
+                  ],
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <pure(ExitToAppIcon) />,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Logout",
+                      "id": "core.menu.logout",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

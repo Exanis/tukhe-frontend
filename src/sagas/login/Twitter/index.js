@@ -14,8 +14,7 @@ export default function* watcherSaga() {
 function fetchTwitterLoginToken() {
     return axios.post(
         api('/api/login/social/knox/twitter'),
-        {},
-        {withCredentials: true}
+        {}
     );
 }
 
@@ -23,12 +22,12 @@ function performTwitterAuth(token) {
     return oauth1Popup(
         'https://api.twitter.com/oauth/authenticate',
         token,
-        650,
-        495
+        495,
+        650
     );
 }
 
-function pollTwitterPopup(popup) {
+export function pollTwitterPopup(popup) {
     const result = pollOauth1Popup(popup);
 
     return result;
@@ -40,12 +39,11 @@ function finalizeTwitterLogin(token, verifier) {
         {
             oauth_token: token,
             oauth_verifier: verifier
-        },
-        {withCredentials: true}
+        }
     );
 }
 
-function *twitterLoginSaga() {
+export function *twitterLoginSaga() {
     try {
         const authToken = yield call(fetchTwitterLoginToken);
         const popup = performTwitterAuth(authToken.data.oauth_token);

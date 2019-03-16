@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should correctly use reducers 1`] = `
+Object {
+  "currentDashboard": null,
+  "dashboards": Array [
+    "test",
+    "test2",
+  ],
+  "data": Object {},
+  "widgets": Array [],
+}
+`;
+
+exports[`Should correctly use reducers 2`] = `
+Object {
+  "currentDashboard": null,
+  "dashboards": Array [],
+  "data": Object {},
+  "widgets": Array [
+    "test",
+    "test2",
+  ],
+}
+`;
+
+exports[`Should correctly use reducers 3`] = `
+Object {
+  "currentDashboard": "test",
+  "dashboards": Array [],
+  "data": Object {},
+  "widgets": Array [],
+}
+`;
+
+exports[`Should correctly use reducers 4`] = `
+Object {
+  "currentDashboard": null,
+  "dashboards": Array [],
+  "data": Object {
+    "test": "value",
+  },
+  "widgets": Array [],
+}
+`;
+
+exports[`Should correctly use reducers 5`] = `
+Object {
+  "currentDashboard": null,
+  "dashboards": Array [],
+  "data": Object {
+    "test": Array [
+      6,
+      5,
+    ],
+  },
+  "widgets": Array [],
+}
+`;
+
+exports[`Should correctly use reducers 6`] = `
+Object {
+  "currentDashboard": null,
+  "dashboards": Array [],
+  "data": Object {
+    "test": Array [
+      1,
+      2,
+      3,
+      4,
+      5,
+    ],
+  },
+  "widgets": Array [],
+}
+`;

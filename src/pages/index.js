@@ -1,7 +1,10 @@
 import React, {Component} from 'react';
-import {Route, Switch, Redirect} from "react-router-dom";
+import PropTypes from 'prop-types';
+import {Route, Switch, Redirect, withRouter} from "react-router-dom";
+import CssBaseline from '@material-ui/core/CssBaseline';
 import { withStyles } from '@material-ui/core/styles';
 import { connect } from 'react-redux';
+import { sessionLogin } from "../actions/login/index";
 
 import logo from './logo.png';
 
@@ -9,65 +12,86 @@ import Login from './Login';
 import Auth from './Auth';
 import Main from './Main';
 
-class DisconnectedProtectedRoute extends Component {
+export class DisconnectedProtectedRoute extends Component {
     render() {
         const { Page, user, ...rest } = this.props;
 
-        if (user.token === null)
+        if (user.token === null) {
             return <Redirect
-                        to={{
-                            pathname: '/login',
-                            state: {
-                                from: this.props.location
-                            }
-                        }}
-                    />;
+                to={{
+                    pathname: '/login',
+                    state: {
+                        from: this.props.location
+                    }
+                }}
+            />;
+        }
 
         return <Route {...rest} component={Page} />;
     }
 }
 
-class DisconnectedUnprotectedRoute extends Component {
+export class DisconnectedUnprotectedRoute extends Component {
     render() {
         const { Page, user, ...rest } = this.props;
 
-        if (user.token !== null)
+        if (user.token !== null) {
             return <Redirect
-                        to={{
-                            pathname: '/',
-                            state: {
-                                from: this.props.location
-                            }
-                        }}
-                    />;
+                to={{
+                    pathname: '/',
+                    state: {
+                        from: this.props.location
+                    }
+                }}
+            />;
+        }
         return <Route {...rest} component={Page} />;
     }
 }
 
-const mapStateToProps = (state) => {
+export const mapStateToProps = (state) => {
     return {
         user: state.user
     }
 };
 
-const ProtectedRoute = connect(mapStateToProps)(DisconnectedProtectedRoute);
-const UnprotectedRoute = connect(mapStateToProps)(DisconnectedUnprotectedRoute);
+const ProtectedRoute = withRouter(connect(mapStateToProps)(DisconnectedProtectedRoute));
+const UnprotectedRoute = withRouter(connect(mapStateToProps)(DisconnectedUnprotectedRoute));
 
-const styles = theme => ({
+ProtectedRoute.propTypes = {
+    location: PropTypes.object,
+    Page: PropTypes.func
+};
+DisconnectedProtectedRoute.propTypes = {
+    ...ProtectedRoute.propTypes,
+    user: PropTypes.object
+};
+UnprotectedRoute.propTypes = {
+    location: PropTypes.object,
+    Page: PropTypes.func
+};
+DisconnectedUnprotectedRoute.propTypes = {
+    ...ProtectedRoute.propTypes,
+    user: PropTypes.object
+};
+
+export const styles = theme => ({
     root: {
-        backgroundColor: "#f5f5f5",
-        height: "100%",
         backgroundImage: `url(${logo})`,
         backgroundPosition: "bottom right",
         backgroundRepeat: "no-repeat"
     }
 });
 
-export class App extends Component {
+export class RawApp extends Component {
     render() {
         const { classes } = this.props;
 
+        if (this.props.user.token === false)
+            return <div />;
+
         return <div className={classes.root}>
+            <CssBaseline/>
             <Switch>
                 <ProtectedRoute exact path={'/'} Page={Main} />
                 <UnprotectedRoute exact path='/login' Page={Login} />
@@ -75,6 +99,23 @@ export class App extends Component {
             </Switch>
         </div>
     };
+
+    componentDidMount() {
+        this.props.sessionLogin();
+    }
 }
 
-export default withStyles(styles)(App);
+const mapDispatchToProps = {
+    sessionLogin
+};
+
+const App = withRouter(withStyles(styles)(connect(mapStateToProps, mapDispatchToProps)(RawApp)));
+
+App.propTypes = {};
+RawApp.propTypes = {
+    ...App.propTypes,
+    classes: PropTypes.object,
+    user: PropTypes.object
+};
+
+export default App;

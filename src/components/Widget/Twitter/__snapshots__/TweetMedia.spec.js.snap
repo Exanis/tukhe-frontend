@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should keep styling consistant 1`] = `
+Object {
+  "tweetMedia": Object {
+    "backgroundSize": "cover",
+    "display": "block",
+    "flex": 1,
+    "minHeight": 80,
+    "minWidth": 80,
+  },
+}
+`;
+
+exports[`Should render as expected 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RawTweetMedia
+    classes={Object {}}
+    media={
+      Object {
+        "media_url": "url",
+      }
+    }
+    onMediaClick={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "className": undefined,
+      "onClick": [MockFunction],
+      "style": Object {
+        "backgroundImage": "url(url)",
+      },
+    },
+    "ref": null,
+    "rendered": null,
+    "type": "a",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "className": undefined,
+        "onClick": [MockFunction],
+        "style": Object {
+          "backgroundImage": "url(url)",
+        },
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "a",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

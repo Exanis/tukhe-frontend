@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should have correct reducers 1`] = `
+Object {
+  "currentDashboard": null,
+  "dashboards": Array [],
+  "token": "test",
+  "widgets": Array [],
+}
+`;
+
+exports[`Should have correct reducers 2`] = `
+Object {
+  "Authorization": "Token test",
+}
+`;
+
+exports[`Should have correct reducers 3`] = `
+Object {
+  "currentDashboard": null,
+  "dashboards": Array [],
+  "token": null,
+  "widgets": Array [],
+}
+`;
+
+exports[`Should have correct reducers 4`] = `
+Object {
+  "currentDashboard": null,
+  "dashboards": "test",
+  "token": false,
+  "widgets": Array [],
+}
+`;
+
+exports[`Should have correct reducers 5`] = `
+Object {
+  "currentDashboard": "test",
+  "dashboards": Array [],
+  "token": false,
+  "widgets": Array [],
+}
+`;
+
+exports[`Should have correct reducers 6`] = `
+Object {
+  "currentDashboard": null,
+  "dashboards": Array [],
+  "token": false,
+  "widgets": "test",
+}
+`;

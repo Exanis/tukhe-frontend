@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should have a watcher saga 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "args": Array [
+        [Function],
+        [Function],
+      ],
+      "context": null,
+      "fn": [Function],
+    },
+    "type": "FORK",
+  },
+}
+`;
+
+exports[`Should log user in when there is a token 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "action": Object {
+        "payload": "test",
+        "type": "user/setToken",
+      },
+      "channel": undefined,
+    },
+    "type": "PUT",
+  },
+}
+`;
+
+exports[`Should log user in when there is a token but it is null 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "action": Object {
+        "payload": null,
+        "type": "user/setToken",
+      },
+      "channel": undefined,
+    },
+    "type": "PUT",
+  },
+}
+`;
+
+exports[`Should log user in when there is no token 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "@@redux-saga/IO": true,
+    "combinator": false,
+    "payload": Object {
+      "action": Object {
+        "payload": null,
+        "type": "user/setToken",
+      },
+      "channel": undefined,
+    },
+    "type": "PUT",
+  },
+}
+`;

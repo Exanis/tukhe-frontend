@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should open popup as expected 1`] = `undefined`;
+
+exports[`Should open popup as expected 2`] = `
+Array [
+  "testurl?oauth_token=token",
+  "popupWindow",
+  "width=200,height=300,top=187.2,left=412",
+]
+`;

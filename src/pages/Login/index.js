@@ -11,7 +11,7 @@ import Button from '@material-ui/core/Button';
 
 import {twitterLogin} from "../../actions/login";
 
-const styles = theme => ({
+export const styles = theme => ({
     root: {
         flexGrow: 1,
         paddingTop: "5%",
@@ -38,7 +38,7 @@ const styles = theme => ({
     }
 });
 
-export class Login extends Component {
+export class RawLogin extends Component {
     render() {
         const { classes } = this.props;
 
@@ -86,7 +86,7 @@ export class Login extends Component {
     }
 }
 
-const mapStateToProps = state => {
+export const mapStateToProps = state => {
     return {}
 };
 
@@ -94,4 +94,6 @@ const mapDispatchToProps = {
     twitterLogin
 };
 
-export default withStyles(styles)(connect(mapStateToProps, mapDispatchToProps)(Login));
+const Login = withStyles(styles)(connect(mapStateToProps, mapDispatchToProps)(RawLogin));
+
+export default Login;

@@ -1,0 +1,3998 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should display media as expected with prop 1`] = `undefined`;
+
+exports[`Should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RawTweet
+    actionWithAccount={[MockFunction]}
+    addToWidgetData={[MockFunction]}
+    classes={Object {}}
+    closeElementPopup={[MockFunction]}
+    displayElementInPopup={[MockFunction]}
+    intl={
+      Object {
+        "formatMessage": [Function],
+      }
+    }
+    isQuote={false}
+    retweeted="test"
+    tweet={
+      Object {
+        "author": Object {
+          "avatar": "http://example.org/image.gif",
+          "name": "test",
+          "protected": false,
+          "screen_name": "test screen name",
+          "verified": true,
+        },
+        "id": "tweet number one",
+        "media": Array [
+          Object {
+            "media_url": "real media url",
+            "url": "[media]",
+          },
+        ],
+        "quoted": Object {
+          "id": "tweetid",
+        },
+        "replying_to": "test reply",
+        "retweeted_status": null,
+        "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+        "urls": Array [
+          Object {
+            "short": "[link]",
+            "target": "twitter/tweetid",
+          },
+          Object {
+            "short": "[badlink]",
+            "target": "http://www.google.fr",
+          },
+          Object {
+            "short": "[otherlink]",
+            "target": "http://www.twitter.com",
+          },
+        ],
+        "user_liked": true,
+        "user_retweeted": true,
+      }
+    }
+    updateElement={[MockFunction]}
+    updatePopupProps={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "alignItems": "flex-start",
+      "children": Array [
+        <ConditionalComponent
+          render={true}
+        >
+          <WithStyles(ListItemAvatar)>
+            <WithStyles(Avatar)
+              alt="test"
+              src="http://example.org/image.gif"
+            />
+          </WithStyles(ListItemAvatar)>
+        </ConditionalComponent>,
+        <WithStyles(ListItemText)
+          primary={
+            <React.Fragment>
+              <WithStyles(Typography)
+                color="secondary"
+                variant="caption"
+              >
+                test
+              </WithStyles(Typography)>
+              <WithStyles(RawTweetUserName)
+                user={
+                  Object {
+                    "avatar": "http://example.org/image.gif",
+                    "name": "test",
+                    "protected": false,
+                    "screen_name": "test screen name",
+                    "verified": true,
+                  }
+                }
+              />
+              <WithStyles(Typography)
+                color="primary"
+                variant="caption"
+              >
+                test
+              </WithStyles(Typography)>
+            </React.Fragment>
+          }
+          secondary={
+            <div>
+              <span>
+                Test de 
+                <br />
+              </span>
+              <span>
+                tweet 
+                <a
+                  href="[badlink]"
+                >
+                  http://www.google.fr
+                </a>
+                 
+                <a
+                  href="[otherlink]"
+                >
+                  http://www.twitter.com
+                </a>
+                  
+                <br />
+              </span>
+              <WithStyles(GridList)
+                cellHeight={80}
+                cols={2}
+              >
+                <WithStyles(RawTweetMedia)
+                  media={
+                    Object {
+                      "media_url": "real media url",
+                      "url": "[media]",
+                    }
+                  }
+                  onMediaClick={[Function]}
+                />
+              </WithStyles(GridList)>
+              <WithStyles(InjectIntl(RawTweet))
+                actionWithAccount={[MockFunction]}
+                addToWidgetData={[MockFunction]}
+                closeElementPopup={[MockFunction]}
+                displayElementInPopup={[MockFunction]}
+                isQuote={true}
+                tweet={
+                  Object {
+                    "id": "tweetid",
+                  }
+                }
+                updateElement={[MockFunction]}
+                updatePopupProps={[MockFunction]}
+              />
+              <ConditionalComponent
+                render={true}
+              >
+                <WithStyles(InjectIntl(RawLikeRt))
+                  actionWithAccount={[MockFunction]}
+                  addToWidgetData={[MockFunction]}
+                  closeElementPopup={[MockFunction]}
+                  displayElementInPopup={[MockFunction]}
+                  tweet={
+                    Object {
+                      "author": Object {
+                        "avatar": "http://example.org/image.gif",
+                        "name": "test",
+                        "protected": false,
+                        "screen_name": "test screen name",
+                        "verified": true,
+                      },
+                      "id": "tweet number one",
+                      "media": Array [
+                        Object {
+                          "media_url": "real media url",
+                          "url": "[media]",
+                        },
+                      ],
+                      "quoted": Object {
+                        "id": "tweetid",
+                      },
+                      "replying_to": "test reply",
+                      "retweeted_status": null,
+                      "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+                      "urls": Array [
+                        Object {
+                          "short": "[link]",
+                          "target": "twitter/tweetid",
+                        },
+                        Object {
+                          "short": "[badlink]",
+                          "target": "http://www.google.fr",
+                        },
+                        Object {
+                          "short": "[otherlink]",
+                          "target": "http://www.twitter.com",
+                        },
+                      ],
+                      "user_liked": true,
+                      "user_retweeted": true,
+                    }
+                  }
+                  updateElement={[MockFunction]}
+                  updatePopupProps={[MockFunction]}
+                />
+              </ConditionalComponent>
+            </div>
+          }
+        />,
+      ],
+      "className": "",
+      "divider": true,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <WithStyles(ListItemAvatar)>
+            <WithStyles(Avatar)
+              alt="test"
+              src="http://example.org/image.gif"
+            />
+          </WithStyles(ListItemAvatar)>,
+          "render": true,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(Avatar)
+              alt="test"
+              src="http://example.org/image.gif"
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alt": "test",
+              "src": "http://example.org/image.gif",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "primary": <React.Fragment>
+            <WithStyles(Typography)
+              color="secondary"
+              variant="caption"
+            >
+              test
+            </WithStyles(Typography)>
+            <WithStyles(RawTweetUserName)
+              user={
+                Object {
+                  "avatar": "http://example.org/image.gif",
+                  "name": "test",
+                  "protected": false,
+                  "screen_name": "test screen name",
+                  "verified": true,
+                }
+              }
+            />
+            <WithStyles(Typography)
+              color="primary"
+              variant="caption"
+            >
+              test
+            </WithStyles(Typography)>
+          </React.Fragment>,
+          "secondary": <div>
+            <span>
+              Test de 
+              <br />
+            </span>
+            <span>
+              tweet 
+              <a
+                href="[badlink]"
+              >
+                http://www.google.fr
+              </a>
+               
+              <a
+                href="[otherlink]"
+              >
+                http://www.twitter.com
+              </a>
+                
+              <br />
+            </span>
+            <WithStyles(GridList)
+              cellHeight={80}
+              cols={2}
+            >
+              <WithStyles(RawTweetMedia)
+                media={
+                  Object {
+                    "media_url": "real media url",
+                    "url": "[media]",
+                  }
+                }
+                onMediaClick={[Function]}
+              />
+            </WithStyles(GridList)>
+            <WithStyles(InjectIntl(RawTweet))
+              actionWithAccount={[MockFunction]}
+              addToWidgetData={[MockFunction]}
+              closeElementPopup={[MockFunction]}
+              displayElementInPopup={[MockFunction]}
+              isQuote={true}
+              tweet={
+                Object {
+                  "id": "tweetid",
+                }
+              }
+              updateElement={[MockFunction]}
+              updatePopupProps={[MockFunction]}
+            />
+            <ConditionalComponent
+              render={true}
+            >
+              <WithStyles(InjectIntl(RawLikeRt))
+                actionWithAccount={[MockFunction]}
+                addToWidgetData={[MockFunction]}
+                closeElementPopup={[MockFunction]}
+                displayElementInPopup={[MockFunction]}
+                tweet={
+                  Object {
+                    "author": Object {
+                      "avatar": "http://example.org/image.gif",
+                      "name": "test",
+                      "protected": false,
+                      "screen_name": "test screen name",
+                      "verified": true,
+                    },
+                    "id": "tweet number one",
+                    "media": Array [
+                      Object {
+                        "media_url": "real media url",
+                        "url": "[media]",
+                      },
+                    ],
+                    "quoted": Object {
+                      "id": "tweetid",
+                    },
+                    "replying_to": "test reply",
+                    "retweeted_status": null,
+                    "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+                    "urls": Array [
+                      Object {
+                        "short": "[link]",
+                        "target": "twitter/tweetid",
+                      },
+                      Object {
+                        "short": "[badlink]",
+                        "target": "http://www.google.fr",
+                      },
+                      Object {
+                        "short": "[otherlink]",
+                        "target": "http://www.twitter.com",
+                      },
+                    ],
+                    "user_liked": true,
+                    "user_retweeted": true,
+                  }
+                }
+                updateElement={[MockFunction]}
+                updatePopupProps={[MockFunction]}
+              />
+            </ConditionalComponent>
+          </div>,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alignItems": "flex-start",
+        "children": Array [
+          <ConditionalComponent
+            render={true}
+          >
+            <WithStyles(ListItemAvatar)>
+              <WithStyles(Avatar)
+                alt="test"
+                src="http://example.org/image.gif"
+              />
+            </WithStyles(ListItemAvatar)>
+          </ConditionalComponent>,
+          <WithStyles(ListItemText)
+            primary={
+              <React.Fragment>
+                <WithStyles(Typography)
+                  color="secondary"
+                  variant="caption"
+                >
+                  test
+                </WithStyles(Typography)>
+                <WithStyles(RawTweetUserName)
+                  user={
+                    Object {
+                      "avatar": "http://example.org/image.gif",
+                      "name": "test",
+                      "protected": false,
+                      "screen_name": "test screen name",
+                      "verified": true,
+                    }
+                  }
+                />
+                <WithStyles(Typography)
+                  color="primary"
+                  variant="caption"
+                >
+                  test
+                </WithStyles(Typography)>
+              </React.Fragment>
+            }
+            secondary={
+              <div>
+                <span>
+                  Test de 
+                  <br />
+                </span>
+                <span>
+                  tweet 
+                  <a
+                    href="[badlink]"
+                  >
+                    http://www.google.fr
+                  </a>
+                   
+                  <a
+                    href="[otherlink]"
+                  >
+                    http://www.twitter.com
+                  </a>
+                    
+                  <br />
+                </span>
+                <WithStyles(GridList)
+                  cellHeight={80}
+                  cols={2}
+                >
+                  <WithStyles(RawTweetMedia)
+                    media={
+                      Object {
+                        "media_url": "real media url",
+                        "url": "[media]",
+                      }
+                    }
+                    onMediaClick={[Function]}
+                  />
+                </WithStyles(GridList)>
+                <WithStyles(InjectIntl(RawTweet))
+                  actionWithAccount={[MockFunction]}
+                  addToWidgetData={[MockFunction]}
+                  closeElementPopup={[MockFunction]}
+                  displayElementInPopup={[MockFunction]}
+                  isQuote={true}
+                  tweet={
+                    Object {
+                      "id": "tweetid",
+                    }
+                  }
+                  updateElement={[MockFunction]}
+                  updatePopupProps={[MockFunction]}
+                />
+                <ConditionalComponent
+                  render={true}
+                >
+                  <WithStyles(InjectIntl(RawLikeRt))
+                    actionWithAccount={[MockFunction]}
+                    addToWidgetData={[MockFunction]}
+                    closeElementPopup={[MockFunction]}
+                    displayElementInPopup={[MockFunction]}
+                    tweet={
+                      Object {
+                        "author": Object {
+                          "avatar": "http://example.org/image.gif",
+                          "name": "test",
+                          "protected": false,
+                          "screen_name": "test screen name",
+                          "verified": true,
+                        },
+                        "id": "tweet number one",
+                        "media": Array [
+                          Object {
+                            "media_url": "real media url",
+                            "url": "[media]",
+                          },
+                        ],
+                        "quoted": Object {
+                          "id": "tweetid",
+                        },
+                        "replying_to": "test reply",
+                        "retweeted_status": null,
+                        "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+                        "urls": Array [
+                          Object {
+                            "short": "[link]",
+                            "target": "twitter/tweetid",
+                          },
+                          Object {
+                            "short": "[badlink]",
+                            "target": "http://www.google.fr",
+                          },
+                          Object {
+                            "short": "[otherlink]",
+                            "target": "http://www.twitter.com",
+                          },
+                        ],
+                        "user_liked": true,
+                        "user_retweeted": true,
+                      }
+                    }
+                    updateElement={[MockFunction]}
+                    updatePopupProps={[MockFunction]}
+                  />
+                </ConditionalComponent>
+              </div>
+            }
+          />,
+        ],
+        "className": "",
+        "divider": true,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <WithStyles(ListItemAvatar)>
+              <WithStyles(Avatar)
+                alt="test"
+                src="http://example.org/image.gif"
+              />
+            </WithStyles(ListItemAvatar)>,
+            "render": true,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Avatar)
+                alt="test"
+                src="http://example.org/image.gif"
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alt": "test",
+                "src": "http://example.org/image.gif",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "primary": <React.Fragment>
+              <WithStyles(Typography)
+                color="secondary"
+                variant="caption"
+              >
+                test
+              </WithStyles(Typography)>
+              <WithStyles(RawTweetUserName)
+                user={
+                  Object {
+                    "avatar": "http://example.org/image.gif",
+                    "name": "test",
+                    "protected": false,
+                    "screen_name": "test screen name",
+                    "verified": true,
+                  }
+                }
+              />
+              <WithStyles(Typography)
+                color="primary"
+                variant="caption"
+              >
+                test
+              </WithStyles(Typography)>
+            </React.Fragment>,
+            "secondary": <div>
+              <span>
+                Test de 
+                <br />
+              </span>
+              <span>
+                tweet 
+                <a
+                  href="[badlink]"
+                >
+                  http://www.google.fr
+                </a>
+                 
+                <a
+                  href="[otherlink]"
+                >
+                  http://www.twitter.com
+                </a>
+                  
+                <br />
+              </span>
+              <WithStyles(GridList)
+                cellHeight={80}
+                cols={2}
+              >
+                <WithStyles(RawTweetMedia)
+                  media={
+                    Object {
+                      "media_url": "real media url",
+                      "url": "[media]",
+                    }
+                  }
+                  onMediaClick={[Function]}
+                />
+              </WithStyles(GridList)>
+              <WithStyles(InjectIntl(RawTweet))
+                actionWithAccount={[MockFunction]}
+                addToWidgetData={[MockFunction]}
+                closeElementPopup={[MockFunction]}
+                displayElementInPopup={[MockFunction]}
+                isQuote={true}
+                tweet={
+                  Object {
+                    "id": "tweetid",
+                  }
+                }
+                updateElement={[MockFunction]}
+                updatePopupProps={[MockFunction]}
+              />
+              <ConditionalComponent
+                render={true}
+              >
+                <WithStyles(InjectIntl(RawLikeRt))
+                  actionWithAccount={[MockFunction]}
+                  addToWidgetData={[MockFunction]}
+                  closeElementPopup={[MockFunction]}
+                  displayElementInPopup={[MockFunction]}
+                  tweet={
+                    Object {
+                      "author": Object {
+                        "avatar": "http://example.org/image.gif",
+                        "name": "test",
+                        "protected": false,
+                        "screen_name": "test screen name",
+                        "verified": true,
+                      },
+                      "id": "tweet number one",
+                      "media": Array [
+                        Object {
+                          "media_url": "real media url",
+                          "url": "[media]",
+                        },
+                      ],
+                      "quoted": Object {
+                        "id": "tweetid",
+                      },
+                      "replying_to": "test reply",
+                      "retweeted_status": null,
+                      "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+                      "urls": Array [
+                        Object {
+                          "short": "[link]",
+                          "target": "twitter/tweetid",
+                        },
+                        Object {
+                          "short": "[badlink]",
+                          "target": "http://www.google.fr",
+                        },
+                        Object {
+                          "short": "[otherlink]",
+                          "target": "http://www.twitter.com",
+                        },
+                      ],
+                      "user_liked": true,
+                      "user_retweeted": true,
+                    }
+                  }
+                  updateElement={[MockFunction]}
+                  updatePopupProps={[MockFunction]}
+                />
+              </ConditionalComponent>
+            </div>,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Should render correctly as a retweet 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RawTweet
+    actionWithAccount={[MockFunction]}
+    addToWidgetData={[MockFunction]}
+    classes={Object {}}
+    closeElementPopup={[MockFunction]}
+    displayElementInPopup={[MockFunction]}
+    intl={
+      Object {
+        "formatMessage": [Function],
+      }
+    }
+    isQuote={false}
+    retweeted="test"
+    tweet={
+      Object {
+        "author": Object {
+          "avatar": "http://example.org/image.gif",
+          "name": "test",
+          "protected": false,
+          "screen_name": "test screen name",
+          "verified": true,
+        },
+        "id": "tweet number one",
+        "media": Array [
+          Object {
+            "media_url": "real media url",
+            "url": "[media]",
+          },
+        ],
+        "quoted": Object {
+          "id": "tweetid",
+        },
+        "replying_to": "test reply",
+        "retweeted_status": Object {
+          "author": Object {
+            "avatar": "http://example.org/image.gif",
+            "name": "test",
+            "protected": false,
+            "screen_name": "test screen name",
+            "verified": true,
+          },
+          "id": "tweet number one",
+          "media": Array [
+            Object {
+              "media_url": "real media url",
+              "url": "[media]",
+            },
+          ],
+          "quoted": Object {
+            "id": "tweetid",
+          },
+          "replying_to": "test reply",
+          "retweeted_status": null,
+          "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+          "urls": Array [
+            Object {
+              "short": "[link]",
+              "target": "twitter/tweetid",
+            },
+            Object {
+              "short": "[badlink]",
+              "target": "http://www.google.fr",
+            },
+            Object {
+              "short": "[otherlink]",
+              "target": "http://www.twitter.com",
+            },
+          ],
+          "user_liked": true,
+          "user_retweeted": true,
+        },
+        "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+        "urls": Array [
+          Object {
+            "short": "[link]",
+            "target": "twitter/tweetid",
+          },
+          Object {
+            "short": "[badlink]",
+            "target": "http://www.google.fr",
+          },
+          Object {
+            "short": "[otherlink]",
+            "target": "http://www.twitter.com",
+          },
+        ],
+        "user_liked": true,
+        "user_retweeted": true,
+      }
+    }
+    updateElement={[MockFunction]}
+    updatePopupProps={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "actionWithAccount": [MockFunction],
+      "addToWidgetData": [MockFunction],
+      "closeElementPopup": [MockFunction],
+      "displayElementInPopup": [MockFunction],
+      "isQuote": false,
+      "retweeted": "test screen name",
+      "tweet": Object {
+        "author": Object {
+          "avatar": "http://example.org/image.gif",
+          "name": "test",
+          "protected": false,
+          "screen_name": "test screen name",
+          "verified": true,
+        },
+        "id": "tweet number one",
+        "media": Array [
+          Object {
+            "media_url": "real media url",
+            "url": "[media]",
+          },
+        ],
+        "quoted": Object {
+          "id": "tweetid",
+        },
+        "replying_to": "test reply",
+        "retweeted_status": null,
+        "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+        "urls": Array [
+          Object {
+            "short": "[link]",
+            "target": "twitter/tweetid",
+          },
+          Object {
+            "short": "[badlink]",
+            "target": "http://www.google.fr",
+          },
+          Object {
+            "short": "[otherlink]",
+            "target": "http://www.twitter.com",
+          },
+        ],
+        "user_liked": true,
+        "user_retweeted": true,
+      },
+      "updateElement": [MockFunction],
+      "updatePopupProps": [MockFunction],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "actionWithAccount": [MockFunction],
+        "addToWidgetData": [MockFunction],
+        "closeElementPopup": [MockFunction],
+        "displayElementInPopup": [MockFunction],
+        "isQuote": false,
+        "retweeted": "test screen name",
+        "tweet": Object {
+          "author": Object {
+            "avatar": "http://example.org/image.gif",
+            "name": "test",
+            "protected": false,
+            "screen_name": "test screen name",
+            "verified": true,
+          },
+          "id": "tweet number one",
+          "media": Array [
+            Object {
+              "media_url": "real media url",
+              "url": "[media]",
+            },
+          ],
+          "quoted": Object {
+            "id": "tweetid",
+          },
+          "replying_to": "test reply",
+          "retweeted_status": null,
+          "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+          "urls": Array [
+            Object {
+              "short": "[link]",
+              "target": "twitter/tweetid",
+            },
+            Object {
+              "short": "[badlink]",
+              "target": "http://www.google.fr",
+            },
+            Object {
+              "short": "[otherlink]",
+              "target": "http://www.twitter.com",
+            },
+          ],
+          "user_liked": true,
+          "user_retweeted": true,
+        },
+        "updateElement": [MockFunction],
+        "updatePopupProps": [MockFunction],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Should render correctly when is quote 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RawTweet
+    actionWithAccount={[MockFunction]}
+    addToWidgetData={[MockFunction]}
+    classes={Object {}}
+    closeElementPopup={[MockFunction]}
+    displayElementInPopup={[MockFunction]}
+    intl={
+      Object {
+        "formatMessage": [Function],
+      }
+    }
+    isQuote={true}
+    retweeted="test"
+    tweet={
+      Object {
+        "author": Object {
+          "avatar": "http://example.org/image.gif",
+          "name": "test",
+          "protected": false,
+          "screen_name": "test screen name",
+          "verified": true,
+        },
+        "id": "tweet number one",
+        "media": Array [
+          Object {
+            "media_url": "real media url",
+            "url": "[media]",
+          },
+        ],
+        "quoted": Object {
+          "id": "tweetid",
+        },
+        "replying_to": "test reply",
+        "retweeted_status": null,
+        "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+        "urls": Array [
+          Object {
+            "short": "[link]",
+            "target": "twitter/tweetid",
+          },
+          Object {
+            "short": "[badlink]",
+            "target": "http://www.google.fr",
+          },
+          Object {
+            "short": "[otherlink]",
+            "target": "http://www.twitter.com",
+          },
+        ],
+        "user_liked": true,
+        "user_retweeted": true,
+      }
+    }
+    updateElement={[MockFunction]}
+    updatePopupProps={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "alignItems": "flex-start",
+      "children": Array [
+        <ConditionalComponent
+          render={false}
+        >
+          <WithStyles(ListItemAvatar)>
+            <WithStyles(Avatar)
+              alt="test"
+              src="http://example.org/image.gif"
+            />
+          </WithStyles(ListItemAvatar)>
+        </ConditionalComponent>,
+        <WithStyles(ListItemText)
+          primary={
+            <React.Fragment>
+              <WithStyles(Typography)
+                color="secondary"
+                variant="caption"
+              >
+                test
+              </WithStyles(Typography)>
+              <WithStyles(RawTweetUserName)
+                user={
+                  Object {
+                    "avatar": "http://example.org/image.gif",
+                    "name": "test",
+                    "protected": false,
+                    "screen_name": "test screen name",
+                    "verified": true,
+                  }
+                }
+              />
+              <WithStyles(Typography)
+                color="primary"
+                variant="caption"
+              >
+                test
+              </WithStyles(Typography)>
+            </React.Fragment>
+          }
+          secondary={
+            <div>
+              <span>
+                Test de 
+                <br />
+              </span>
+              <span>
+                tweet 
+                <a
+                  href="[badlink]"
+                >
+                  http://www.google.fr
+                </a>
+                 
+                <a
+                  href="[otherlink]"
+                >
+                  http://www.twitter.com
+                </a>
+                  
+                <br />
+              </span>
+              <WithStyles(GridList)
+                cellHeight={80}
+                cols={2}
+              >
+                <WithStyles(RawTweetMedia)
+                  media={
+                    Object {
+                      "media_url": "real media url",
+                      "url": "[media]",
+                    }
+                  }
+                  onMediaClick={[Function]}
+                />
+              </WithStyles(GridList)>
+              <ConditionalComponent
+                render={true}
+              >
+                <WithStyles(InjectIntl(RawLikeRt))
+                  actionWithAccount={[MockFunction]}
+                  addToWidgetData={[MockFunction]}
+                  closeElementPopup={[MockFunction]}
+                  displayElementInPopup={[MockFunction]}
+                  tweet={
+                    Object {
+                      "author": Object {
+                        "avatar": "http://example.org/image.gif",
+                        "name": "test",
+                        "protected": false,
+                        "screen_name": "test screen name",
+                        "verified": true,
+                      },
+                      "id": "tweet number one",
+                      "media": Array [
+                        Object {
+                          "media_url": "real media url",
+                          "url": "[media]",
+                        },
+                      ],
+                      "quoted": Object {
+                        "id": "tweetid",
+                      },
+                      "replying_to": "test reply",
+                      "retweeted_status": null,
+                      "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+                      "urls": Array [
+                        Object {
+                          "short": "[link]",
+                          "target": "twitter/tweetid",
+                        },
+                        Object {
+                          "short": "[badlink]",
+                          "target": "http://www.google.fr",
+                        },
+                        Object {
+                          "short": "[otherlink]",
+                          "target": "http://www.twitter.com",
+                        },
+                      ],
+                      "user_liked": true,
+                      "user_retweeted": true,
+                    }
+                  }
+                  updateElement={[MockFunction]}
+                  updatePopupProps={[MockFunction]}
+                />
+              </ConditionalComponent>
+            </div>
+          }
+        />,
+      ],
+      "className": undefined,
+      "divider": false,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <WithStyles(ListItemAvatar)>
+            <WithStyles(Avatar)
+              alt="test"
+              src="http://example.org/image.gif"
+            />
+          </WithStyles(ListItemAvatar)>,
+          "render": false,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(Avatar)
+              alt="test"
+              src="http://example.org/image.gif"
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alt": "test",
+              "src": "http://example.org/image.gif",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "primary": <React.Fragment>
+            <WithStyles(Typography)
+              color="secondary"
+              variant="caption"
+            >
+              test
+            </WithStyles(Typography)>
+            <WithStyles(RawTweetUserName)
+              user={
+                Object {
+                  "avatar": "http://example.org/image.gif",
+                  "name": "test",
+                  "protected": false,
+                  "screen_name": "test screen name",
+                  "verified": true,
+                }
+              }
+            />
+            <WithStyles(Typography)
+              color="primary"
+              variant="caption"
+            >
+              test
+            </WithStyles(Typography)>
+          </React.Fragment>,
+          "secondary": <div>
+            <span>
+              Test de 
+              <br />
+            </span>
+            <span>
+              tweet 
+              <a
+                href="[badlink]"
+              >
+                http://www.google.fr
+              </a>
+               
+              <a
+                href="[otherlink]"
+              >
+                http://www.twitter.com
+              </a>
+                
+              <br />
+            </span>
+            <WithStyles(GridList)
+              cellHeight={80}
+              cols={2}
+            >
+              <WithStyles(RawTweetMedia)
+                media={
+                  Object {
+                    "media_url": "real media url",
+                    "url": "[media]",
+                  }
+                }
+                onMediaClick={[Function]}
+              />
+            </WithStyles(GridList)>
+            <ConditionalComponent
+              render={true}
+            >
+              <WithStyles(InjectIntl(RawLikeRt))
+                actionWithAccount={[MockFunction]}
+                addToWidgetData={[MockFunction]}
+                closeElementPopup={[MockFunction]}
+                displayElementInPopup={[MockFunction]}
+                tweet={
+                  Object {
+                    "author": Object {
+                      "avatar": "http://example.org/image.gif",
+                      "name": "test",
+                      "protected": false,
+                      "screen_name": "test screen name",
+                      "verified": true,
+                    },
+                    "id": "tweet number one",
+                    "media": Array [
+                      Object {
+                        "media_url": "real media url",
+                        "url": "[media]",
+                      },
+                    ],
+                    "quoted": Object {
+                      "id": "tweetid",
+                    },
+                    "replying_to": "test reply",
+                    "retweeted_status": null,
+                    "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+                    "urls": Array [
+                      Object {
+                        "short": "[link]",
+                        "target": "twitter/tweetid",
+                      },
+                      Object {
+                        "short": "[badlink]",
+                        "target": "http://www.google.fr",
+                      },
+                      Object {
+                        "short": "[otherlink]",
+                        "target": "http://www.twitter.com",
+                      },
+                    ],
+                    "user_liked": true,
+                    "user_retweeted": true,
+                  }
+                }
+                updateElement={[MockFunction]}
+                updatePopupProps={[MockFunction]}
+              />
+            </ConditionalComponent>
+          </div>,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alignItems": "flex-start",
+        "children": Array [
+          <ConditionalComponent
+            render={false}
+          >
+            <WithStyles(ListItemAvatar)>
+              <WithStyles(Avatar)
+                alt="test"
+                src="http://example.org/image.gif"
+              />
+            </WithStyles(ListItemAvatar)>
+          </ConditionalComponent>,
+          <WithStyles(ListItemText)
+            primary={
+              <React.Fragment>
+                <WithStyles(Typography)
+                  color="secondary"
+                  variant="caption"
+                >
+                  test
+                </WithStyles(Typography)>
+                <WithStyles(RawTweetUserName)
+                  user={
+                    Object {
+                      "avatar": "http://example.org/image.gif",
+                      "name": "test",
+                      "protected": false,
+                      "screen_name": "test screen name",
+                      "verified": true,
+                    }
+                  }
+                />
+                <WithStyles(Typography)
+                  color="primary"
+                  variant="caption"
+                >
+                  test
+                </WithStyles(Typography)>
+              </React.Fragment>
+            }
+            secondary={
+              <div>
+                <span>
+                  Test de 
+                  <br />
+                </span>
+                <span>
+                  tweet 
+                  <a
+                    href="[badlink]"
+                  >
+                    http://www.google.fr
+                  </a>
+                   
+                  <a
+                    href="[otherlink]"
+                  >
+                    http://www.twitter.com
+                  </a>
+                    
+                  <br />
+                </span>
+                <WithStyles(GridList)
+                  cellHeight={80}
+                  cols={2}
+                >
+                  <WithStyles(RawTweetMedia)
+                    media={
+                      Object {
+                        "media_url": "real media url",
+                        "url": "[media]",
+                      }
+                    }
+                    onMediaClick={[Function]}
+                  />
+                </WithStyles(GridList)>
+                <ConditionalComponent
+                  render={true}
+                >
+                  <WithStyles(InjectIntl(RawLikeRt))
+                    actionWithAccount={[MockFunction]}
+                    addToWidgetData={[MockFunction]}
+                    closeElementPopup={[MockFunction]}
+                    displayElementInPopup={[MockFunction]}
+                    tweet={
+                      Object {
+                        "author": Object {
+                          "avatar": "http://example.org/image.gif",
+                          "name": "test",
+                          "protected": false,
+                          "screen_name": "test screen name",
+                          "verified": true,
+                        },
+                        "id": "tweet number one",
+                        "media": Array [
+                          Object {
+                            "media_url": "real media url",
+                            "url": "[media]",
+                          },
+                        ],
+                        "quoted": Object {
+                          "id": "tweetid",
+                        },
+                        "replying_to": "test reply",
+                        "retweeted_status": null,
+                        "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+                        "urls": Array [
+                          Object {
+                            "short": "[link]",
+                            "target": "twitter/tweetid",
+                          },
+                          Object {
+                            "short": "[badlink]",
+                            "target": "http://www.google.fr",
+                          },
+                          Object {
+                            "short": "[otherlink]",
+                            "target": "http://www.twitter.com",
+                          },
+                        ],
+                        "user_liked": true,
+                        "user_retweeted": true,
+                      }
+                    }
+                    updateElement={[MockFunction]}
+                    updatePopupProps={[MockFunction]}
+                  />
+                </ConditionalComponent>
+              </div>
+            }
+          />,
+        ],
+        "className": undefined,
+        "divider": false,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <WithStyles(ListItemAvatar)>
+              <WithStyles(Avatar)
+                alt="test"
+                src="http://example.org/image.gif"
+              />
+            </WithStyles(ListItemAvatar)>,
+            "render": false,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Avatar)
+                alt="test"
+                src="http://example.org/image.gif"
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alt": "test",
+                "src": "http://example.org/image.gif",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "primary": <React.Fragment>
+              <WithStyles(Typography)
+                color="secondary"
+                variant="caption"
+              >
+                test
+              </WithStyles(Typography)>
+              <WithStyles(RawTweetUserName)
+                user={
+                  Object {
+                    "avatar": "http://example.org/image.gif",
+                    "name": "test",
+                    "protected": false,
+                    "screen_name": "test screen name",
+                    "verified": true,
+                  }
+                }
+              />
+              <WithStyles(Typography)
+                color="primary"
+                variant="caption"
+              >
+                test
+              </WithStyles(Typography)>
+            </React.Fragment>,
+            "secondary": <div>
+              <span>
+                Test de 
+                <br />
+              </span>
+              <span>
+                tweet 
+                <a
+                  href="[badlink]"
+                >
+                  http://www.google.fr
+                </a>
+                 
+                <a
+                  href="[otherlink]"
+                >
+                  http://www.twitter.com
+                </a>
+                  
+                <br />
+              </span>
+              <WithStyles(GridList)
+                cellHeight={80}
+                cols={2}
+              >
+                <WithStyles(RawTweetMedia)
+                  media={
+                    Object {
+                      "media_url": "real media url",
+                      "url": "[media]",
+                    }
+                  }
+                  onMediaClick={[Function]}
+                />
+              </WithStyles(GridList)>
+              <ConditionalComponent
+                render={true}
+              >
+                <WithStyles(InjectIntl(RawLikeRt))
+                  actionWithAccount={[MockFunction]}
+                  addToWidgetData={[MockFunction]}
+                  closeElementPopup={[MockFunction]}
+                  displayElementInPopup={[MockFunction]}
+                  tweet={
+                    Object {
+                      "author": Object {
+                        "avatar": "http://example.org/image.gif",
+                        "name": "test",
+                        "protected": false,
+                        "screen_name": "test screen name",
+                        "verified": true,
+                      },
+                      "id": "tweet number one",
+                      "media": Array [
+                        Object {
+                          "media_url": "real media url",
+                          "url": "[media]",
+                        },
+                      ],
+                      "quoted": Object {
+                        "id": "tweetid",
+                      },
+                      "replying_to": "test reply",
+                      "retweeted_status": null,
+                      "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+                      "urls": Array [
+                        Object {
+                          "short": "[link]",
+                          "target": "twitter/tweetid",
+                        },
+                        Object {
+                          "short": "[badlink]",
+                          "target": "http://www.google.fr",
+                        },
+                        Object {
+                          "short": "[otherlink]",
+                          "target": "http://www.twitter.com",
+                        },
+                      ],
+                      "user_liked": true,
+                      "user_retweeted": true,
+                    }
+                  }
+                  updateElement={[MockFunction]}
+                  updatePopupProps={[MockFunction]}
+                />
+              </ConditionalComponent>
+            </div>,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Should render correctly when no tweet is quoted 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RawTweet
+    actionWithAccount={[MockFunction]}
+    addToWidgetData={[MockFunction]}
+    classes={Object {}}
+    closeElementPopup={[MockFunction]}
+    displayElementInPopup={[MockFunction]}
+    intl={
+      Object {
+        "formatMessage": [Function],
+      }
+    }
+    isQuote={false}
+    retweeted="test"
+    tweet={
+      Object {
+        "author": Object {
+          "avatar": "http://example.org/image.gif",
+          "name": "test",
+          "protected": false,
+          "screen_name": "test screen name",
+          "verified": true,
+        },
+        "id": "tweet number one",
+        "media": Array [
+          Object {
+            "media_url": "real media url",
+            "url": "[media]",
+          },
+        ],
+        "quoted": Object {
+          "id": "anotherid",
+        },
+        "replying_to": "test reply",
+        "retweeted_status": null,
+        "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+        "urls": Array [
+          Object {
+            "short": "[link]",
+            "target": "twitter/tweetid",
+          },
+          Object {
+            "short": "[badlink]",
+            "target": "http://www.google.fr",
+          },
+          Object {
+            "short": "[otherlink]",
+            "target": "http://www.twitter.com",
+          },
+        ],
+        "user_liked": true,
+        "user_retweeted": true,
+      }
+    }
+    updateElement={[MockFunction]}
+    updatePopupProps={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "alignItems": "flex-start",
+      "children": Array [
+        <ConditionalComponent
+          render={true}
+        >
+          <WithStyles(ListItemAvatar)>
+            <WithStyles(Avatar)
+              alt="test"
+              src="http://example.org/image.gif"
+            />
+          </WithStyles(ListItemAvatar)>
+        </ConditionalComponent>,
+        <WithStyles(ListItemText)
+          primary={
+            <React.Fragment>
+              <WithStyles(Typography)
+                color="secondary"
+                variant="caption"
+              >
+                test
+              </WithStyles(Typography)>
+              <WithStyles(RawTweetUserName)
+                user={
+                  Object {
+                    "avatar": "http://example.org/image.gif",
+                    "name": "test",
+                    "protected": false,
+                    "screen_name": "test screen name",
+                    "verified": true,
+                  }
+                }
+              />
+              <WithStyles(Typography)
+                color="primary"
+                variant="caption"
+              >
+                test
+              </WithStyles(Typography)>
+            </React.Fragment>
+          }
+          secondary={
+            <div>
+              <span>
+                Test de 
+                <br />
+              </span>
+              <span>
+                tweet 
+                <a
+                  href="[badlink]"
+                >
+                  http://www.google.fr
+                </a>
+                 
+                <a
+                  href="[otherlink]"
+                >
+                  http://www.twitter.com
+                </a>
+                 
+                <a
+                  href="[link]"
+                >
+                  twitter/tweetid
+                </a>
+                 
+                <br />
+              </span>
+              <WithStyles(GridList)
+                cellHeight={80}
+                cols={2}
+              >
+                <WithStyles(RawTweetMedia)
+                  media={
+                    Object {
+                      "media_url": "real media url",
+                      "url": "[media]",
+                    }
+                  }
+                  onMediaClick={[Function]}
+                />
+              </WithStyles(GridList)>
+              <WithStyles(InjectIntl(RawTweet))
+                actionWithAccount={[MockFunction]}
+                addToWidgetData={[MockFunction]}
+                closeElementPopup={[MockFunction]}
+                displayElementInPopup={[MockFunction]}
+                isQuote={true}
+                tweet={
+                  Object {
+                    "id": "anotherid",
+                  }
+                }
+                updateElement={[MockFunction]}
+                updatePopupProps={[MockFunction]}
+              />
+              <ConditionalComponent
+                render={true}
+              >
+                <WithStyles(InjectIntl(RawLikeRt))
+                  actionWithAccount={[MockFunction]}
+                  addToWidgetData={[MockFunction]}
+                  closeElementPopup={[MockFunction]}
+                  displayElementInPopup={[MockFunction]}
+                  tweet={
+                    Object {
+                      "author": Object {
+                        "avatar": "http://example.org/image.gif",
+                        "name": "test",
+                        "protected": false,
+                        "screen_name": "test screen name",
+                        "verified": true,
+                      },
+                      "id": "tweet number one",
+                      "media": Array [
+                        Object {
+                          "media_url": "real media url",
+                          "url": "[media]",
+                        },
+                      ],
+                      "quoted": Object {
+                        "id": "anotherid",
+                      },
+                      "replying_to": "test reply",
+                      "retweeted_status": null,
+                      "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+                      "urls": Array [
+                        Object {
+                          "short": "[link]",
+                          "target": "twitter/tweetid",
+                        },
+                        Object {
+                          "short": "[badlink]",
+                          "target": "http://www.google.fr",
+                        },
+                        Object {
+                          "short": "[otherlink]",
+                          "target": "http://www.twitter.com",
+                        },
+                      ],
+                      "user_liked": true,
+                      "user_retweeted": true,
+                    }
+                  }
+                  updateElement={[MockFunction]}
+                  updatePopupProps={[MockFunction]}
+                />
+              </ConditionalComponent>
+            </div>
+          }
+        />,
+      ],
+      "className": "",
+      "divider": true,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <WithStyles(ListItemAvatar)>
+            <WithStyles(Avatar)
+              alt="test"
+              src="http://example.org/image.gif"
+            />
+          </WithStyles(ListItemAvatar)>,
+          "render": true,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(Avatar)
+              alt="test"
+              src="http://example.org/image.gif"
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alt": "test",
+              "src": "http://example.org/image.gif",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "primary": <React.Fragment>
+            <WithStyles(Typography)
+              color="secondary"
+              variant="caption"
+            >
+              test
+            </WithStyles(Typography)>
+            <WithStyles(RawTweetUserName)
+              user={
+                Object {
+                  "avatar": "http://example.org/image.gif",
+                  "name": "test",
+                  "protected": false,
+                  "screen_name": "test screen name",
+                  "verified": true,
+                }
+              }
+            />
+            <WithStyles(Typography)
+              color="primary"
+              variant="caption"
+            >
+              test
+            </WithStyles(Typography)>
+          </React.Fragment>,
+          "secondary": <div>
+            <span>
+              Test de 
+              <br />
+            </span>
+            <span>
+              tweet 
+              <a
+                href="[badlink]"
+              >
+                http://www.google.fr
+              </a>
+               
+              <a
+                href="[otherlink]"
+              >
+                http://www.twitter.com
+              </a>
+               
+              <a
+                href="[link]"
+              >
+                twitter/tweetid
+              </a>
+               
+              <br />
+            </span>
+            <WithStyles(GridList)
+              cellHeight={80}
+              cols={2}
+            >
+              <WithStyles(RawTweetMedia)
+                media={
+                  Object {
+                    "media_url": "real media url",
+                    "url": "[media]",
+                  }
+                }
+                onMediaClick={[Function]}
+              />
+            </WithStyles(GridList)>
+            <WithStyles(InjectIntl(RawTweet))
+              actionWithAccount={[MockFunction]}
+              addToWidgetData={[MockFunction]}
+              closeElementPopup={[MockFunction]}
+              displayElementInPopup={[MockFunction]}
+              isQuote={true}
+              tweet={
+                Object {
+                  "id": "anotherid",
+                }
+              }
+              updateElement={[MockFunction]}
+              updatePopupProps={[MockFunction]}
+            />
+            <ConditionalComponent
+              render={true}
+            >
+              <WithStyles(InjectIntl(RawLikeRt))
+                actionWithAccount={[MockFunction]}
+                addToWidgetData={[MockFunction]}
+                closeElementPopup={[MockFunction]}
+                displayElementInPopup={[MockFunction]}
+                tweet={
+                  Object {
+                    "author": Object {
+                      "avatar": "http://example.org/image.gif",
+                      "name": "test",
+                      "protected": false,
+                      "screen_name": "test screen name",
+                      "verified": true,
+                    },
+                    "id": "tweet number one",
+                    "media": Array [
+                      Object {
+                        "media_url": "real media url",
+                        "url": "[media]",
+                      },
+                    ],
+                    "quoted": Object {
+                      "id": "anotherid",
+                    },
+                    "replying_to": "test reply",
+                    "retweeted_status": null,
+                    "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+                    "urls": Array [
+                      Object {
+                        "short": "[link]",
+                        "target": "twitter/tweetid",
+                      },
+                      Object {
+                        "short": "[badlink]",
+                        "target": "http://www.google.fr",
+                      },
+                      Object {
+                        "short": "[otherlink]",
+                        "target": "http://www.twitter.com",
+                      },
+                    ],
+                    "user_liked": true,
+                    "user_retweeted": true,
+                  }
+                }
+                updateElement={[MockFunction]}
+                updatePopupProps={[MockFunction]}
+              />
+            </ConditionalComponent>
+          </div>,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alignItems": "flex-start",
+        "children": Array [
+          <ConditionalComponent
+            render={true}
+          >
+            <WithStyles(ListItemAvatar)>
+              <WithStyles(Avatar)
+                alt="test"
+                src="http://example.org/image.gif"
+              />
+            </WithStyles(ListItemAvatar)>
+          </ConditionalComponent>,
+          <WithStyles(ListItemText)
+            primary={
+              <React.Fragment>
+                <WithStyles(Typography)
+                  color="secondary"
+                  variant="caption"
+                >
+                  test
+                </WithStyles(Typography)>
+                <WithStyles(RawTweetUserName)
+                  user={
+                    Object {
+                      "avatar": "http://example.org/image.gif",
+                      "name": "test",
+                      "protected": false,
+                      "screen_name": "test screen name",
+                      "verified": true,
+                    }
+                  }
+                />
+                <WithStyles(Typography)
+                  color="primary"
+                  variant="caption"
+                >
+                  test
+                </WithStyles(Typography)>
+              </React.Fragment>
+            }
+            secondary={
+              <div>
+                <span>
+                  Test de 
+                  <br />
+                </span>
+                <span>
+                  tweet 
+                  <a
+                    href="[badlink]"
+                  >
+                    http://www.google.fr
+                  </a>
+                   
+                  <a
+                    href="[otherlink]"
+                  >
+                    http://www.twitter.com
+                  </a>
+                   
+                  <a
+                    href="[link]"
+                  >
+                    twitter/tweetid
+                  </a>
+                   
+                  <br />
+                </span>
+                <WithStyles(GridList)
+                  cellHeight={80}
+                  cols={2}
+                >
+                  <WithStyles(RawTweetMedia)
+                    media={
+                      Object {
+                        "media_url": "real media url",
+                        "url": "[media]",
+                      }
+                    }
+                    onMediaClick={[Function]}
+                  />
+                </WithStyles(GridList)>
+                <WithStyles(InjectIntl(RawTweet))
+                  actionWithAccount={[MockFunction]}
+                  addToWidgetData={[MockFunction]}
+                  closeElementPopup={[MockFunction]}
+                  displayElementInPopup={[MockFunction]}
+                  isQuote={true}
+                  tweet={
+                    Object {
+                      "id": "anotherid",
+                    }
+                  }
+                  updateElement={[MockFunction]}
+                  updatePopupProps={[MockFunction]}
+                />
+                <ConditionalComponent
+                  render={true}
+                >
+                  <WithStyles(InjectIntl(RawLikeRt))
+                    actionWithAccount={[MockFunction]}
+                    addToWidgetData={[MockFunction]}
+                    closeElementPopup={[MockFunction]}
+                    displayElementInPopup={[MockFunction]}
+                    tweet={
+                      Object {
+                        "author": Object {
+                          "avatar": "http://example.org/image.gif",
+                          "name": "test",
+                          "protected": false,
+                          "screen_name": "test screen name",
+                          "verified": true,
+                        },
+                        "id": "tweet number one",
+                        "media": Array [
+                          Object {
+                            "media_url": "real media url",
+                            "url": "[media]",
+                          },
+                        ],
+                        "quoted": Object {
+                          "id": "anotherid",
+                        },
+                        "replying_to": "test reply",
+                        "retweeted_status": null,
+                        "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+                        "urls": Array [
+                          Object {
+                            "short": "[link]",
+                            "target": "twitter/tweetid",
+                          },
+                          Object {
+                            "short": "[badlink]",
+                            "target": "http://www.google.fr",
+                          },
+                          Object {
+                            "short": "[otherlink]",
+                            "target": "http://www.twitter.com",
+                          },
+                        ],
+                        "user_liked": true,
+                        "user_retweeted": true,
+                      }
+                    }
+                    updateElement={[MockFunction]}
+                    updatePopupProps={[MockFunction]}
+                  />
+                </ConditionalComponent>
+              </div>
+            }
+          />,
+        ],
+        "className": "",
+        "divider": true,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <WithStyles(ListItemAvatar)>
+              <WithStyles(Avatar)
+                alt="test"
+                src="http://example.org/image.gif"
+              />
+            </WithStyles(ListItemAvatar)>,
+            "render": true,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Avatar)
+                alt="test"
+                src="http://example.org/image.gif"
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alt": "test",
+                "src": "http://example.org/image.gif",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "primary": <React.Fragment>
+              <WithStyles(Typography)
+                color="secondary"
+                variant="caption"
+              >
+                test
+              </WithStyles(Typography)>
+              <WithStyles(RawTweetUserName)
+                user={
+                  Object {
+                    "avatar": "http://example.org/image.gif",
+                    "name": "test",
+                    "protected": false,
+                    "screen_name": "test screen name",
+                    "verified": true,
+                  }
+                }
+              />
+              <WithStyles(Typography)
+                color="primary"
+                variant="caption"
+              >
+                test
+              </WithStyles(Typography)>
+            </React.Fragment>,
+            "secondary": <div>
+              <span>
+                Test de 
+                <br />
+              </span>
+              <span>
+                tweet 
+                <a
+                  href="[badlink]"
+                >
+                  http://www.google.fr
+                </a>
+                 
+                <a
+                  href="[otherlink]"
+                >
+                  http://www.twitter.com
+                </a>
+                 
+                <a
+                  href="[link]"
+                >
+                  twitter/tweetid
+                </a>
+                 
+                <br />
+              </span>
+              <WithStyles(GridList)
+                cellHeight={80}
+                cols={2}
+              >
+                <WithStyles(RawTweetMedia)
+                  media={
+                    Object {
+                      "media_url": "real media url",
+                      "url": "[media]",
+                    }
+                  }
+                  onMediaClick={[Function]}
+                />
+              </WithStyles(GridList)>
+              <WithStyles(InjectIntl(RawTweet))
+                actionWithAccount={[MockFunction]}
+                addToWidgetData={[MockFunction]}
+                closeElementPopup={[MockFunction]}
+                displayElementInPopup={[MockFunction]}
+                isQuote={true}
+                tweet={
+                  Object {
+                    "id": "anotherid",
+                  }
+                }
+                updateElement={[MockFunction]}
+                updatePopupProps={[MockFunction]}
+              />
+              <ConditionalComponent
+                render={true}
+              >
+                <WithStyles(InjectIntl(RawLikeRt))
+                  actionWithAccount={[MockFunction]}
+                  addToWidgetData={[MockFunction]}
+                  closeElementPopup={[MockFunction]}
+                  displayElementInPopup={[MockFunction]}
+                  tweet={
+                    Object {
+                      "author": Object {
+                        "avatar": "http://example.org/image.gif",
+                        "name": "test",
+                        "protected": false,
+                        "screen_name": "test screen name",
+                        "verified": true,
+                      },
+                      "id": "tweet number one",
+                      "media": Array [
+                        Object {
+                          "media_url": "real media url",
+                          "url": "[media]",
+                        },
+                      ],
+                      "quoted": Object {
+                        "id": "anotherid",
+                      },
+                      "replying_to": "test reply",
+                      "retweeted_status": null,
+                      "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+                      "urls": Array [
+                        Object {
+                          "short": "[link]",
+                          "target": "twitter/tweetid",
+                        },
+                        Object {
+                          "short": "[badlink]",
+                          "target": "http://www.google.fr",
+                        },
+                        Object {
+                          "short": "[otherlink]",
+                          "target": "http://www.twitter.com",
+                        },
+                      ],
+                      "user_liked": true,
+                      "user_retweeted": true,
+                    }
+                  }
+                  updateElement={[MockFunction]}
+                  updatePopupProps={[MockFunction]}
+                />
+              </ConditionalComponent>
+            </div>,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Should render correctly when quoted tweet is not in links 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RawTweet
+    actionWithAccount={[MockFunction]}
+    addToWidgetData={[MockFunction]}
+    classes={Object {}}
+    closeElementPopup={[MockFunction]}
+    displayElementInPopup={[MockFunction]}
+    intl={
+      Object {
+        "formatMessage": [Function],
+      }
+    }
+    isQuote={false}
+    retweeted="test"
+    tweet={
+      Object {
+        "author": Object {
+          "avatar": "http://example.org/image.gif",
+          "name": "test",
+          "protected": false,
+          "screen_name": "test screen name",
+          "verified": true,
+        },
+        "id": "tweet number one",
+        "media": Array [
+          Object {
+            "media_url": "real media url",
+            "url": "[media]",
+          },
+        ],
+        "quoted": null,
+        "replying_to": "test reply",
+        "retweeted_status": null,
+        "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+        "urls": Array [
+          Object {
+            "short": "[link]",
+            "target": "twitter/tweetid",
+          },
+          Object {
+            "short": "[badlink]",
+            "target": "http://www.google.fr",
+          },
+          Object {
+            "short": "[otherlink]",
+            "target": "http://www.twitter.com",
+          },
+        ],
+        "user_liked": true,
+        "user_retweeted": true,
+      }
+    }
+    updateElement={[MockFunction]}
+    updatePopupProps={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "alignItems": "flex-start",
+      "children": Array [
+        <ConditionalComponent
+          render={true}
+        >
+          <WithStyles(ListItemAvatar)>
+            <WithStyles(Avatar)
+              alt="test"
+              src="http://example.org/image.gif"
+            />
+          </WithStyles(ListItemAvatar)>
+        </ConditionalComponent>,
+        <WithStyles(ListItemText)
+          primary={
+            <React.Fragment>
+              <WithStyles(Typography)
+                color="secondary"
+                variant="caption"
+              >
+                test
+              </WithStyles(Typography)>
+              <WithStyles(RawTweetUserName)
+                user={
+                  Object {
+                    "avatar": "http://example.org/image.gif",
+                    "name": "test",
+                    "protected": false,
+                    "screen_name": "test screen name",
+                    "verified": true,
+                  }
+                }
+              />
+              <WithStyles(Typography)
+                color="primary"
+                variant="caption"
+              >
+                test
+              </WithStyles(Typography)>
+            </React.Fragment>
+          }
+          secondary={
+            <div>
+              <span>
+                Test de 
+                <br />
+              </span>
+              <span>
+                tweet 
+                <a
+                  href="[badlink]"
+                >
+                  http://www.google.fr
+                </a>
+                 
+                <a
+                  href="[otherlink]"
+                >
+                  http://www.twitter.com
+                </a>
+                 
+                <a
+                  href="[link]"
+                >
+                  twitter/tweetid
+                </a>
+                 
+                <br />
+              </span>
+              <WithStyles(GridList)
+                cellHeight={80}
+                cols={2}
+              >
+                <WithStyles(RawTweetMedia)
+                  media={
+                    Object {
+                      "media_url": "real media url",
+                      "url": "[media]",
+                    }
+                  }
+                  onMediaClick={[Function]}
+                />
+              </WithStyles(GridList)>
+              <ConditionalComponent
+                render={true}
+              >
+                <WithStyles(InjectIntl(RawLikeRt))
+                  actionWithAccount={[MockFunction]}
+                  addToWidgetData={[MockFunction]}
+                  closeElementPopup={[MockFunction]}
+                  displayElementInPopup={[MockFunction]}
+                  tweet={
+                    Object {
+                      "author": Object {
+                        "avatar": "http://example.org/image.gif",
+                        "name": "test",
+                        "protected": false,
+                        "screen_name": "test screen name",
+                        "verified": true,
+                      },
+                      "id": "tweet number one",
+                      "media": Array [
+                        Object {
+                          "media_url": "real media url",
+                          "url": "[media]",
+                        },
+                      ],
+                      "quoted": null,
+                      "replying_to": "test reply",
+                      "retweeted_status": null,
+                      "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+                      "urls": Array [
+                        Object {
+                          "short": "[link]",
+                          "target": "twitter/tweetid",
+                        },
+                        Object {
+                          "short": "[badlink]",
+                          "target": "http://www.google.fr",
+                        },
+                        Object {
+                          "short": "[otherlink]",
+                          "target": "http://www.twitter.com",
+                        },
+                      ],
+                      "user_liked": true,
+                      "user_retweeted": true,
+                    }
+                  }
+                  updateElement={[MockFunction]}
+                  updatePopupProps={[MockFunction]}
+                />
+              </ConditionalComponent>
+            </div>
+          }
+        />,
+      ],
+      "className": "",
+      "divider": true,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <WithStyles(ListItemAvatar)>
+            <WithStyles(Avatar)
+              alt="test"
+              src="http://example.org/image.gif"
+            />
+          </WithStyles(ListItemAvatar)>,
+          "render": true,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(Avatar)
+              alt="test"
+              src="http://example.org/image.gif"
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alt": "test",
+              "src": "http://example.org/image.gif",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "primary": <React.Fragment>
+            <WithStyles(Typography)
+              color="secondary"
+              variant="caption"
+            >
+              test
+            </WithStyles(Typography)>
+            <WithStyles(RawTweetUserName)
+              user={
+                Object {
+                  "avatar": "http://example.org/image.gif",
+                  "name": "test",
+                  "protected": false,
+                  "screen_name": "test screen name",
+                  "verified": true,
+                }
+              }
+            />
+            <WithStyles(Typography)
+              color="primary"
+              variant="caption"
+            >
+              test
+            </WithStyles(Typography)>
+          </React.Fragment>,
+          "secondary": <div>
+            <span>
+              Test de 
+              <br />
+            </span>
+            <span>
+              tweet 
+              <a
+                href="[badlink]"
+              >
+                http://www.google.fr
+              </a>
+               
+              <a
+                href="[otherlink]"
+              >
+                http://www.twitter.com
+              </a>
+               
+              <a
+                href="[link]"
+              >
+                twitter/tweetid
+              </a>
+               
+              <br />
+            </span>
+            <WithStyles(GridList)
+              cellHeight={80}
+              cols={2}
+            >
+              <WithStyles(RawTweetMedia)
+                media={
+                  Object {
+                    "media_url": "real media url",
+                    "url": "[media]",
+                  }
+                }
+                onMediaClick={[Function]}
+              />
+            </WithStyles(GridList)>
+            <ConditionalComponent
+              render={true}
+            >
+              <WithStyles(InjectIntl(RawLikeRt))
+                actionWithAccount={[MockFunction]}
+                addToWidgetData={[MockFunction]}
+                closeElementPopup={[MockFunction]}
+                displayElementInPopup={[MockFunction]}
+                tweet={
+                  Object {
+                    "author": Object {
+                      "avatar": "http://example.org/image.gif",
+                      "name": "test",
+                      "protected": false,
+                      "screen_name": "test screen name",
+                      "verified": true,
+                    },
+                    "id": "tweet number one",
+                    "media": Array [
+                      Object {
+                        "media_url": "real media url",
+                        "url": "[media]",
+                      },
+                    ],
+                    "quoted": null,
+                    "replying_to": "test reply",
+                    "retweeted_status": null,
+                    "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+                    "urls": Array [
+                      Object {
+                        "short": "[link]",
+                        "target": "twitter/tweetid",
+                      },
+                      Object {
+                        "short": "[badlink]",
+                        "target": "http://www.google.fr",
+                      },
+                      Object {
+                        "short": "[otherlink]",
+                        "target": "http://www.twitter.com",
+                      },
+                    ],
+                    "user_liked": true,
+                    "user_retweeted": true,
+                  }
+                }
+                updateElement={[MockFunction]}
+                updatePopupProps={[MockFunction]}
+              />
+            </ConditionalComponent>
+          </div>,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alignItems": "flex-start",
+        "children": Array [
+          <ConditionalComponent
+            render={true}
+          >
+            <WithStyles(ListItemAvatar)>
+              <WithStyles(Avatar)
+                alt="test"
+                src="http://example.org/image.gif"
+              />
+            </WithStyles(ListItemAvatar)>
+          </ConditionalComponent>,
+          <WithStyles(ListItemText)
+            primary={
+              <React.Fragment>
+                <WithStyles(Typography)
+                  color="secondary"
+                  variant="caption"
+                >
+                  test
+                </WithStyles(Typography)>
+                <WithStyles(RawTweetUserName)
+                  user={
+                    Object {
+                      "avatar": "http://example.org/image.gif",
+                      "name": "test",
+                      "protected": false,
+                      "screen_name": "test screen name",
+                      "verified": true,
+                    }
+                  }
+                />
+                <WithStyles(Typography)
+                  color="primary"
+                  variant="caption"
+                >
+                  test
+                </WithStyles(Typography)>
+              </React.Fragment>
+            }
+            secondary={
+              <div>
+                <span>
+                  Test de 
+                  <br />
+                </span>
+                <span>
+                  tweet 
+                  <a
+                    href="[badlink]"
+                  >
+                    http://www.google.fr
+                  </a>
+                   
+                  <a
+                    href="[otherlink]"
+                  >
+                    http://www.twitter.com
+                  </a>
+                   
+                  <a
+                    href="[link]"
+                  >
+                    twitter/tweetid
+                  </a>
+                   
+                  <br />
+                </span>
+                <WithStyles(GridList)
+                  cellHeight={80}
+                  cols={2}
+                >
+                  <WithStyles(RawTweetMedia)
+                    media={
+                      Object {
+                        "media_url": "real media url",
+                        "url": "[media]",
+                      }
+                    }
+                    onMediaClick={[Function]}
+                  />
+                </WithStyles(GridList)>
+                <ConditionalComponent
+                  render={true}
+                >
+                  <WithStyles(InjectIntl(RawLikeRt))
+                    actionWithAccount={[MockFunction]}
+                    addToWidgetData={[MockFunction]}
+                    closeElementPopup={[MockFunction]}
+                    displayElementInPopup={[MockFunction]}
+                    tweet={
+                      Object {
+                        "author": Object {
+                          "avatar": "http://example.org/image.gif",
+                          "name": "test",
+                          "protected": false,
+                          "screen_name": "test screen name",
+                          "verified": true,
+                        },
+                        "id": "tweet number one",
+                        "media": Array [
+                          Object {
+                            "media_url": "real media url",
+                            "url": "[media]",
+                          },
+                        ],
+                        "quoted": null,
+                        "replying_to": "test reply",
+                        "retweeted_status": null,
+                        "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+                        "urls": Array [
+                          Object {
+                            "short": "[link]",
+                            "target": "twitter/tweetid",
+                          },
+                          Object {
+                            "short": "[badlink]",
+                            "target": "http://www.google.fr",
+                          },
+                          Object {
+                            "short": "[otherlink]",
+                            "target": "http://www.twitter.com",
+                          },
+                        ],
+                        "user_liked": true,
+                        "user_retweeted": true,
+                      }
+                    }
+                    updateElement={[MockFunction]}
+                    updatePopupProps={[MockFunction]}
+                  />
+                </ConditionalComponent>
+              </div>
+            }
+          />,
+        ],
+        "className": "",
+        "divider": true,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <WithStyles(ListItemAvatar)>
+              <WithStyles(Avatar)
+                alt="test"
+                src="http://example.org/image.gif"
+              />
+            </WithStyles(ListItemAvatar)>,
+            "render": true,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Avatar)
+                alt="test"
+                src="http://example.org/image.gif"
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alt": "test",
+                "src": "http://example.org/image.gif",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "primary": <React.Fragment>
+              <WithStyles(Typography)
+                color="secondary"
+                variant="caption"
+              >
+                test
+              </WithStyles(Typography)>
+              <WithStyles(RawTweetUserName)
+                user={
+                  Object {
+                    "avatar": "http://example.org/image.gif",
+                    "name": "test",
+                    "protected": false,
+                    "screen_name": "test screen name",
+                    "verified": true,
+                  }
+                }
+              />
+              <WithStyles(Typography)
+                color="primary"
+                variant="caption"
+              >
+                test
+              </WithStyles(Typography)>
+            </React.Fragment>,
+            "secondary": <div>
+              <span>
+                Test de 
+                <br />
+              </span>
+              <span>
+                tweet 
+                <a
+                  href="[badlink]"
+                >
+                  http://www.google.fr
+                </a>
+                 
+                <a
+                  href="[otherlink]"
+                >
+                  http://www.twitter.com
+                </a>
+                 
+                <a
+                  href="[link]"
+                >
+                  twitter/tweetid
+                </a>
+                 
+                <br />
+              </span>
+              <WithStyles(GridList)
+                cellHeight={80}
+                cols={2}
+              >
+                <WithStyles(RawTweetMedia)
+                  media={
+                    Object {
+                      "media_url": "real media url",
+                      "url": "[media]",
+                    }
+                  }
+                  onMediaClick={[Function]}
+                />
+              </WithStyles(GridList)>
+              <ConditionalComponent
+                render={true}
+              >
+                <WithStyles(InjectIntl(RawLikeRt))
+                  actionWithAccount={[MockFunction]}
+                  addToWidgetData={[MockFunction]}
+                  closeElementPopup={[MockFunction]}
+                  displayElementInPopup={[MockFunction]}
+                  tweet={
+                    Object {
+                      "author": Object {
+                        "avatar": "http://example.org/image.gif",
+                        "name": "test",
+                        "protected": false,
+                        "screen_name": "test screen name",
+                        "verified": true,
+                      },
+                      "id": "tweet number one",
+                      "media": Array [
+                        Object {
+                          "media_url": "real media url",
+                          "url": "[media]",
+                        },
+                      ],
+                      "quoted": null,
+                      "replying_to": "test reply",
+                      "retweeted_status": null,
+                      "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+                      "urls": Array [
+                        Object {
+                          "short": "[link]",
+                          "target": "twitter/tweetid",
+                        },
+                        Object {
+                          "short": "[badlink]",
+                          "target": "http://www.google.fr",
+                        },
+                        Object {
+                          "short": "[otherlink]",
+                          "target": "http://www.twitter.com",
+                        },
+                      ],
+                      "user_liked": true,
+                      "user_retweeted": true,
+                    }
+                  }
+                  updateElement={[MockFunction]}
+                  updatePopupProps={[MockFunction]}
+                />
+              </ConditionalComponent>
+            </div>,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Should render correctly when there is no media 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RawTweet
+    actionWithAccount={[MockFunction]}
+    addToWidgetData={[MockFunction]}
+    classes={Object {}}
+    closeElementPopup={[MockFunction]}
+    displayElementInPopup={[MockFunction]}
+    intl={
+      Object {
+        "formatMessage": [Function],
+      }
+    }
+    isQuote={false}
+    retweeted="test"
+    tweet={
+      Object {
+        "author": Object {
+          "avatar": "http://example.org/image.gif",
+          "name": "test",
+          "protected": false,
+          "screen_name": "test screen name",
+          "verified": true,
+        },
+        "id": "tweet number one",
+        "media": Array [],
+        "quoted": Object {
+          "id": "tweetid",
+        },
+        "replying_to": "test reply",
+        "retweeted_status": null,
+        "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+        "urls": Array [
+          Object {
+            "short": "[link]",
+            "target": "twitter/tweetid",
+          },
+          Object {
+            "short": "[badlink]",
+            "target": "http://www.google.fr",
+          },
+          Object {
+            "short": "[otherlink]",
+            "target": "http://www.twitter.com",
+          },
+        ],
+        "user_liked": true,
+        "user_retweeted": true,
+      }
+    }
+    updateElement={[MockFunction]}
+    updatePopupProps={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "alignItems": "flex-start",
+      "children": Array [
+        <ConditionalComponent
+          render={true}
+        >
+          <WithStyles(ListItemAvatar)>
+            <WithStyles(Avatar)
+              alt="test"
+              src="http://example.org/image.gif"
+            />
+          </WithStyles(ListItemAvatar)>
+        </ConditionalComponent>,
+        <WithStyles(ListItemText)
+          primary={
+            <React.Fragment>
+              <WithStyles(Typography)
+                color="secondary"
+                variant="caption"
+              >
+                test
+              </WithStyles(Typography)>
+              <WithStyles(RawTweetUserName)
+                user={
+                  Object {
+                    "avatar": "http://example.org/image.gif",
+                    "name": "test",
+                    "protected": false,
+                    "screen_name": "test screen name",
+                    "verified": true,
+                  }
+                }
+              />
+              <WithStyles(Typography)
+                color="primary"
+                variant="caption"
+              >
+                test
+              </WithStyles(Typography)>
+            </React.Fragment>
+          }
+          secondary={
+            <div>
+              <span>
+                Test de 
+                <br />
+              </span>
+              <span>
+                tweet 
+                <a
+                  href="[badlink]"
+                >
+                  http://www.google.fr
+                </a>
+                 
+                <a
+                  href="[otherlink]"
+                >
+                  http://www.twitter.com
+                </a>
+                  [media]
+                <br />
+              </span>
+              <WithStyles(InjectIntl(RawTweet))
+                actionWithAccount={[MockFunction]}
+                addToWidgetData={[MockFunction]}
+                closeElementPopup={[MockFunction]}
+                displayElementInPopup={[MockFunction]}
+                isQuote={true}
+                tweet={
+                  Object {
+                    "id": "tweetid",
+                  }
+                }
+                updateElement={[MockFunction]}
+                updatePopupProps={[MockFunction]}
+              />
+              <ConditionalComponent
+                render={true}
+              >
+                <WithStyles(InjectIntl(RawLikeRt))
+                  actionWithAccount={[MockFunction]}
+                  addToWidgetData={[MockFunction]}
+                  closeElementPopup={[MockFunction]}
+                  displayElementInPopup={[MockFunction]}
+                  tweet={
+                    Object {
+                      "author": Object {
+                        "avatar": "http://example.org/image.gif",
+                        "name": "test",
+                        "protected": false,
+                        "screen_name": "test screen name",
+                        "verified": true,
+                      },
+                      "id": "tweet number one",
+                      "media": Array [],
+                      "quoted": Object {
+                        "id": "tweetid",
+                      },
+                      "replying_to": "test reply",
+                      "retweeted_status": null,
+                      "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+                      "urls": Array [
+                        Object {
+                          "short": "[link]",
+                          "target": "twitter/tweetid",
+                        },
+                        Object {
+                          "short": "[badlink]",
+                          "target": "http://www.google.fr",
+                        },
+                        Object {
+                          "short": "[otherlink]",
+                          "target": "http://www.twitter.com",
+                        },
+                      ],
+                      "user_liked": true,
+                      "user_retweeted": true,
+                    }
+                  }
+                  updateElement={[MockFunction]}
+                  updatePopupProps={[MockFunction]}
+                />
+              </ConditionalComponent>
+            </div>
+          }
+        />,
+      ],
+      "className": "",
+      "divider": true,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <WithStyles(ListItemAvatar)>
+            <WithStyles(Avatar)
+              alt="test"
+              src="http://example.org/image.gif"
+            />
+          </WithStyles(ListItemAvatar)>,
+          "render": true,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(Avatar)
+              alt="test"
+              src="http://example.org/image.gif"
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alt": "test",
+              "src": "http://example.org/image.gif",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "primary": <React.Fragment>
+            <WithStyles(Typography)
+              color="secondary"
+              variant="caption"
+            >
+              test
+            </WithStyles(Typography)>
+            <WithStyles(RawTweetUserName)
+              user={
+                Object {
+                  "avatar": "http://example.org/image.gif",
+                  "name": "test",
+                  "protected": false,
+                  "screen_name": "test screen name",
+                  "verified": true,
+                }
+              }
+            />
+            <WithStyles(Typography)
+              color="primary"
+              variant="caption"
+            >
+              test
+            </WithStyles(Typography)>
+          </React.Fragment>,
+          "secondary": <div>
+            <span>
+              Test de 
+              <br />
+            </span>
+            <span>
+              tweet 
+              <a
+                href="[badlink]"
+              >
+                http://www.google.fr
+              </a>
+               
+              <a
+                href="[otherlink]"
+              >
+                http://www.twitter.com
+              </a>
+                [media]
+              <br />
+            </span>
+            <WithStyles(InjectIntl(RawTweet))
+              actionWithAccount={[MockFunction]}
+              addToWidgetData={[MockFunction]}
+              closeElementPopup={[MockFunction]}
+              displayElementInPopup={[MockFunction]}
+              isQuote={true}
+              tweet={
+                Object {
+                  "id": "tweetid",
+                }
+              }
+              updateElement={[MockFunction]}
+              updatePopupProps={[MockFunction]}
+            />
+            <ConditionalComponent
+              render={true}
+            >
+              <WithStyles(InjectIntl(RawLikeRt))
+                actionWithAccount={[MockFunction]}
+                addToWidgetData={[MockFunction]}
+                closeElementPopup={[MockFunction]}
+                displayElementInPopup={[MockFunction]}
+                tweet={
+                  Object {
+                    "author": Object {
+                      "avatar": "http://example.org/image.gif",
+                      "name": "test",
+                      "protected": false,
+                      "screen_name": "test screen name",
+                      "verified": true,
+                    },
+                    "id": "tweet number one",
+                    "media": Array [],
+                    "quoted": Object {
+                      "id": "tweetid",
+                    },
+                    "replying_to": "test reply",
+                    "retweeted_status": null,
+                    "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+                    "urls": Array [
+                      Object {
+                        "short": "[link]",
+                        "target": "twitter/tweetid",
+                      },
+                      Object {
+                        "short": "[badlink]",
+                        "target": "http://www.google.fr",
+                      },
+                      Object {
+                        "short": "[otherlink]",
+                        "target": "http://www.twitter.com",
+                      },
+                    ],
+                    "user_liked": true,
+                    "user_retweeted": true,
+                  }
+                }
+                updateElement={[MockFunction]}
+                updatePopupProps={[MockFunction]}
+              />
+            </ConditionalComponent>
+          </div>,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alignItems": "flex-start",
+        "children": Array [
+          <ConditionalComponent
+            render={true}
+          >
+            <WithStyles(ListItemAvatar)>
+              <WithStyles(Avatar)
+                alt="test"
+                src="http://example.org/image.gif"
+              />
+            </WithStyles(ListItemAvatar)>
+          </ConditionalComponent>,
+          <WithStyles(ListItemText)
+            primary={
+              <React.Fragment>
+                <WithStyles(Typography)
+                  color="secondary"
+                  variant="caption"
+                >
+                  test
+                </WithStyles(Typography)>
+                <WithStyles(RawTweetUserName)
+                  user={
+                    Object {
+                      "avatar": "http://example.org/image.gif",
+                      "name": "test",
+                      "protected": false,
+                      "screen_name": "test screen name",
+                      "verified": true,
+                    }
+                  }
+                />
+                <WithStyles(Typography)
+                  color="primary"
+                  variant="caption"
+                >
+                  test
+                </WithStyles(Typography)>
+              </React.Fragment>
+            }
+            secondary={
+              <div>
+                <span>
+                  Test de 
+                  <br />
+                </span>
+                <span>
+                  tweet 
+                  <a
+                    href="[badlink]"
+                  >
+                    http://www.google.fr
+                  </a>
+                   
+                  <a
+                    href="[otherlink]"
+                  >
+                    http://www.twitter.com
+                  </a>
+                    [media]
+                  <br />
+                </span>
+                <WithStyles(InjectIntl(RawTweet))
+                  actionWithAccount={[MockFunction]}
+                  addToWidgetData={[MockFunction]}
+                  closeElementPopup={[MockFunction]}
+                  displayElementInPopup={[MockFunction]}
+                  isQuote={true}
+                  tweet={
+                    Object {
+                      "id": "tweetid",
+                    }
+                  }
+                  updateElement={[MockFunction]}
+                  updatePopupProps={[MockFunction]}
+                />
+                <ConditionalComponent
+                  render={true}
+                >
+                  <WithStyles(InjectIntl(RawLikeRt))
+                    actionWithAccount={[MockFunction]}
+                    addToWidgetData={[MockFunction]}
+                    closeElementPopup={[MockFunction]}
+                    displayElementInPopup={[MockFunction]}
+                    tweet={
+                      Object {
+                        "author": Object {
+                          "avatar": "http://example.org/image.gif",
+                          "name": "test",
+                          "protected": false,
+                          "screen_name": "test screen name",
+                          "verified": true,
+                        },
+                        "id": "tweet number one",
+                        "media": Array [],
+                        "quoted": Object {
+                          "id": "tweetid",
+                        },
+                        "replying_to": "test reply",
+                        "retweeted_status": null,
+                        "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+                        "urls": Array [
+                          Object {
+                            "short": "[link]",
+                            "target": "twitter/tweetid",
+                          },
+                          Object {
+                            "short": "[badlink]",
+                            "target": "http://www.google.fr",
+                          },
+                          Object {
+                            "short": "[otherlink]",
+                            "target": "http://www.twitter.com",
+                          },
+                        ],
+                        "user_liked": true,
+                        "user_retweeted": true,
+                      }
+                    }
+                    updateElement={[MockFunction]}
+                    updatePopupProps={[MockFunction]}
+                  />
+                </ConditionalComponent>
+              </div>
+            }
+          />,
+        ],
+        "className": "",
+        "divider": true,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <WithStyles(ListItemAvatar)>
+              <WithStyles(Avatar)
+                alt="test"
+                src="http://example.org/image.gif"
+              />
+            </WithStyles(ListItemAvatar)>,
+            "render": true,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Avatar)
+                alt="test"
+                src="http://example.org/image.gif"
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alt": "test",
+                "src": "http://example.org/image.gif",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "primary": <React.Fragment>
+              <WithStyles(Typography)
+                color="secondary"
+                variant="caption"
+              >
+                test
+              </WithStyles(Typography)>
+              <WithStyles(RawTweetUserName)
+                user={
+                  Object {
+                    "avatar": "http://example.org/image.gif",
+                    "name": "test",
+                    "protected": false,
+                    "screen_name": "test screen name",
+                    "verified": true,
+                  }
+                }
+              />
+              <WithStyles(Typography)
+                color="primary"
+                variant="caption"
+              >
+                test
+              </WithStyles(Typography)>
+            </React.Fragment>,
+            "secondary": <div>
+              <span>
+                Test de 
+                <br />
+              </span>
+              <span>
+                tweet 
+                <a
+                  href="[badlink]"
+                >
+                  http://www.google.fr
+                </a>
+                 
+                <a
+                  href="[otherlink]"
+                >
+                  http://www.twitter.com
+                </a>
+                  [media]
+                <br />
+              </span>
+              <WithStyles(InjectIntl(RawTweet))
+                actionWithAccount={[MockFunction]}
+                addToWidgetData={[MockFunction]}
+                closeElementPopup={[MockFunction]}
+                displayElementInPopup={[MockFunction]}
+                isQuote={true}
+                tweet={
+                  Object {
+                    "id": "tweetid",
+                  }
+                }
+                updateElement={[MockFunction]}
+                updatePopupProps={[MockFunction]}
+              />
+              <ConditionalComponent
+                render={true}
+              >
+                <WithStyles(InjectIntl(RawLikeRt))
+                  actionWithAccount={[MockFunction]}
+                  addToWidgetData={[MockFunction]}
+                  closeElementPopup={[MockFunction]}
+                  displayElementInPopup={[MockFunction]}
+                  tweet={
+                    Object {
+                      "author": Object {
+                        "avatar": "http://example.org/image.gif",
+                        "name": "test",
+                        "protected": false,
+                        "screen_name": "test screen name",
+                        "verified": true,
+                      },
+                      "id": "tweet number one",
+                      "media": Array [],
+                      "quoted": Object {
+                        "id": "tweetid",
+                      },
+                      "replying_to": "test reply",
+                      "retweeted_status": null,
+                      "text": "Test de 
+tweet [badlink] [otherlink] [link] [media]",
+                      "urls": Array [
+                        Object {
+                          "short": "[link]",
+                          "target": "twitter/tweetid",
+                        },
+                        Object {
+                          "short": "[badlink]",
+                          "target": "http://www.google.fr",
+                        },
+                        Object {
+                          "short": "[otherlink]",
+                          "target": "http://www.twitter.com",
+                        },
+                      ],
+                      "user_liked": true,
+                      "user_retweeted": true,
+                    }
+                  }
+                  updateElement={[MockFunction]}
+                  updatePopupProps={[MockFunction]}
+                />
+              </ConditionalComponent>
+            </div>,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Should render theme consistently 1`] = `
+Object {
+  "mediaGrid": Object {
+    "borderRadius": 5,
+    "marginTop": "10px !important",
+    "width": 160,
+  },
+  "quotedTweet": Object {
+    "border": "1px solid #000",
+    "borderRadius": 5,
+    "marginTop": 5,
+  },
+  "spaced": Object {
+    "display": "inline-block",
+    "marginRight": 5,
+  },
+  "tweetText": Object {
+    "& a": Object {
+      "&:hover": Object {
+        "textDecoration": "underline",
+      },
+      "&:visited": Object {
+        "color": "#aaa",
+      },
+      "color": "#000",
+      "textDecoration": "none",
+    },
+    "wordBreak": "break-word",
+  },
+}
+`;

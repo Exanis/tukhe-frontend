@@ -1,0 +1,1134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should keep helper func coherent 1`] = `
+Object {
+  "dashboard": Object {
+    "height": "calc(100% - 65px)",
+    "paddingTop": "65px",
+  },
+}
+`;
+
+exports[`Should keep helper func coherent 2`] = `
+Object {
+  "account": Object {
+    "accounts": Array [
+      "test",
+    ],
+  },
+  "dashboard": "dashboard",
+}
+`;
+
+exports[`Should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Main
+    account={
+      Object {
+        "accounts": Array [],
+      }
+    }
+    addToWidgetData={[MockFunction]}
+    classes={Object {}}
+    createDashboard={[MockFunction]}
+    createTwitterAccount={[MockFunction]}
+    createWidget={[MockFunction]}
+    dashboard={
+      Object {
+        "currentDashboard": "test",
+        "dashboards": Array [
+          Object {
+            "icon": "home",
+            "layout": Object {},
+            "uuid": "test",
+          },
+        ],
+        "data": Object {},
+        "widgets": Array [],
+      }
+    }
+    deleteAccount={[MockFunction]}
+    loadAccounts={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    loadDashboards={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    refreshWidgetWithAccount={[MockFunction]}
+    refreshWidgetWithoutAccount={[MockFunction]}
+    selectDashboard={[MockFunction]}
+    setToken={[MockFunction]}
+    startWidgetProcess={[MockFunction]}
+    stopWidgetProcess={[MockFunction]}
+    updateDashboardLayout={[MockFunction]}
+    updateWidgetData={[MockFunction]}
+    widgetActionWithAccount={[MockFunction]}
+    widgetActionWithoutAccount={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Navbar
+          createDashboard={[Function]}
+          current="test"
+          dashboards={
+            Array [
+              Object {
+                "icon": "home",
+                "layout": Object {},
+                "uuid": "test",
+              },
+            ]
+          }
+          editable={false}
+          onAccount={[Function]}
+          onAddWidget={[Function]}
+          onLogout={[Function]}
+          onSaveLayout={[Function]}
+          onUnlock={[Function]}
+          selectDashboard={[MockFunction]}
+        />,
+        <InjectIntl(RawCreateDashboard)
+          createDashboard={[Function]}
+          onClose={[Function]}
+          open={false}
+        />,
+        <InjectIntl(RawAccountsList)
+          accounts={Array []}
+          onClose={[Function]}
+          onDeleteAccount={[MockFunction]}
+          open={false}
+          providers={
+            Object {
+              "twitter": [MockFunction],
+            }
+          }
+        />,
+        <InjectIntl(RawCatalog)
+          onClose={[Function]}
+          onSelectWidget={[Function]}
+          open={false}
+          widgets={
+            Object {
+              "misc": Array [
+                "rss",
+              ],
+              "twitter": Array [
+                "feed",
+                "notifications",
+              ],
+            }
+          }
+        />,
+        <InjectIntl(RawNewWidget)
+          accounts={Array []}
+          onClose={[Function]}
+          onCreateWidget={[Function]}
+          open={false}
+          widget=""
+        />,
+        <WithStyles(RawDashboard)
+          addToWidgetData={[MockFunction]}
+          closeElementPopup={[Function]}
+          data={Object {}}
+          displayElementInPopup={[Function]}
+          editable={false}
+          layout={null}
+          onLayoutChange={[Function]}
+          refreshWithAccount={[MockFunction]}
+          refreshWithoutAccount={[MockFunction]}
+          startWidgetProcess={[MockFunction]}
+          stopWidgetProcess={[MockFunction]}
+          updatePopupProps={[Function]}
+          updateWidgetData={[MockFunction]}
+          widgetActionWithAccount={[MockFunction]}
+          widgetActionWithoutAccount={[MockFunction]}
+          widgets={Array []}
+        />,
+        <BasicPopup
+          onClose={[Function]}
+          open={false}
+        />,
+      ],
+      "className": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "createDashboard": [Function],
+          "current": "test",
+          "dashboards": Array [
+            Object {
+              "icon": "home",
+              "layout": Object {},
+              "uuid": "test",
+            },
+          ],
+          "editable": false,
+          "onAccount": [Function],
+          "onAddWidget": [Function],
+          "onLogout": [Function],
+          "onSaveLayout": [Function],
+          "onUnlock": [Function],
+          "selectDashboard": [MockFunction],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "createDashboard": [Function],
+          "onClose": [Function],
+          "open": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "accounts": Array [],
+          "onClose": [Function],
+          "onDeleteAccount": [MockFunction],
+          "open": false,
+          "providers": Object {
+            "twitter": [MockFunction],
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "onClose": [Function],
+          "onSelectWidget": [Function],
+          "open": false,
+          "widgets": Object {
+            "misc": Array [
+              "rss",
+            ],
+            "twitter": Array [
+              "feed",
+              "notifications",
+            ],
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "accounts": Array [],
+          "onClose": [Function],
+          "onCreateWidget": [Function],
+          "open": false,
+          "widget": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "addToWidgetData": [MockFunction],
+          "closeElementPopup": [Function],
+          "data": Object {},
+          "displayElementInPopup": [Function],
+          "editable": false,
+          "layout": null,
+          "onLayoutChange": [Function],
+          "refreshWithAccount": [MockFunction],
+          "refreshWithoutAccount": [MockFunction],
+          "startWidgetProcess": [MockFunction],
+          "stopWidgetProcess": [MockFunction],
+          "updatePopupProps": [Function],
+          "updateWidgetData": [MockFunction],
+          "widgetActionWithAccount": [MockFunction],
+          "widgetActionWithoutAccount": [MockFunction],
+          "widgets": Array [],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": null,
+          "onClose": [Function],
+          "open": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Navbar
+            createDashboard={[Function]}
+            current="test"
+            dashboards={
+              Array [
+                Object {
+                  "icon": "home",
+                  "layout": Object {},
+                  "uuid": "test",
+                },
+              ]
+            }
+            editable={false}
+            onAccount={[Function]}
+            onAddWidget={[Function]}
+            onLogout={[Function]}
+            onSaveLayout={[Function]}
+            onUnlock={[Function]}
+            selectDashboard={[MockFunction]}
+          />,
+          <InjectIntl(RawCreateDashboard)
+            createDashboard={[Function]}
+            onClose={[Function]}
+            open={false}
+          />,
+          <InjectIntl(RawAccountsList)
+            accounts={Array []}
+            onClose={[Function]}
+            onDeleteAccount={[MockFunction]}
+            open={false}
+            providers={
+              Object {
+                "twitter": [MockFunction],
+              }
+            }
+          />,
+          <InjectIntl(RawCatalog)
+            onClose={[Function]}
+            onSelectWidget={[Function]}
+            open={false}
+            widgets={
+              Object {
+                "misc": Array [
+                  "rss",
+                ],
+                "twitter": Array [
+                  "feed",
+                  "notifications",
+                ],
+              }
+            }
+          />,
+          <InjectIntl(RawNewWidget)
+            accounts={Array []}
+            onClose={[Function]}
+            onCreateWidget={[Function]}
+            open={false}
+            widget=""
+          />,
+          <WithStyles(RawDashboard)
+            addToWidgetData={[MockFunction]}
+            closeElementPopup={[Function]}
+            data={Object {}}
+            displayElementInPopup={[Function]}
+            editable={false}
+            layout={null}
+            onLayoutChange={[Function]}
+            refreshWithAccount={[MockFunction]}
+            refreshWithoutAccount={[MockFunction]}
+            startWidgetProcess={[MockFunction]}
+            stopWidgetProcess={[MockFunction]}
+            updatePopupProps={[Function]}
+            updateWidgetData={[MockFunction]}
+            widgetActionWithAccount={[MockFunction]}
+            widgetActionWithoutAccount={[MockFunction]}
+            widgets={Array []}
+          />,
+          <BasicPopup
+            onClose={[Function]}
+            open={false}
+          />,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "createDashboard": [Function],
+            "current": "test",
+            "dashboards": Array [
+              Object {
+                "icon": "home",
+                "layout": Object {},
+                "uuid": "test",
+              },
+            ],
+            "editable": false,
+            "onAccount": [Function],
+            "onAddWidget": [Function],
+            "onLogout": [Function],
+            "onSaveLayout": [Function],
+            "onUnlock": [Function],
+            "selectDashboard": [MockFunction],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "createDashboard": [Function],
+            "onClose": [Function],
+            "open": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "accounts": Array [],
+            "onClose": [Function],
+            "onDeleteAccount": [MockFunction],
+            "open": false,
+            "providers": Object {
+              "twitter": [MockFunction],
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "onClose": [Function],
+            "onSelectWidget": [Function],
+            "open": false,
+            "widgets": Object {
+              "misc": Array [
+                "rss",
+              ],
+              "twitter": Array [
+                "feed",
+                "notifications",
+              ],
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "accounts": Array [],
+            "onClose": [Function],
+            "onCreateWidget": [Function],
+            "open": false,
+            "widget": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "addToWidgetData": [MockFunction],
+            "closeElementPopup": [Function],
+            "data": Object {},
+            "displayElementInPopup": [Function],
+            "editable": false,
+            "layout": null,
+            "onLayoutChange": [Function],
+            "refreshWithAccount": [MockFunction],
+            "refreshWithoutAccount": [MockFunction],
+            "startWidgetProcess": [MockFunction],
+            "stopWidgetProcess": [MockFunction],
+            "updatePopupProps": [Function],
+            "updateWidgetData": [MockFunction],
+            "widgetActionWithAccount": [MockFunction],
+            "widgetActionWithoutAccount": [MockFunction],
+            "widgets": Array [],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": null,
+            "onClose": [Function],
+            "open": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Should render correctly 2`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Main
+    account={
+      Object {
+        "accounts": Array [],
+        "token": "test",
+      }
+    }
+    addToWidgetData={[MockFunction]}
+    classes={Object {}}
+    createDashboard={[MockFunction]}
+    createTwitterAccount={[MockFunction]}
+    createWidget={[MockFunction]}
+    dashboard={
+      Object {
+        "currentDashboard": "test",
+        "dashboards": Array [
+          Object {
+            "icon": "home",
+            "layout": Object {},
+            "uuid": "test",
+          },
+        ],
+        "data": Object {},
+        "widgets": Array [],
+      }
+    }
+    deleteAccount={[MockFunction]}
+    loadAccounts={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    loadDashboards={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    refreshWidgetWithAccount={[MockFunction]}
+    refreshWidgetWithoutAccount={[MockFunction]}
+    selectDashboard={[MockFunction]}
+    setToken={[MockFunction]}
+    startWidgetProcess={[MockFunction]}
+    stopWidgetProcess={[MockFunction]}
+    updateDashboardLayout={[MockFunction]}
+    updateWidgetData={[MockFunction]}
+    widgetActionWithAccount={[MockFunction]}
+    widgetActionWithoutAccount={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Navbar
+          createDashboard={[Function]}
+          current="test"
+          dashboards={
+            Array [
+              Object {
+                "icon": "home",
+                "layout": Object {},
+                "uuid": "test",
+              },
+            ]
+          }
+          editable={false}
+          onAccount={[Function]}
+          onAddWidget={[Function]}
+          onLogout={[Function]}
+          onSaveLayout={[Function]}
+          onUnlock={[Function]}
+          selectDashboard={[MockFunction]}
+        />,
+        <InjectIntl(RawCreateDashboard)
+          createDashboard={[Function]}
+          onClose={[Function]}
+          open={false}
+        />,
+        <InjectIntl(RawAccountsList)
+          accounts={Array []}
+          onClose={[Function]}
+          onDeleteAccount={[MockFunction]}
+          open={false}
+          providers={
+            Object {
+              "twitter": [MockFunction],
+            }
+          }
+        />,
+        <InjectIntl(RawCatalog)
+          onClose={[Function]}
+          onSelectWidget={[Function]}
+          open={false}
+          widgets={
+            Object {
+              "misc": Array [
+                "rss",
+              ],
+              "twitter": Array [
+                "feed",
+                "notifications",
+              ],
+            }
+          }
+        />,
+        <InjectIntl(RawNewWidget)
+          accounts={Array []}
+          onClose={[Function]}
+          onCreateWidget={[Function]}
+          open={false}
+          widget=""
+        />,
+        <WithStyles(RawDashboard)
+          addToWidgetData={[MockFunction]}
+          closeElementPopup={[Function]}
+          data={Object {}}
+          displayElementInPopup={[Function]}
+          editable={false}
+          layout={null}
+          onLayoutChange={[Function]}
+          refreshWithAccount={[MockFunction]}
+          refreshWithoutAccount={[MockFunction]}
+          startWidgetProcess={[MockFunction]}
+          stopWidgetProcess={[MockFunction]}
+          updatePopupProps={[Function]}
+          updateWidgetData={[MockFunction]}
+          widgetActionWithAccount={[MockFunction]}
+          widgetActionWithoutAccount={[MockFunction]}
+          widgets={Array []}
+        />,
+        <BasicPopup
+          onClose={[Function]}
+          open={false}
+        />,
+      ],
+      "className": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "createDashboard": [Function],
+          "current": "test",
+          "dashboards": Array [
+            Object {
+              "icon": "home",
+              "layout": Object {},
+              "uuid": "test",
+            },
+          ],
+          "editable": false,
+          "onAccount": [Function],
+          "onAddWidget": [Function],
+          "onLogout": [Function],
+          "onSaveLayout": [Function],
+          "onUnlock": [Function],
+          "selectDashboard": [MockFunction],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "createDashboard": [Function],
+          "onClose": [Function],
+          "open": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "accounts": Array [],
+          "onClose": [Function],
+          "onDeleteAccount": [MockFunction],
+          "open": false,
+          "providers": Object {
+            "twitter": [MockFunction],
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "onClose": [Function],
+          "onSelectWidget": [Function],
+          "open": false,
+          "widgets": Object {
+            "misc": Array [
+              "rss",
+            ],
+            "twitter": Array [
+              "feed",
+              "notifications",
+            ],
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "accounts": Array [],
+          "onClose": [Function],
+          "onCreateWidget": [Function],
+          "open": false,
+          "widget": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "addToWidgetData": [MockFunction],
+          "closeElementPopup": [Function],
+          "data": Object {},
+          "displayElementInPopup": [Function],
+          "editable": false,
+          "layout": null,
+          "onLayoutChange": [Function],
+          "refreshWithAccount": [MockFunction],
+          "refreshWithoutAccount": [MockFunction],
+          "startWidgetProcess": [MockFunction],
+          "stopWidgetProcess": [MockFunction],
+          "updatePopupProps": [Function],
+          "updateWidgetData": [MockFunction],
+          "widgetActionWithAccount": [MockFunction],
+          "widgetActionWithoutAccount": [MockFunction],
+          "widgets": Array [],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": null,
+          "onClose": [Function],
+          "open": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Navbar
+            createDashboard={[Function]}
+            current="test"
+            dashboards={
+              Array [
+                Object {
+                  "icon": "home",
+                  "layout": Object {},
+                  "uuid": "test",
+                },
+              ]
+            }
+            editable={false}
+            onAccount={[Function]}
+            onAddWidget={[Function]}
+            onLogout={[Function]}
+            onSaveLayout={[Function]}
+            onUnlock={[Function]}
+            selectDashboard={[MockFunction]}
+          />,
+          <InjectIntl(RawCreateDashboard)
+            createDashboard={[Function]}
+            onClose={[Function]}
+            open={false}
+          />,
+          <InjectIntl(RawAccountsList)
+            accounts={Array []}
+            onClose={[Function]}
+            onDeleteAccount={[MockFunction]}
+            open={false}
+            providers={
+              Object {
+                "twitter": [MockFunction],
+              }
+            }
+          />,
+          <InjectIntl(RawCatalog)
+            onClose={[Function]}
+            onSelectWidget={[Function]}
+            open={false}
+            widgets={
+              Object {
+                "misc": Array [
+                  "rss",
+                ],
+                "twitter": Array [
+                  "feed",
+                  "notifications",
+                ],
+              }
+            }
+          />,
+          <InjectIntl(RawNewWidget)
+            accounts={Array []}
+            onClose={[Function]}
+            onCreateWidget={[Function]}
+            open={false}
+            widget=""
+          />,
+          <WithStyles(RawDashboard)
+            addToWidgetData={[MockFunction]}
+            closeElementPopup={[Function]}
+            data={Object {}}
+            displayElementInPopup={[Function]}
+            editable={false}
+            layout={null}
+            onLayoutChange={[Function]}
+            refreshWithAccount={[MockFunction]}
+            refreshWithoutAccount={[MockFunction]}
+            startWidgetProcess={[MockFunction]}
+            stopWidgetProcess={[MockFunction]}
+            updatePopupProps={[Function]}
+            updateWidgetData={[MockFunction]}
+            widgetActionWithAccount={[MockFunction]}
+            widgetActionWithoutAccount={[MockFunction]}
+            widgets={Array []}
+          />,
+          <BasicPopup
+            onClose={[Function]}
+            open={false}
+          />,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "createDashboard": [Function],
+            "current": "test",
+            "dashboards": Array [
+              Object {
+                "icon": "home",
+                "layout": Object {},
+                "uuid": "test",
+              },
+            ],
+            "editable": false,
+            "onAccount": [Function],
+            "onAddWidget": [Function],
+            "onLogout": [Function],
+            "onSaveLayout": [Function],
+            "onUnlock": [Function],
+            "selectDashboard": [MockFunction],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "createDashboard": [Function],
+            "onClose": [Function],
+            "open": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "accounts": Array [],
+            "onClose": [Function],
+            "onDeleteAccount": [MockFunction],
+            "open": false,
+            "providers": Object {
+              "twitter": [MockFunction],
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "onClose": [Function],
+            "onSelectWidget": [Function],
+            "open": false,
+            "widgets": Object {
+              "misc": Array [
+                "rss",
+              ],
+              "twitter": Array [
+                "feed",
+                "notifications",
+              ],
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "accounts": Array [],
+            "onClose": [Function],
+            "onCreateWidget": [Function],
+            "open": false,
+            "widget": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "addToWidgetData": [MockFunction],
+            "closeElementPopup": [Function],
+            "data": Object {},
+            "displayElementInPopup": [Function],
+            "editable": false,
+            "layout": null,
+            "onLayoutChange": [Function],
+            "refreshWithAccount": [MockFunction],
+            "refreshWithoutAccount": [MockFunction],
+            "startWidgetProcess": [MockFunction],
+            "stopWidgetProcess": [MockFunction],
+            "updatePopupProps": [Function],
+            "updateWidgetData": [MockFunction],
+            "widgetActionWithAccount": [MockFunction],
+            "widgetActionWithoutAccount": [MockFunction],
+            "widgets": Array [],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": null,
+            "onClose": [Function],
+            "open": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

@@ -1,0 +1,2913 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render create dashboard correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RawCreateDashboard
+    createDashboard={[MockFunction]}
+    intl={
+      Object {
+        "formatMessage": [MockFunction] {
+          "calls": Array [
+            Array [
+              Object {
+                "defaultMessage": "Pick an icon to create a dashboard",
+                "id": "composant.main.CreateDashboard.title",
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+          ],
+        },
+      }
+    }
+    onClose={[MockFunction]}
+    open={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <WithStyles(GridList)
+        cellHeight={48}
+        cols={8}
+      >
+        <WithStyles(GridListTile)>
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              home
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+        </WithStyles(GridListTile)>
+        <WithStyles(GridListTile)>
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              business
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+        </WithStyles(GridListTile)>
+        <WithStyles(GridListTile)>
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              mail_outline
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+        </WithStyles(GridListTile)>
+        <WithStyles(GridListTile)>
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              message
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+        </WithStyles(GridListTile)>
+        <WithStyles(GridListTile)>
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              bookmarks
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+        </WithStyles(GridListTile)>
+        <WithStyles(GridListTile)>
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              face
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+        </WithStyles(GridListTile)>
+        <WithStyles(GridListTile)>
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              favorite
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+        </WithStyles(GridListTile)>
+        <WithStyles(GridListTile)>
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              favorite_border
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+        </WithStyles(GridListTile)>
+        <WithStyles(GridListTile)>
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              feedback
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+        </WithStyles(GridListTile)>
+        <WithStyles(GridListTile)>
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              info
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+        </WithStyles(GridListTile)>
+        <WithStyles(GridListTile)>
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              language
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+        </WithStyles(GridListTile)>
+        <WithStyles(GridListTile)>
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              pan_tool
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+        </WithStyles(GridListTile)>
+        <WithStyles(GridListTile)>
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              pets
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+        </WithStyles(GridListTile)>
+        <WithStyles(GridListTile)>
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              shopping_cart
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+        </WithStyles(GridListTile)>
+        <WithStyles(GridListTile)>
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              supervisor_account
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+        </WithStyles(GridListTile)>
+        <WithStyles(GridListTile)>
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              visibility
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+        </WithStyles(GridListTile)>
+        <WithStyles(GridListTile)>
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              watch_later
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+        </WithStyles(GridListTile)>
+        <WithStyles(GridListTile)>
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              work
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+        </WithStyles(GridListTile)>
+        <WithStyles(GridListTile)>
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              directions_walk
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+        </WithStyles(GridListTile)>
+        <WithStyles(GridListTile)>
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              my_location
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+        </WithStyles(GridListTile)>
+        <WithStyles(GridListTile)>
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              mood
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+        </WithStyles(GridListTile)>
+        <WithStyles(GridListTile)>
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              cake
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+        </WithStyles(GridListTile)>
+        <WithStyles(GridListTile)>
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              public
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+        </WithStyles(GridListTile)>
+        <WithStyles(GridListTile)>
+          <WithStyles(IconButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)>
+              star
+            </WithStyles(Icon)>
+          </WithStyles(IconButton)>
+        </WithStyles(GridListTile)>
+      </WithStyles(GridList)>,
+      "onClose": [MockFunction],
+      "open": true,
+      "title": undefined,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "cellHeight": 48,
+        "children": Array [
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                home
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>,
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                business
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>,
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                mail_outline
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>,
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                message
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>,
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                bookmarks
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>,
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                face
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>,
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                favorite
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>,
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                favorite_border
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>,
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                feedback
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>,
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                info
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>,
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                language
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>,
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                pan_tool
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>,
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                pets
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>,
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                shopping_cart
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>,
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                supervisor_account
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>,
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                visibility
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>,
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                watch_later
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>,
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                work
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>,
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                directions_walk
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>,
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                my_location
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>,
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                mood
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>,
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                cake
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>,
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                public
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>,
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                star
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>,
+        ],
+        "cols": 8,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "home",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                home
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)>
+                home
+              </WithStyles(Icon)>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "home",
+              },
+              "ref": null,
+              "rendered": "home",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "business",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                business
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)>
+                business
+              </WithStyles(Icon)>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "business",
+              },
+              "ref": null,
+              "rendered": "business",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "mail_outline",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                mail_outline
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)>
+                mail_outline
+              </WithStyles(Icon)>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "mail_outline",
+              },
+              "ref": null,
+              "rendered": "mail_outline",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "message",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                message
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)>
+                message
+              </WithStyles(Icon)>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "message",
+              },
+              "ref": null,
+              "rendered": "message",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "bookmarks",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                bookmarks
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)>
+                bookmarks
+              </WithStyles(Icon)>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "bookmarks",
+              },
+              "ref": null,
+              "rendered": "bookmarks",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "face",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                face
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)>
+                face
+              </WithStyles(Icon)>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "face",
+              },
+              "ref": null,
+              "rendered": "face",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "favorite",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                favorite
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)>
+                favorite
+              </WithStyles(Icon)>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "favorite",
+              },
+              "ref": null,
+              "rendered": "favorite",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "favorite_border",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                favorite_border
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)>
+                favorite_border
+              </WithStyles(Icon)>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "favorite_border",
+              },
+              "ref": null,
+              "rendered": "favorite_border",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "feedback",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                feedback
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)>
+                feedback
+              </WithStyles(Icon)>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "feedback",
+              },
+              "ref": null,
+              "rendered": "feedback",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "info",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                info
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)>
+                info
+              </WithStyles(Icon)>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "info",
+              },
+              "ref": null,
+              "rendered": "info",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "language",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                language
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)>
+                language
+              </WithStyles(Icon)>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "language",
+              },
+              "ref": null,
+              "rendered": "language",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "pan_tool",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                pan_tool
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)>
+                pan_tool
+              </WithStyles(Icon)>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "pan_tool",
+              },
+              "ref": null,
+              "rendered": "pan_tool",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "pets",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                pets
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)>
+                pets
+              </WithStyles(Icon)>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "pets",
+              },
+              "ref": null,
+              "rendered": "pets",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "shopping_cart",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                shopping_cart
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)>
+                shopping_cart
+              </WithStyles(Icon)>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "shopping_cart",
+              },
+              "ref": null,
+              "rendered": "shopping_cart",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "supervisor_account",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                supervisor_account
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)>
+                supervisor_account
+              </WithStyles(Icon)>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "supervisor_account",
+              },
+              "ref": null,
+              "rendered": "supervisor_account",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "visibility",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                visibility
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)>
+                visibility
+              </WithStyles(Icon)>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "visibility",
+              },
+              "ref": null,
+              "rendered": "visibility",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "watch_later",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                watch_later
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)>
+                watch_later
+              </WithStyles(Icon)>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "watch_later",
+              },
+              "ref": null,
+              "rendered": "watch_later",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "work",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                work
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)>
+                work
+              </WithStyles(Icon)>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "work",
+              },
+              "ref": null,
+              "rendered": "work",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "directions_walk",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                directions_walk
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)>
+                directions_walk
+              </WithStyles(Icon)>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "directions_walk",
+              },
+              "ref": null,
+              "rendered": "directions_walk",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "my_location",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                my_location
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)>
+                my_location
+              </WithStyles(Icon)>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "my_location",
+              },
+              "ref": null,
+              "rendered": "my_location",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "mood",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                mood
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)>
+                mood
+              </WithStyles(Icon)>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "mood",
+              },
+              "ref": null,
+              "rendered": "mood",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "cake",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                cake
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)>
+                cake
+              </WithStyles(Icon)>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "cake",
+              },
+              "ref": null,
+              "rendered": "cake",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "public",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                public
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)>
+                public
+              </WithStyles(Icon)>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "public",
+              },
+              "ref": null,
+              "rendered": "public",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "star",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                star
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Icon)>
+                star
+              </WithStyles(Icon)>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "star",
+              },
+              "ref": null,
+              "rendered": "star",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <WithStyles(GridList)
+          cellHeight={48}
+          cols={8}
+        >
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                home
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                business
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                mail_outline
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                message
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                bookmarks
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                face
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                favorite
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                favorite_border
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                feedback
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                info
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                language
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                pan_tool
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                pets
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                shopping_cart
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                supervisor_account
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                visibility
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                watch_later
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                work
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                directions_walk
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                my_location
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                mood
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                cake
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                public
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>
+          <WithStyles(GridListTile)>
+            <WithStyles(IconButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)>
+                star
+              </WithStyles(Icon)>
+            </WithStyles(IconButton)>
+          </WithStyles(GridListTile)>
+        </WithStyles(GridList)>,
+        "onClose": [MockFunction],
+        "open": true,
+        "title": undefined,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "cellHeight": 48,
+          "children": Array [
+            <WithStyles(GridListTile)>
+              <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  home
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>
+            </WithStyles(GridListTile)>,
+            <WithStyles(GridListTile)>
+              <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  business
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>
+            </WithStyles(GridListTile)>,
+            <WithStyles(GridListTile)>
+              <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  mail_outline
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>
+            </WithStyles(GridListTile)>,
+            <WithStyles(GridListTile)>
+              <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  message
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>
+            </WithStyles(GridListTile)>,
+            <WithStyles(GridListTile)>
+              <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  bookmarks
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>
+            </WithStyles(GridListTile)>,
+            <WithStyles(GridListTile)>
+              <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  face
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>
+            </WithStyles(GridListTile)>,
+            <WithStyles(GridListTile)>
+              <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  favorite
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>
+            </WithStyles(GridListTile)>,
+            <WithStyles(GridListTile)>
+              <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  favorite_border
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>
+            </WithStyles(GridListTile)>,
+            <WithStyles(GridListTile)>
+              <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  feedback
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>
+            </WithStyles(GridListTile)>,
+            <WithStyles(GridListTile)>
+              <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  info
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>
+            </WithStyles(GridListTile)>,
+            <WithStyles(GridListTile)>
+              <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  language
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>
+            </WithStyles(GridListTile)>,
+            <WithStyles(GridListTile)>
+              <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  pan_tool
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>
+            </WithStyles(GridListTile)>,
+            <WithStyles(GridListTile)>
+              <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  pets
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>
+            </WithStyles(GridListTile)>,
+            <WithStyles(GridListTile)>
+              <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  shopping_cart
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>
+            </WithStyles(GridListTile)>,
+            <WithStyles(GridListTile)>
+              <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  supervisor_account
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>
+            </WithStyles(GridListTile)>,
+            <WithStyles(GridListTile)>
+              <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  visibility
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>
+            </WithStyles(GridListTile)>,
+            <WithStyles(GridListTile)>
+              <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  watch_later
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>
+            </WithStyles(GridListTile)>,
+            <WithStyles(GridListTile)>
+              <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  work
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>
+            </WithStyles(GridListTile)>,
+            <WithStyles(GridListTile)>
+              <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  directions_walk
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>
+            </WithStyles(GridListTile)>,
+            <WithStyles(GridListTile)>
+              <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  my_location
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>
+            </WithStyles(GridListTile)>,
+            <WithStyles(GridListTile)>
+              <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  mood
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>
+            </WithStyles(GridListTile)>,
+            <WithStyles(GridListTile)>
+              <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  cake
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>
+            </WithStyles(GridListTile)>,
+            <WithStyles(GridListTile)>
+              <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  public
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>
+            </WithStyles(GridListTile)>,
+            <WithStyles(GridListTile)>
+              <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  star
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>
+            </WithStyles(GridListTile)>,
+          ],
+          "cols": 8,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "home",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  home
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(Icon)>
+                  home
+                </WithStyles(Icon)>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "home",
+                },
+                "ref": null,
+                "rendered": "home",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "business",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  business
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(Icon)>
+                  business
+                </WithStyles(Icon)>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "business",
+                },
+                "ref": null,
+                "rendered": "business",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "mail_outline",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  mail_outline
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(Icon)>
+                  mail_outline
+                </WithStyles(Icon)>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "mail_outline",
+                },
+                "ref": null,
+                "rendered": "mail_outline",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "message",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  message
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(Icon)>
+                  message
+                </WithStyles(Icon)>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "message",
+                },
+                "ref": null,
+                "rendered": "message",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "bookmarks",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  bookmarks
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(Icon)>
+                  bookmarks
+                </WithStyles(Icon)>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "bookmarks",
+                },
+                "ref": null,
+                "rendered": "bookmarks",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "face",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  face
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(Icon)>
+                  face
+                </WithStyles(Icon)>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "face",
+                },
+                "ref": null,
+                "rendered": "face",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "favorite",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  favorite
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(Icon)>
+                  favorite
+                </WithStyles(Icon)>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "favorite",
+                },
+                "ref": null,
+                "rendered": "favorite",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "favorite_border",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  favorite_border
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(Icon)>
+                  favorite_border
+                </WithStyles(Icon)>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "favorite_border",
+                },
+                "ref": null,
+                "rendered": "favorite_border",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "feedback",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  feedback
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(Icon)>
+                  feedback
+                </WithStyles(Icon)>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "feedback",
+                },
+                "ref": null,
+                "rendered": "feedback",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "info",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  info
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(Icon)>
+                  info
+                </WithStyles(Icon)>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "info",
+                },
+                "ref": null,
+                "rendered": "info",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "language",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  language
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(Icon)>
+                  language
+                </WithStyles(Icon)>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "language",
+                },
+                "ref": null,
+                "rendered": "language",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "pan_tool",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  pan_tool
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(Icon)>
+                  pan_tool
+                </WithStyles(Icon)>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "pan_tool",
+                },
+                "ref": null,
+                "rendered": "pan_tool",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "pets",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  pets
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(Icon)>
+                  pets
+                </WithStyles(Icon)>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "pets",
+                },
+                "ref": null,
+                "rendered": "pets",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "shopping_cart",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  shopping_cart
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(Icon)>
+                  shopping_cart
+                </WithStyles(Icon)>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "shopping_cart",
+                },
+                "ref": null,
+                "rendered": "shopping_cart",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "supervisor_account",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  supervisor_account
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(Icon)>
+                  supervisor_account
+                </WithStyles(Icon)>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "supervisor_account",
+                },
+                "ref": null,
+                "rendered": "supervisor_account",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "visibility",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  visibility
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(Icon)>
+                  visibility
+                </WithStyles(Icon)>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "visibility",
+                },
+                "ref": null,
+                "rendered": "visibility",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "watch_later",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  watch_later
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(Icon)>
+                  watch_later
+                </WithStyles(Icon)>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "watch_later",
+                },
+                "ref": null,
+                "rendered": "watch_later",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "work",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  work
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(Icon)>
+                  work
+                </WithStyles(Icon)>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "work",
+                },
+                "ref": null,
+                "rendered": "work",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "directions_walk",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  directions_walk
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(Icon)>
+                  directions_walk
+                </WithStyles(Icon)>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "directions_walk",
+                },
+                "ref": null,
+                "rendered": "directions_walk",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "my_location",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  my_location
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(Icon)>
+                  my_location
+                </WithStyles(Icon)>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "my_location",
+                },
+                "ref": null,
+                "rendered": "my_location",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "mood",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  mood
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(Icon)>
+                  mood
+                </WithStyles(Icon)>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "mood",
+                },
+                "ref": null,
+                "rendered": "mood",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "cake",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  cake
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(Icon)>
+                  cake
+                </WithStyles(Icon)>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "cake",
+                },
+                "ref": null,
+                "rendered": "cake",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "public",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  public
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(Icon)>
+                  public
+                </WithStyles(Icon)>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "public",
+                },
+                "ref": null,
+                "rendered": "public",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "star",
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(IconButton)
+                onClick={[Function]}
+              >
+                <WithStyles(Icon)>
+                  star
+                </WithStyles(Icon)>
+              </WithStyles(IconButton)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(Icon)>
+                  star
+                </WithStyles(Icon)>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "star",
+                },
+                "ref": null,
+                "rendered": "star",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

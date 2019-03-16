@@ -1,0 +1,900 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should keep using the same styles 1`] = `
+Object {
+  "bigLeap": Object {
+    "marginBottom": "50px",
+  },
+  "paper": Object {
+    "padding": 2,
+    "textAlign": "center",
+  },
+  "root": Object {
+    "flexGrow": 1,
+    "marginLeft": "20px",
+    "marginRight": "20px",
+    "paddingTop": "5%",
+    "textAlign": "justify",
+  },
+  "smallLeap": Object {
+    "marginBottom": "20px",
+  },
+  "socialButton": Object {
+    "padding": 1,
+  },
+  "twitter": Object {
+    "backgroundColor": "#00aced",
+    "color": "white",
+  },
+}
+`;
+
+exports[`Should keep using the same styles 2`] = `Object {}`;
+
+exports[`Should render correctly the login page 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RawLogin
+    classes={Object {}}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <WithStyles(Grid)
+        container={true}
+        spacing={40}
+      >
+        <WithStyles(Grid)
+          item={true}
+          xs={1}
+        />
+        <WithStyles(Grid)
+          item={true}
+          xs={7}
+        >
+          <WithStyles(Typography)
+            variant="h3"
+          >
+            <FormattedMessage
+              defaultMessage="All your news and networks - in one place."
+              id="login.description.title"
+              values={Object {}}
+            />
+          </WithStyles(Typography)>
+          <WithStyles(Typography)
+            variant="h5"
+          >
+            <FormattedMessage
+              defaultMessage="Facebook, Twitter, Instagram, some news feeds... Hard to manage everything, sometime with multiple accounts? We got your back! All of your needs in one single tool, highly customizable."
+              id="login.description.content"
+              values={Object {}}
+            />
+          </WithStyles(Typography)>
+          <WithStyles(Typography)
+            variant="h4"
+          >
+            <FormattedMessage
+              defaultMessage="Give it a try - it's free!"
+              id="login.free"
+              values={Object {}}
+            />
+          </WithStyles(Typography)>
+        </WithStyles(Grid)>
+        <WithStyles(Grid)
+          item={true}
+          xs={3}
+        >
+          <WithStyles(Paper)>
+            <WithStyles(Typography)
+              variant="h5"
+            >
+              <FormattedMessage
+                defaultMessage="Connect to Tukhe"
+                id="login.button.title"
+                values={Object {}}
+              />
+            </WithStyles(Typography)>
+            <WithStyles(Button)
+              className="undefined undefined"
+            >
+              <FormattedMessage
+                defaultMessage="Login with Twitter"
+                id="login.button.twitter"
+                values={Object {}}
+              />
+            </WithStyles(Button)>
+          </WithStyles(Paper)>
+        </WithStyles(Grid)>
+      </WithStyles(Grid)>,
+      "className": undefined,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <WithStyles(Grid)
+            item={true}
+            xs={1}
+          />,
+          <WithStyles(Grid)
+            item={true}
+            xs={7}
+          >
+            <WithStyles(Typography)
+              variant="h3"
+            >
+              <FormattedMessage
+                defaultMessage="All your news and networks - in one place."
+                id="login.description.title"
+                values={Object {}}
+              />
+            </WithStyles(Typography)>
+            <WithStyles(Typography)
+              variant="h5"
+            >
+              <FormattedMessage
+                defaultMessage="Facebook, Twitter, Instagram, some news feeds... Hard to manage everything, sometime with multiple accounts? We got your back! All of your needs in one single tool, highly customizable."
+                id="login.description.content"
+                values={Object {}}
+              />
+            </WithStyles(Typography)>
+            <WithStyles(Typography)
+              variant="h4"
+            >
+              <FormattedMessage
+                defaultMessage="Give it a try - it's free!"
+                id="login.free"
+                values={Object {}}
+              />
+            </WithStyles(Typography)>
+          </WithStyles(Grid)>,
+          <WithStyles(Grid)
+            item={true}
+            xs={3}
+          >
+            <WithStyles(Paper)>
+              <WithStyles(Typography)
+                variant="h5"
+              >
+                <FormattedMessage
+                  defaultMessage="Connect to Tukhe"
+                  id="login.button.title"
+                  values={Object {}}
+                />
+              </WithStyles(Typography)>
+              <WithStyles(Button)
+                className="undefined undefined"
+              >
+                <FormattedMessage
+                  defaultMessage="Login with Twitter"
+                  id="login.button.twitter"
+                  values={Object {}}
+                />
+              </WithStyles(Button)>
+            </WithStyles(Paper)>
+          </WithStyles(Grid)>,
+        ],
+        "container": true,
+        "spacing": 40,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "item": true,
+            "xs": 1,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <WithStyles(Typography)
+                variant="h3"
+              >
+                <FormattedMessage
+                  defaultMessage="All your news and networks - in one place."
+                  id="login.description.title"
+                  values={Object {}}
+                />
+              </WithStyles(Typography)>,
+              <WithStyles(Typography)
+                variant="h5"
+              >
+                <FormattedMessage
+                  defaultMessage="Facebook, Twitter, Instagram, some news feeds... Hard to manage everything, sometime with multiple accounts? We got your back! All of your needs in one single tool, highly customizable."
+                  id="login.description.content"
+                  values={Object {}}
+                />
+              </WithStyles(Typography)>,
+              <WithStyles(Typography)
+                variant="h4"
+              >
+                <FormattedMessage
+                  defaultMessage="Give it a try - it's free!"
+                  id="login.free"
+                  values={Object {}}
+                />
+              </WithStyles(Typography)>,
+            ],
+            "item": true,
+            "xs": 7,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <FormattedMessage
+                  defaultMessage="All your news and networks - in one place."
+                  id="login.description.title"
+                  values={Object {}}
+                />,
+                "className": undefined,
+                "variant": "h3",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultMessage": "All your news and networks - in one place.",
+                  "id": "login.description.title",
+                  "values": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <FormattedMessage
+                  defaultMessage="Facebook, Twitter, Instagram, some news feeds... Hard to manage everything, sometime with multiple accounts? We got your back! All of your needs in one single tool, highly customizable."
+                  id="login.description.content"
+                  values={Object {}}
+                />,
+                "className": undefined,
+                "variant": "h5",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultMessage": "Facebook, Twitter, Instagram, some news feeds... Hard to manage everything, sometime with multiple accounts? We got your back! All of your needs in one single tool, highly customizable.",
+                  "id": "login.description.content",
+                  "values": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <FormattedMessage
+                  defaultMessage="Give it a try - it's free!"
+                  id="login.free"
+                  values={Object {}}
+                />,
+                "variant": "h4",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultMessage": "Give it a try - it's free!",
+                  "id": "login.free",
+                  "values": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(Paper)>
+              <WithStyles(Typography)
+                variant="h5"
+              >
+                <FormattedMessage
+                  defaultMessage="Connect to Tukhe"
+                  id="login.button.title"
+                  values={Object {}}
+                />
+              </WithStyles(Typography)>
+              <WithStyles(Button)
+                className="undefined undefined"
+              >
+                <FormattedMessage
+                  defaultMessage="Login with Twitter"
+                  id="login.button.twitter"
+                  values={Object {}}
+                />
+              </WithStyles(Button)>
+            </WithStyles(Paper)>,
+            "item": true,
+            "xs": 3,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <WithStyles(Typography)
+                  variant="h5"
+                >
+                  <FormattedMessage
+                    defaultMessage="Connect to Tukhe"
+                    id="login.button.title"
+                    values={Object {}}
+                  />
+                </WithStyles(Typography)>,
+                <WithStyles(Button)
+                  className="undefined undefined"
+                >
+                  <FormattedMessage
+                    defaultMessage="Login with Twitter"
+                    id="login.button.twitter"
+                    values={Object {}}
+                  />
+                </WithStyles(Button)>,
+              ],
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Connect to Tukhe"
+                    id="login.button.title"
+                    values={Object {}}
+                  />,
+                  "className": undefined,
+                  "variant": "h5",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Connect to Tukhe",
+                    "id": "login.button.title",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Login with Twitter"
+                    id="login.button.twitter"
+                    values={Object {}}
+                  />,
+                  "className": "undefined undefined",
+                  "onClick": undefined,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Login with Twitter",
+                    "id": "login.button.twitter",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <WithStyles(Grid)
+          container={true}
+          spacing={40}
+        >
+          <WithStyles(Grid)
+            item={true}
+            xs={1}
+          />
+          <WithStyles(Grid)
+            item={true}
+            xs={7}
+          >
+            <WithStyles(Typography)
+              variant="h3"
+            >
+              <FormattedMessage
+                defaultMessage="All your news and networks - in one place."
+                id="login.description.title"
+                values={Object {}}
+              />
+            </WithStyles(Typography)>
+            <WithStyles(Typography)
+              variant="h5"
+            >
+              <FormattedMessage
+                defaultMessage="Facebook, Twitter, Instagram, some news feeds... Hard to manage everything, sometime with multiple accounts? We got your back! All of your needs in one single tool, highly customizable."
+                id="login.description.content"
+                values={Object {}}
+              />
+            </WithStyles(Typography)>
+            <WithStyles(Typography)
+              variant="h4"
+            >
+              <FormattedMessage
+                defaultMessage="Give it a try - it's free!"
+                id="login.free"
+                values={Object {}}
+              />
+            </WithStyles(Typography)>
+          </WithStyles(Grid)>
+          <WithStyles(Grid)
+            item={true}
+            xs={3}
+          >
+            <WithStyles(Paper)>
+              <WithStyles(Typography)
+                variant="h5"
+              >
+                <FormattedMessage
+                  defaultMessage="Connect to Tukhe"
+                  id="login.button.title"
+                  values={Object {}}
+                />
+              </WithStyles(Typography)>
+              <WithStyles(Button)
+                className="undefined undefined"
+              >
+                <FormattedMessage
+                  defaultMessage="Login with Twitter"
+                  id="login.button.twitter"
+                  values={Object {}}
+                />
+              </WithStyles(Button)>
+            </WithStyles(Paper)>
+          </WithStyles(Grid)>
+        </WithStyles(Grid)>,
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <WithStyles(Grid)
+              item={true}
+              xs={1}
+            />,
+            <WithStyles(Grid)
+              item={true}
+              xs={7}
+            >
+              <WithStyles(Typography)
+                variant="h3"
+              >
+                <FormattedMessage
+                  defaultMessage="All your news and networks - in one place."
+                  id="login.description.title"
+                  values={Object {}}
+                />
+              </WithStyles(Typography)>
+              <WithStyles(Typography)
+                variant="h5"
+              >
+                <FormattedMessage
+                  defaultMessage="Facebook, Twitter, Instagram, some news feeds... Hard to manage everything, sometime with multiple accounts? We got your back! All of your needs in one single tool, highly customizable."
+                  id="login.description.content"
+                  values={Object {}}
+                />
+              </WithStyles(Typography)>
+              <WithStyles(Typography)
+                variant="h4"
+              >
+                <FormattedMessage
+                  defaultMessage="Give it a try - it's free!"
+                  id="login.free"
+                  values={Object {}}
+                />
+              </WithStyles(Typography)>
+            </WithStyles(Grid)>,
+            <WithStyles(Grid)
+              item={true}
+              xs={3}
+            >
+              <WithStyles(Paper)>
+                <WithStyles(Typography)
+                  variant="h5"
+                >
+                  <FormattedMessage
+                    defaultMessage="Connect to Tukhe"
+                    id="login.button.title"
+                    values={Object {}}
+                  />
+                </WithStyles(Typography)>
+                <WithStyles(Button)
+                  className="undefined undefined"
+                >
+                  <FormattedMessage
+                    defaultMessage="Login with Twitter"
+                    id="login.button.twitter"
+                    values={Object {}}
+                  />
+                </WithStyles(Button)>
+              </WithStyles(Paper)>
+            </WithStyles(Grid)>,
+          ],
+          "container": true,
+          "spacing": 40,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "item": true,
+              "xs": 1,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <WithStyles(Typography)
+                  variant="h3"
+                >
+                  <FormattedMessage
+                    defaultMessage="All your news and networks - in one place."
+                    id="login.description.title"
+                    values={Object {}}
+                  />
+                </WithStyles(Typography)>,
+                <WithStyles(Typography)
+                  variant="h5"
+                >
+                  <FormattedMessage
+                    defaultMessage="Facebook, Twitter, Instagram, some news feeds... Hard to manage everything, sometime with multiple accounts? We got your back! All of your needs in one single tool, highly customizable."
+                    id="login.description.content"
+                    values={Object {}}
+                  />
+                </WithStyles(Typography)>,
+                <WithStyles(Typography)
+                  variant="h4"
+                >
+                  <FormattedMessage
+                    defaultMessage="Give it a try - it's free!"
+                    id="login.free"
+                    values={Object {}}
+                  />
+                </WithStyles(Typography)>,
+              ],
+              "item": true,
+              "xs": 7,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="All your news and networks - in one place."
+                    id="login.description.title"
+                    values={Object {}}
+                  />,
+                  "className": undefined,
+                  "variant": "h3",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "All your news and networks - in one place.",
+                    "id": "login.description.title",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Facebook, Twitter, Instagram, some news feeds... Hard to manage everything, sometime with multiple accounts? We got your back! All of your needs in one single tool, highly customizable."
+                    id="login.description.content"
+                    values={Object {}}
+                  />,
+                  "className": undefined,
+                  "variant": "h5",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Facebook, Twitter, Instagram, some news feeds... Hard to manage everything, sometime with multiple accounts? We got your back! All of your needs in one single tool, highly customizable.",
+                    "id": "login.description.content",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Give it a try - it's free!"
+                    id="login.free"
+                    values={Object {}}
+                  />,
+                  "variant": "h4",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Give it a try - it's free!",
+                    "id": "login.free",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Paper)>
+                <WithStyles(Typography)
+                  variant="h5"
+                >
+                  <FormattedMessage
+                    defaultMessage="Connect to Tukhe"
+                    id="login.button.title"
+                    values={Object {}}
+                  />
+                </WithStyles(Typography)>
+                <WithStyles(Button)
+                  className="undefined undefined"
+                >
+                  <FormattedMessage
+                    defaultMessage="Login with Twitter"
+                    id="login.button.twitter"
+                    values={Object {}}
+                  />
+                </WithStyles(Button)>
+              </WithStyles(Paper)>,
+              "item": true,
+              "xs": 3,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(Typography)
+                    variant="h5"
+                  >
+                    <FormattedMessage
+                      defaultMessage="Connect to Tukhe"
+                      id="login.button.title"
+                      values={Object {}}
+                    />
+                  </WithStyles(Typography)>,
+                  <WithStyles(Button)
+                    className="undefined undefined"
+                  >
+                    <FormattedMessage
+                      defaultMessage="Login with Twitter"
+                      id="login.button.twitter"
+                      values={Object {}}
+                    />
+                  </WithStyles(Button)>,
+                ],
+                "className": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Connect to Tukhe"
+                      id="login.button.title"
+                      values={Object {}}
+                    />,
+                    "className": undefined,
+                    "variant": "h5",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Connect to Tukhe",
+                      "id": "login.button.title",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Login with Twitter"
+                      id="login.button.twitter"
+                      values={Object {}}
+                    />,
+                    "className": "undefined undefined",
+                    "onClick": undefined,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Login with Twitter",
+                      "id": "login.button.twitter",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

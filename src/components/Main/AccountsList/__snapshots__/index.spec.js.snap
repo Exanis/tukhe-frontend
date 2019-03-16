@@ -1,0 +1,1565 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render as expected with all props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RawAccountsList
+    accounts={
+      Array [
+        Object {
+          "name": "account1",
+          "provider": "twitter",
+          "uuid": "test1",
+        },
+        Object {
+          "name": "account2",
+          "provider": "facebook",
+          "uuid": "test2",
+        },
+      ]
+    }
+    intl={
+      Object {
+        "formatMessage": [MockFunction] {
+          "calls": Array [
+            Array [
+              Object {
+                "defaultMessage": "Twitter",
+                "id": "component.main.AccountsList.provider.twitter",
+              },
+            ],
+            Array [
+              undefined,
+            ],
+            Array [
+              Object {
+                "defaultMessage": "Twitter",
+                "id": "component.main.AccountsList.provider.twitter",
+              },
+            ],
+            Array [
+              undefined,
+            ],
+            Array [
+              Object {
+                "defaultMessage": "External accounts",
+                "id": "component.main.AccountsList.title",
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+          ],
+        },
+      }
+    }
+    onClose={[MockFunction]}
+    onDeleteAccount={[MockFunction]}
+    open={true}
+    providers={
+      Object {
+        "facebook": [MockFunction],
+        "twitter": [MockFunction],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <WithStyles(Table)>
+        <WithStyles(TableHead)>
+          <WithStyles(TableRow)>
+            <WithStyles(TableCell)>
+              <FormattedMessage
+                defaultMessage="Service"
+                id="component.main.AccountsList.provider"
+                values={Object {}}
+              />
+            </WithStyles(TableCell)>
+            <WithStyles(TableCell)>
+              <FormattedMessage
+                defaultMessage="Name"
+                id="component.main.AccountsList.name"
+                values={Object {}}
+              />
+            </WithStyles(TableCell)>
+            <WithStyles(TableCell)>
+              <WithStyles(Button)
+                aria-haspopup="true"
+                onClick={[Function]}
+                variant="contained"
+              >
+                <FormattedMessage
+                  defaultMessage="Add account"
+                  id="component.main.AccountsList.name"
+                  values={Object {}}
+                />
+              </WithStyles(Button)>
+              <WithStyles(Menu)
+                anchorEl={null}
+                id="add-account-menu"
+                onClose={[Function]}
+                open={false}
+              >
+                <WithStyles(MenuItem)
+                  onClick={[Function]}
+                />
+                <WithStyles(MenuItem)
+                  onClick={[Function]}
+                />
+              </WithStyles(Menu)>
+            </WithStyles(TableCell)>
+          </WithStyles(TableRow)>
+        </WithStyles(TableHead)>
+        <WithStyles(TableBody)>
+          <WithStyles(TableRow)>
+            <WithStyles(TableCell) />
+            <WithStyles(TableCell)>
+              account1
+            </WithStyles(TableCell)>
+            <WithStyles(TableCell)>
+              <WithStyles(Button)
+                color="secondary"
+                onClick={[Function]}
+                variant="contained"
+              >
+                <FormattedMessage
+                  defaultMessage="Delete"
+                  id="component.main.AccountsList.delete"
+                  values={Object {}}
+                />
+              </WithStyles(Button)>
+            </WithStyles(TableCell)>
+          </WithStyles(TableRow)>
+          <WithStyles(TableRow)>
+            <WithStyles(TableCell) />
+            <WithStyles(TableCell)>
+              account2
+            </WithStyles(TableCell)>
+            <WithStyles(TableCell)>
+              <WithStyles(Button)
+                color="secondary"
+                onClick={[Function]}
+                variant="contained"
+              >
+                <FormattedMessage
+                  defaultMessage="Delete"
+                  id="component.main.AccountsList.delete"
+                  values={Object {}}
+                />
+              </WithStyles(Button)>
+            </WithStyles(TableCell)>
+          </WithStyles(TableRow)>
+        </WithStyles(TableBody)>
+      </WithStyles(Table)>,
+      "onClose": [MockFunction],
+      "open": true,
+      "title": undefined,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <WithStyles(TableHead)>
+            <WithStyles(TableRow)>
+              <WithStyles(TableCell)>
+                <FormattedMessage
+                  defaultMessage="Service"
+                  id="component.main.AccountsList.provider"
+                  values={Object {}}
+                />
+              </WithStyles(TableCell)>
+              <WithStyles(TableCell)>
+                <FormattedMessage
+                  defaultMessage="Name"
+                  id="component.main.AccountsList.name"
+                  values={Object {}}
+                />
+              </WithStyles(TableCell)>
+              <WithStyles(TableCell)>
+                <WithStyles(Button)
+                  aria-haspopup="true"
+                  onClick={[Function]}
+                  variant="contained"
+                >
+                  <FormattedMessage
+                    defaultMessage="Add account"
+                    id="component.main.AccountsList.name"
+                    values={Object {}}
+                  />
+                </WithStyles(Button)>
+                <WithStyles(Menu)
+                  anchorEl={null}
+                  id="add-account-menu"
+                  onClose={[Function]}
+                  open={false}
+                >
+                  <WithStyles(MenuItem)
+                    onClick={[Function]}
+                  />
+                  <WithStyles(MenuItem)
+                    onClick={[Function]}
+                  />
+                </WithStyles(Menu)>
+              </WithStyles(TableCell)>
+            </WithStyles(TableRow)>
+          </WithStyles(TableHead)>,
+          <WithStyles(TableBody)>
+            <WithStyles(TableRow)>
+              <WithStyles(TableCell) />
+              <WithStyles(TableCell)>
+                account1
+              </WithStyles(TableCell)>
+              <WithStyles(TableCell)>
+                <WithStyles(Button)
+                  color="secondary"
+                  onClick={[Function]}
+                  variant="contained"
+                >
+                  <FormattedMessage
+                    defaultMessage="Delete"
+                    id="component.main.AccountsList.delete"
+                    values={Object {}}
+                  />
+                </WithStyles(Button)>
+              </WithStyles(TableCell)>
+            </WithStyles(TableRow)>
+            <WithStyles(TableRow)>
+              <WithStyles(TableCell) />
+              <WithStyles(TableCell)>
+                account2
+              </WithStyles(TableCell)>
+              <WithStyles(TableCell)>
+                <WithStyles(Button)
+                  color="secondary"
+                  onClick={[Function]}
+                  variant="contained"
+                >
+                  <FormattedMessage
+                    defaultMessage="Delete"
+                    id="component.main.AccountsList.delete"
+                    values={Object {}}
+                  />
+                </WithStyles(Button)>
+              </WithStyles(TableCell)>
+            </WithStyles(TableRow)>
+          </WithStyles(TableBody)>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(TableRow)>
+              <WithStyles(TableCell)>
+                <FormattedMessage
+                  defaultMessage="Service"
+                  id="component.main.AccountsList.provider"
+                  values={Object {}}
+                />
+              </WithStyles(TableCell)>
+              <WithStyles(TableCell)>
+                <FormattedMessage
+                  defaultMessage="Name"
+                  id="component.main.AccountsList.name"
+                  values={Object {}}
+                />
+              </WithStyles(TableCell)>
+              <WithStyles(TableCell)>
+                <WithStyles(Button)
+                  aria-haspopup="true"
+                  onClick={[Function]}
+                  variant="contained"
+                >
+                  <FormattedMessage
+                    defaultMessage="Add account"
+                    id="component.main.AccountsList.name"
+                    values={Object {}}
+                  />
+                </WithStyles(Button)>
+                <WithStyles(Menu)
+                  anchorEl={null}
+                  id="add-account-menu"
+                  onClose={[Function]}
+                  open={false}
+                >
+                  <WithStyles(MenuItem)
+                    onClick={[Function]}
+                  />
+                  <WithStyles(MenuItem)
+                    onClick={[Function]}
+                  />
+                </WithStyles(Menu)>
+              </WithStyles(TableCell)>
+            </WithStyles(TableRow)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <WithStyles(TableCell)>
+                  <FormattedMessage
+                    defaultMessage="Service"
+                    id="component.main.AccountsList.provider"
+                    values={Object {}}
+                  />
+                </WithStyles(TableCell)>,
+                <WithStyles(TableCell)>
+                  <FormattedMessage
+                    defaultMessage="Name"
+                    id="component.main.AccountsList.name"
+                    values={Object {}}
+                  />
+                </WithStyles(TableCell)>,
+                <WithStyles(TableCell)>
+                  <WithStyles(Button)
+                    aria-haspopup="true"
+                    onClick={[Function]}
+                    variant="contained"
+                  >
+                    <FormattedMessage
+                      defaultMessage="Add account"
+                      id="component.main.AccountsList.name"
+                      values={Object {}}
+                    />
+                  </WithStyles(Button)>
+                  <WithStyles(Menu)
+                    anchorEl={null}
+                    id="add-account-menu"
+                    onClose={[Function]}
+                    open={false}
+                  >
+                    <WithStyles(MenuItem)
+                      onClick={[Function]}
+                    />
+                    <WithStyles(MenuItem)
+                      onClick={[Function]}
+                    />
+                  </WithStyles(Menu)>
+                </WithStyles(TableCell)>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Service"
+                    id="component.main.AccountsList.provider"
+                    values={Object {}}
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Service",
+                    "id": "component.main.AccountsList.provider",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Name"
+                    id="component.main.AccountsList.name"
+                    values={Object {}}
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Name",
+                    "id": "component.main.AccountsList.name",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(Button)
+                      aria-haspopup="true"
+                      onClick={[Function]}
+                      variant="contained"
+                    >
+                      <FormattedMessage
+                        defaultMessage="Add account"
+                        id="component.main.AccountsList.name"
+                        values={Object {}}
+                      />
+                    </WithStyles(Button)>,
+                    <WithStyles(Menu)
+                      anchorEl={null}
+                      id="add-account-menu"
+                      onClose={[Function]}
+                      open={false}
+                    >
+                      <WithStyles(MenuItem)
+                        onClick={[Function]}
+                      />
+                      <WithStyles(MenuItem)
+                        onClick={[Function]}
+                      />
+                    </WithStyles(Menu)>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "aria-haspopup": "true",
+                      "aria-owns": undefined,
+                      "children": <FormattedMessage
+                        defaultMessage="Add account"
+                        id="component.main.AccountsList.name"
+                        values={Object {}}
+                      />,
+                      "onClick": [Function],
+                      "variant": "contained",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "defaultMessage": "Add account",
+                        "id": "component.main.AccountsList.name",
+                        "values": Object {},
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "anchorEl": null,
+                      "children": Array [
+                        <WithStyles(MenuItem)
+                          onClick={[Function]}
+                        />,
+                        <WithStyles(MenuItem)
+                          onClick={[Function]}
+                        />,
+                      ],
+                      "id": "add-account-menu",
+                      "onClose": [Function],
+                      "open": false,
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "twitter",
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": undefined,
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "facebook",
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": undefined,
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <WithStyles(TableRow)>
+                <WithStyles(TableCell) />
+                <WithStyles(TableCell)>
+                  account1
+                </WithStyles(TableCell)>
+                <WithStyles(TableCell)>
+                  <WithStyles(Button)
+                    color="secondary"
+                    onClick={[Function]}
+                    variant="contained"
+                  >
+                    <FormattedMessage
+                      defaultMessage="Delete"
+                      id="component.main.AccountsList.delete"
+                      values={Object {}}
+                    />
+                  </WithStyles(Button)>
+                </WithStyles(TableCell)>
+              </WithStyles(TableRow)>,
+              <WithStyles(TableRow)>
+                <WithStyles(TableCell) />
+                <WithStyles(TableCell)>
+                  account2
+                </WithStyles(TableCell)>
+                <WithStyles(TableCell)>
+                  <WithStyles(Button)
+                    color="secondary"
+                    onClick={[Function]}
+                    variant="contained"
+                  >
+                    <FormattedMessage
+                      defaultMessage="Delete"
+                      id="component.main.AccountsList.delete"
+                      values={Object {}}
+                    />
+                  </WithStyles(Button)>
+                </WithStyles(TableCell)>
+              </WithStyles(TableRow)>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "test1",
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(TableCell) />,
+                  <WithStyles(TableCell)>
+                    account1
+                  </WithStyles(TableCell)>,
+                  <WithStyles(TableCell)>
+                    <WithStyles(Button)
+                      color="secondary"
+                      onClick={[Function]}
+                      variant="contained"
+                    >
+                      <FormattedMessage
+                        defaultMessage="Delete"
+                        id="component.main.AccountsList.delete"
+                        values={Object {}}
+                      />
+                    </WithStyles(Button)>
+                  </WithStyles(TableCell)>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "account1",
+                  },
+                  "ref": null,
+                  "rendered": "account1",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <WithStyles(Button)
+                      color="secondary"
+                      onClick={[Function]}
+                      variant="contained"
+                    >
+                      <FormattedMessage
+                        defaultMessage="Delete"
+                        id="component.main.AccountsList.delete"
+                        values={Object {}}
+                      />
+                    </WithStyles(Button)>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <FormattedMessage
+                        defaultMessage="Delete"
+                        id="component.main.AccountsList.delete"
+                        values={Object {}}
+                      />,
+                      "color": "secondary",
+                      "onClick": [Function],
+                      "variant": "contained",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "defaultMessage": "Delete",
+                        "id": "component.main.AccountsList.delete",
+                        "values": Object {},
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "test2",
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(TableCell) />,
+                  <WithStyles(TableCell)>
+                    account2
+                  </WithStyles(TableCell)>,
+                  <WithStyles(TableCell)>
+                    <WithStyles(Button)
+                      color="secondary"
+                      onClick={[Function]}
+                      variant="contained"
+                    >
+                      <FormattedMessage
+                        defaultMessage="Delete"
+                        id="component.main.AccountsList.delete"
+                        values={Object {}}
+                      />
+                    </WithStyles(Button)>
+                  </WithStyles(TableCell)>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "account2",
+                  },
+                  "ref": null,
+                  "rendered": "account2",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <WithStyles(Button)
+                      color="secondary"
+                      onClick={[Function]}
+                      variant="contained"
+                    >
+                      <FormattedMessage
+                        defaultMessage="Delete"
+                        id="component.main.AccountsList.delete"
+                        values={Object {}}
+                      />
+                    </WithStyles(Button)>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <FormattedMessage
+                        defaultMessage="Delete"
+                        id="component.main.AccountsList.delete"
+                        values={Object {}}
+                      />,
+                      "color": "secondary",
+                      "onClick": [Function],
+                      "variant": "contained",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "defaultMessage": "Delete",
+                        "id": "component.main.AccountsList.delete",
+                        "values": Object {},
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <WithStyles(Table)>
+          <WithStyles(TableHead)>
+            <WithStyles(TableRow)>
+              <WithStyles(TableCell)>
+                <FormattedMessage
+                  defaultMessage="Service"
+                  id="component.main.AccountsList.provider"
+                  values={Object {}}
+                />
+              </WithStyles(TableCell)>
+              <WithStyles(TableCell)>
+                <FormattedMessage
+                  defaultMessage="Name"
+                  id="component.main.AccountsList.name"
+                  values={Object {}}
+                />
+              </WithStyles(TableCell)>
+              <WithStyles(TableCell)>
+                <WithStyles(Button)
+                  aria-haspopup="true"
+                  onClick={[Function]}
+                  variant="contained"
+                >
+                  <FormattedMessage
+                    defaultMessage="Add account"
+                    id="component.main.AccountsList.name"
+                    values={Object {}}
+                  />
+                </WithStyles(Button)>
+                <WithStyles(Menu)
+                  anchorEl={null}
+                  id="add-account-menu"
+                  onClose={[Function]}
+                  open={false}
+                >
+                  <WithStyles(MenuItem)
+                    onClick={[Function]}
+                  />
+                  <WithStyles(MenuItem)
+                    onClick={[Function]}
+                  />
+                </WithStyles(Menu)>
+              </WithStyles(TableCell)>
+            </WithStyles(TableRow)>
+          </WithStyles(TableHead)>
+          <WithStyles(TableBody)>
+            <WithStyles(TableRow)>
+              <WithStyles(TableCell) />
+              <WithStyles(TableCell)>
+                account1
+              </WithStyles(TableCell)>
+              <WithStyles(TableCell)>
+                <WithStyles(Button)
+                  color="secondary"
+                  onClick={[Function]}
+                  variant="contained"
+                >
+                  <FormattedMessage
+                    defaultMessage="Delete"
+                    id="component.main.AccountsList.delete"
+                    values={Object {}}
+                  />
+                </WithStyles(Button)>
+              </WithStyles(TableCell)>
+            </WithStyles(TableRow)>
+            <WithStyles(TableRow)>
+              <WithStyles(TableCell) />
+              <WithStyles(TableCell)>
+                account2
+              </WithStyles(TableCell)>
+              <WithStyles(TableCell)>
+                <WithStyles(Button)
+                  color="secondary"
+                  onClick={[Function]}
+                  variant="contained"
+                >
+                  <FormattedMessage
+                    defaultMessage="Delete"
+                    id="component.main.AccountsList.delete"
+                    values={Object {}}
+                  />
+                </WithStyles(Button)>
+              </WithStyles(TableCell)>
+            </WithStyles(TableRow)>
+          </WithStyles(TableBody)>
+        </WithStyles(Table)>,
+        "onClose": [MockFunction],
+        "open": true,
+        "title": undefined,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <WithStyles(TableHead)>
+              <WithStyles(TableRow)>
+                <WithStyles(TableCell)>
+                  <FormattedMessage
+                    defaultMessage="Service"
+                    id="component.main.AccountsList.provider"
+                    values={Object {}}
+                  />
+                </WithStyles(TableCell)>
+                <WithStyles(TableCell)>
+                  <FormattedMessage
+                    defaultMessage="Name"
+                    id="component.main.AccountsList.name"
+                    values={Object {}}
+                  />
+                </WithStyles(TableCell)>
+                <WithStyles(TableCell)>
+                  <WithStyles(Button)
+                    aria-haspopup="true"
+                    onClick={[Function]}
+                    variant="contained"
+                  >
+                    <FormattedMessage
+                      defaultMessage="Add account"
+                      id="component.main.AccountsList.name"
+                      values={Object {}}
+                    />
+                  </WithStyles(Button)>
+                  <WithStyles(Menu)
+                    anchorEl={null}
+                    id="add-account-menu"
+                    onClose={[Function]}
+                    open={false}
+                  >
+                    <WithStyles(MenuItem)
+                      onClick={[Function]}
+                    />
+                    <WithStyles(MenuItem)
+                      onClick={[Function]}
+                    />
+                  </WithStyles(Menu)>
+                </WithStyles(TableCell)>
+              </WithStyles(TableRow)>
+            </WithStyles(TableHead)>,
+            <WithStyles(TableBody)>
+              <WithStyles(TableRow)>
+                <WithStyles(TableCell) />
+                <WithStyles(TableCell)>
+                  account1
+                </WithStyles(TableCell)>
+                <WithStyles(TableCell)>
+                  <WithStyles(Button)
+                    color="secondary"
+                    onClick={[Function]}
+                    variant="contained"
+                  >
+                    <FormattedMessage
+                      defaultMessage="Delete"
+                      id="component.main.AccountsList.delete"
+                      values={Object {}}
+                    />
+                  </WithStyles(Button)>
+                </WithStyles(TableCell)>
+              </WithStyles(TableRow)>
+              <WithStyles(TableRow)>
+                <WithStyles(TableCell) />
+                <WithStyles(TableCell)>
+                  account2
+                </WithStyles(TableCell)>
+                <WithStyles(TableCell)>
+                  <WithStyles(Button)
+                    color="secondary"
+                    onClick={[Function]}
+                    variant="contained"
+                  >
+                    <FormattedMessage
+                      defaultMessage="Delete"
+                      id="component.main.AccountsList.delete"
+                      values={Object {}}
+                    />
+                  </WithStyles(Button)>
+                </WithStyles(TableCell)>
+              </WithStyles(TableRow)>
+            </WithStyles(TableBody)>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(TableRow)>
+                <WithStyles(TableCell)>
+                  <FormattedMessage
+                    defaultMessage="Service"
+                    id="component.main.AccountsList.provider"
+                    values={Object {}}
+                  />
+                </WithStyles(TableCell)>
+                <WithStyles(TableCell)>
+                  <FormattedMessage
+                    defaultMessage="Name"
+                    id="component.main.AccountsList.name"
+                    values={Object {}}
+                  />
+                </WithStyles(TableCell)>
+                <WithStyles(TableCell)>
+                  <WithStyles(Button)
+                    aria-haspopup="true"
+                    onClick={[Function]}
+                    variant="contained"
+                  >
+                    <FormattedMessage
+                      defaultMessage="Add account"
+                      id="component.main.AccountsList.name"
+                      values={Object {}}
+                    />
+                  </WithStyles(Button)>
+                  <WithStyles(Menu)
+                    anchorEl={null}
+                    id="add-account-menu"
+                    onClose={[Function]}
+                    open={false}
+                  >
+                    <WithStyles(MenuItem)
+                      onClick={[Function]}
+                    />
+                    <WithStyles(MenuItem)
+                      onClick={[Function]}
+                    />
+                  </WithStyles(Menu)>
+                </WithStyles(TableCell)>
+              </WithStyles(TableRow)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(TableCell)>
+                    <FormattedMessage
+                      defaultMessage="Service"
+                      id="component.main.AccountsList.provider"
+                      values={Object {}}
+                    />
+                  </WithStyles(TableCell)>,
+                  <WithStyles(TableCell)>
+                    <FormattedMessage
+                      defaultMessage="Name"
+                      id="component.main.AccountsList.name"
+                      values={Object {}}
+                    />
+                  </WithStyles(TableCell)>,
+                  <WithStyles(TableCell)>
+                    <WithStyles(Button)
+                      aria-haspopup="true"
+                      onClick={[Function]}
+                      variant="contained"
+                    >
+                      <FormattedMessage
+                        defaultMessage="Add account"
+                        id="component.main.AccountsList.name"
+                        values={Object {}}
+                      />
+                    </WithStyles(Button)>
+                    <WithStyles(Menu)
+                      anchorEl={null}
+                      id="add-account-menu"
+                      onClose={[Function]}
+                      open={false}
+                    >
+                      <WithStyles(MenuItem)
+                        onClick={[Function]}
+                      />
+                      <WithStyles(MenuItem)
+                        onClick={[Function]}
+                      />
+                    </WithStyles(Menu)>
+                  </WithStyles(TableCell)>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Service"
+                      id="component.main.AccountsList.provider"
+                      values={Object {}}
+                    />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Service",
+                      "id": "component.main.AccountsList.provider",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Name"
+                      id="component.main.AccountsList.name"
+                      values={Object {}}
+                    />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Name",
+                      "id": "component.main.AccountsList.name",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <WithStyles(Button)
+                        aria-haspopup="true"
+                        onClick={[Function]}
+                        variant="contained"
+                      >
+                        <FormattedMessage
+                          defaultMessage="Add account"
+                          id="component.main.AccountsList.name"
+                          values={Object {}}
+                        />
+                      </WithStyles(Button)>,
+                      <WithStyles(Menu)
+                        anchorEl={null}
+                        id="add-account-menu"
+                        onClose={[Function]}
+                        open={false}
+                      >
+                        <WithStyles(MenuItem)
+                          onClick={[Function]}
+                        />
+                        <WithStyles(MenuItem)
+                          onClick={[Function]}
+                        />
+                      </WithStyles(Menu)>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "aria-haspopup": "true",
+                        "aria-owns": undefined,
+                        "children": <FormattedMessage
+                          defaultMessage="Add account"
+                          id="component.main.AccountsList.name"
+                          values={Object {}}
+                        />,
+                        "onClick": [Function],
+                        "variant": "contained",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "defaultMessage": "Add account",
+                          "id": "component.main.AccountsList.name",
+                          "values": Object {},
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "anchorEl": null,
+                        "children": Array [
+                          <WithStyles(MenuItem)
+                            onClick={[Function]}
+                          />,
+                          <WithStyles(MenuItem)
+                            onClick={[Function]}
+                          />,
+                        ],
+                        "id": "add-account-menu",
+                        "onClose": [Function],
+                        "open": false,
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": "twitter",
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": undefined,
+                            "onClick": [Function],
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        Object {
+                          "instance": null,
+                          "key": "facebook",
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": undefined,
+                            "onClick": [Function],
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                      ],
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <WithStyles(TableRow)>
+                  <WithStyles(TableCell) />
+                  <WithStyles(TableCell)>
+                    account1
+                  </WithStyles(TableCell)>
+                  <WithStyles(TableCell)>
+                    <WithStyles(Button)
+                      color="secondary"
+                      onClick={[Function]}
+                      variant="contained"
+                    >
+                      <FormattedMessage
+                        defaultMessage="Delete"
+                        id="component.main.AccountsList.delete"
+                        values={Object {}}
+                      />
+                    </WithStyles(Button)>
+                  </WithStyles(TableCell)>
+                </WithStyles(TableRow)>,
+                <WithStyles(TableRow)>
+                  <WithStyles(TableCell) />
+                  <WithStyles(TableCell)>
+                    account2
+                  </WithStyles(TableCell)>
+                  <WithStyles(TableCell)>
+                    <WithStyles(Button)
+                      color="secondary"
+                      onClick={[Function]}
+                      variant="contained"
+                    >
+                      <FormattedMessage
+                        defaultMessage="Delete"
+                        id="component.main.AccountsList.delete"
+                        values={Object {}}
+                      />
+                    </WithStyles(Button)>
+                  </WithStyles(TableCell)>
+                </WithStyles(TableRow)>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "test1",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(TableCell) />,
+                    <WithStyles(TableCell)>
+                      account1
+                    </WithStyles(TableCell)>,
+                    <WithStyles(TableCell)>
+                      <WithStyles(Button)
+                        color="secondary"
+                        onClick={[Function]}
+                        variant="contained"
+                      >
+                        <FormattedMessage
+                          defaultMessage="Delete"
+                          id="component.main.AccountsList.delete"
+                          values={Object {}}
+                        />
+                      </WithStyles(Button)>
+                    </WithStyles(TableCell)>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "account1",
+                    },
+                    "ref": null,
+                    "rendered": "account1",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <WithStyles(Button)
+                        color="secondary"
+                        onClick={[Function]}
+                        variant="contained"
+                      >
+                        <FormattedMessage
+                          defaultMessage="Delete"
+                          id="component.main.AccountsList.delete"
+                          values={Object {}}
+                        />
+                      </WithStyles(Button)>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <FormattedMessage
+                          defaultMessage="Delete"
+                          id="component.main.AccountsList.delete"
+                          values={Object {}}
+                        />,
+                        "color": "secondary",
+                        "onClick": [Function],
+                        "variant": "contained",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "defaultMessage": "Delete",
+                          "id": "component.main.AccountsList.delete",
+                          "values": Object {},
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "test2",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(TableCell) />,
+                    <WithStyles(TableCell)>
+                      account2
+                    </WithStyles(TableCell)>,
+                    <WithStyles(TableCell)>
+                      <WithStyles(Button)
+                        color="secondary"
+                        onClick={[Function]}
+                        variant="contained"
+                      >
+                        <FormattedMessage
+                          defaultMessage="Delete"
+                          id="component.main.AccountsList.delete"
+                          values={Object {}}
+                        />
+                      </WithStyles(Button)>
+                    </WithStyles(TableCell)>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "account2",
+                    },
+                    "ref": null,
+                    "rendered": "account2",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <WithStyles(Button)
+                        color="secondary"
+                        onClick={[Function]}
+                        variant="contained"
+                      >
+                        <FormattedMessage
+                          defaultMessage="Delete"
+                          id="component.main.AccountsList.delete"
+                          values={Object {}}
+                        />
+                      </WithStyles(Button)>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <FormattedMessage
+                          defaultMessage="Delete"
+                          id="component.main.AccountsList.delete"
+                          values={Object {}}
+                        />,
+                        "color": "secondary",
+                        "onClick": [Function],
+                        "variant": "contained",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "defaultMessage": "Delete",
+                          "id": "component.main.AccountsList.delete",
+                          "values": Object {},
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

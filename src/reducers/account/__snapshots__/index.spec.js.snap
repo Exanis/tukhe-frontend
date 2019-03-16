@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should update state with action 1`] = `
+Object {
+  "accounts": "test",
+}
+`;

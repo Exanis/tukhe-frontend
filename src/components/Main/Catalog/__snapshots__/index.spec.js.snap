@@ -1,0 +1,504 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render catalog as expected 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RawCatalog
+    intl={
+      Object {
+        "formatMessage": [MockFunction] {
+          "calls": Array [
+            Array [
+              Object {
+                "defaultMessage": "Twitter",
+                "id": "component.main.Catalog.provider.twitter",
+              },
+            ],
+            Array [
+              Object {
+                "defaultMessage": "Others",
+                "id": "component.main.Catalog.provider.misc",
+              },
+            ],
+            Array [
+              Object {
+                "defaultMessage": "Twitter feed",
+                "id": "component.main.Catalog.widget.twitter.feed.main",
+              },
+            ],
+            Array [
+              Object {
+                "defaultMessage": "Display all your tweets from one or multiple accounts",
+                "id": "component.main.Catalog.widget.twitter.feed.secondary",
+              },
+            ],
+            Array [
+              Object {
+                "defaultMessage": "Twitter notifications",
+                "id": "component.main.Catalog.widget.twitter.notification.main",
+              },
+            ],
+            Array [
+              Object {
+                "defaultMessage": "Display all your notifications from one or multiple twitter accounts",
+                "id": "component.main.Catalog.widget.twitter.notification.secondary",
+              },
+            ],
+            Array [
+              Object {
+                "defaultMessage": "Add a widget",
+                "id": "component.main.Catalog.title",
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+          ],
+        },
+      }
+    }
+    onClose={[MockFunction]}
+    onSelectWidget={[MockFunction]}
+    open={true}
+    widgets={
+      Object {
+        "misc": Array [
+          "rss",
+        ],
+        "twitter": Array [
+          "feed",
+          "notifications",
+        ],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <WithStyles(AppBar)
+          color="default"
+          position="static"
+        >
+          <WithStyles(Tabs)
+            indicatorColor="primary"
+            onChange={[Function]}
+            scrollButtons="auto"
+            textColor="primary"
+            value={0}
+            variant="scrollable"
+          >
+            <WithStyles(Tab) />
+            <WithStyles(Tab) />
+          </WithStyles(Tabs)>
+        </WithStyles(AppBar)>,
+        <WithStyles(List)>
+          <WithStyles(ListItem)
+            button={true}
+            onClick={[Function]}
+          >
+            <WithStyles(ListItemText) />
+          </WithStyles(ListItem)>
+          <WithStyles(ListItem)
+            button={true}
+            onClick={[Function]}
+          >
+            <WithStyles(ListItemText) />
+          </WithStyles(ListItem)>
+        </WithStyles(List)>,
+      ],
+      "onClose": [MockFunction],
+      "open": true,
+      "title": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <WithStyles(Tabs)
+            indicatorColor="primary"
+            onChange={[Function]}
+            scrollButtons="auto"
+            textColor="primary"
+            value={0}
+            variant="scrollable"
+          >
+            <WithStyles(Tab) />
+            <WithStyles(Tab) />
+          </WithStyles(Tabs)>,
+          "color": "default",
+          "position": "static",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <WithStyles(Tab) />,
+              <WithStyles(Tab) />,
+            ],
+            "indicatorColor": "primary",
+            "onChange": [Function],
+            "scrollButtons": "auto",
+            "textColor": "primary",
+            "value": 0,
+            "variant": "scrollable",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "twitter",
+              "nodeType": "class",
+              "props": Object {
+                "label": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "misc",
+              "nodeType": "class",
+              "props": Object {
+                "label": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <WithStyles(ListItem)
+              button={true}
+              onClick={[Function]}
+            >
+              <WithStyles(ListItemText) />
+            </WithStyles(ListItem)>,
+            <WithStyles(ListItem)
+              button={true}
+              onClick={[Function]}
+            >
+              <WithStyles(ListItemText) />
+            </WithStyles(ListItem)>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "twitter_feed",
+            "nodeType": "class",
+            "props": Object {
+              "button": true,
+              "children": <WithStyles(ListItemText) />,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "primary": undefined,
+                "secondary": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "twitter_notifications",
+            "nodeType": "class",
+            "props": Object {
+              "button": true,
+              "children": <WithStyles(ListItemText) />,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "primary": undefined,
+                "secondary": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <WithStyles(AppBar)
+            color="default"
+            position="static"
+          >
+            <WithStyles(Tabs)
+              indicatorColor="primary"
+              onChange={[Function]}
+              scrollButtons="auto"
+              textColor="primary"
+              value={0}
+              variant="scrollable"
+            >
+              <WithStyles(Tab) />
+              <WithStyles(Tab) />
+            </WithStyles(Tabs)>
+          </WithStyles(AppBar)>,
+          <WithStyles(List)>
+            <WithStyles(ListItem)
+              button={true}
+              onClick={[Function]}
+            >
+              <WithStyles(ListItemText) />
+            </WithStyles(ListItem)>
+            <WithStyles(ListItem)
+              button={true}
+              onClick={[Function]}
+            >
+              <WithStyles(ListItemText) />
+            </WithStyles(ListItem)>
+          </WithStyles(List)>,
+        ],
+        "onClose": [MockFunction],
+        "open": true,
+        "title": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(Tabs)
+              indicatorColor="primary"
+              onChange={[Function]}
+              scrollButtons="auto"
+              textColor="primary"
+              value={0}
+              variant="scrollable"
+            >
+              <WithStyles(Tab) />
+              <WithStyles(Tab) />
+            </WithStyles(Tabs)>,
+            "color": "default",
+            "position": "static",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <WithStyles(Tab) />,
+                <WithStyles(Tab) />,
+              ],
+              "indicatorColor": "primary",
+              "onChange": [Function],
+              "scrollButtons": "auto",
+              "textColor": "primary",
+              "value": 0,
+              "variant": "scrollable",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "twitter",
+                "nodeType": "class",
+                "props": Object {
+                  "label": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "misc",
+                "nodeType": "class",
+                "props": Object {
+                  "label": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <WithStyles(ListItem)
+                button={true}
+                onClick={[Function]}
+              >
+                <WithStyles(ListItemText) />
+              </WithStyles(ListItem)>,
+              <WithStyles(ListItem)
+                button={true}
+                onClick={[Function]}
+              >
+                <WithStyles(ListItemText) />
+              </WithStyles(ListItem)>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "twitter_feed",
+              "nodeType": "class",
+              "props": Object {
+                "button": true,
+                "children": <WithStyles(ListItemText) />,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "primary": undefined,
+                  "secondary": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "twitter_notifications",
+              "nodeType": "class",
+              "props": Object {
+                "button": true,
+                "children": <WithStyles(ListItemText) />,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "primary": undefined,
+                  "secondary": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
