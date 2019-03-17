@@ -7,7 +7,8 @@ export default createSlice({
         token: false,
         dashboards: [],
         currentDashboard: null,
-        widgets: []
+        widgets: [],
+        popupError: false
     },
     reducers: {
         setToken: (state, action) => {
@@ -27,6 +28,9 @@ export default createSlice({
         },
         setWidgets: (state, action) => {
             state.widgets = action.payload;
+        },
+        warnForPopupError: (state, action) => {
+            state.popupError = true;
         }
     }
 });

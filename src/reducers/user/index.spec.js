@@ -31,6 +31,9 @@ it('Should have correct reducers', () => {
 
     action.type = slice.actions.setWidgets;
     expect(slice.reducer(state, action)).toMatchSnapshot();
+
+    action.type = slice.actions.warnForPopupError;
+    expect(slice.reducer(state, action)).toMatchSnapshot();
 });
 
 it('Should correctly select user', () => {
