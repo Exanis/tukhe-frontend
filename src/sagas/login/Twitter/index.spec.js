@@ -2,6 +2,10 @@ import TwitterLoginSaga, * as saga from './index';
 
 window.open = jest.fn();
 
+window.open.mockImplementation(() => {
+    return true;
+});
+
 it('Should execute steps as expected when there is no token', () => {
     const gen = saga.twitterLoginSaga();
 
@@ -28,13 +32,12 @@ it('Should execute steps as expected when there is no token', () => {
 });
 
 it('Should execute steps as expected when there is a token', () => {
-    const gen = saga.twitterLoginSaga();
-
     jest.spyOn(saga, 'pollTwitterPopup');
     saga.pollTwitterPopup.mockImplementation(() => {
         return false;
     });
 
+    const gen = saga.twitterLoginSaga();
     const twitterFetch = gen.next();
 
     expect(twitterFetch).toMatchSnapshot();
@@ -55,6 +58,23 @@ it('Should execute steps as expected when there is a token', () => {
     expect(gen.next().done).toBeTruthy();
 });
 
+it('Should execute steps as expected when popup cannot open', () => {
+    const gen = saga.twitterLoginSaga();
+
+    window.open.mockImplementation(() => {
+        return null;
+    });
+    const twitterFetch = gen.next();
+
+    expect(twitterFetch).toMatchSnapshot();
+    expect(gen.next({
+        data: {
+            oauth_token: 'test'
+        }
+    })).toMatchSnapshot();
+    expect(gen.next().done).toBeTruthy();
+});
+
 it('Should handle error as expected', () => {
     const gen = saga.twitterLoginSaga();
 
@@ -69,4 +89,4 @@ it('Should have a watcher', () => {
 
     expect(gen.next()).toMatchSnapshot();
     expect(gen.next().done).toBeTruthy();
-})
+});

@@ -18,13 +18,15 @@ function fetchTwitterLoginToken() {
     );
 }
 
-function performTwitterAuth(token) {
-    return oauth1Popup(
+export function performTwitterAuth(token) {
+    const popup = oauth1Popup(
         'https://api.twitter.com/oauth/authenticate',
         token,
         495,
         650
     );
+
+    return popup;
 }
 
 export function pollTwitterPopup(popup) {
@@ -47,16 +49,21 @@ export function *twitterLoginSaga() {
     try {
         const authToken = yield call(fetchTwitterLoginToken);
         const popup = performTwitterAuth(authToken.data.oauth_token);
-        let result = true;
 
-        while (result === true) {
-            yield delay(500);
-            result = pollTwitterPopup(popup);
+        if (popup === null) {
+            yield put(user.actions.warnForPopupError());
+        } else {
+            let result = true;
+
+            while (result === true) {
+                yield delay(500);
+                result = pollTwitterPopup(popup);
+            }
+            result = yield call(() => finalizeTwitterLogin(result.oauth_token, result.oauth_verifier));
+
+            if (result.data.token)
+                yield put(user.actions.setToken(result.data.token));
         }
-        result = yield call(() => finalizeTwitterLogin(result.oauth_token, result.oauth_verifier));
-
-        if (result.data.token)
-            yield put(user.actions.setToken(result.data.token));
     } catch (error) {
         console.log(error);
     }

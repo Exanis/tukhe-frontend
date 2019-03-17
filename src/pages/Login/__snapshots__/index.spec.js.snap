@@ -5,6 +5,12 @@ Object {
   "bigLeap": Object {
     "marginBottom": "50px",
   },
+  "error": Object {
+    "backgroundColor": undefined,
+    "fontSize": 12,
+    "marginBottom": 10,
+    "padding": 5,
+  },
   "paper": Object {
     "padding": 2,
     "textAlign": "center",
@@ -29,13 +35,18 @@ Object {
 }
 `;
 
-exports[`Should keep using the same styles 2`] = `Object {}`;
+exports[`Should keep using the same styles 2`] = `
+Object {
+  "popupError": undefined,
+}
+`;
 
 exports[`Should render correctly the login page 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <RawLogin
     classes={Object {}}
+    popupError={true}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -95,6 +106,17 @@ ShallowWrapper {
           item={true}
           xs={3}
         >
+          <ConditionalComponent
+            render={true}
+          >
+            <WithStyles(Paper)>
+              <FormattedMessage
+                defaultMessage="Your browser seems to be blocking login popup... Please allow popup for our site - you can do so by clicking on the little icon in the address bar"
+                id="login.popup.error"
+                values={Object {}}
+              />
+            </WithStyles(Paper)>
+          </ConditionalComponent>
           <WithStyles(Paper)>
             <WithStyles(Typography)
               variant="h5"
@@ -166,6 +188,17 @@ ShallowWrapper {
             item={true}
             xs={3}
           >
+            <ConditionalComponent
+              render={true}
+            >
+              <WithStyles(Paper)>
+                <FormattedMessage
+                  defaultMessage="Your browser seems to be blocking login popup... Please allow popup for our site - you can do so by clicking on the little icon in the address bar"
+                  id="login.popup.error"
+                  values={Object {}}
+                />
+              </WithStyles(Paper)>
+            </ConditionalComponent>
             <WithStyles(Paper)>
               <WithStyles(Typography)
                 variant="h5"
@@ -338,36 +371,19 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "children": <WithStyles(Paper)>
-              <WithStyles(Typography)
-                variant="h5"
+            "children": Array [
+              <ConditionalComponent
+                render={true}
               >
-                <FormattedMessage
-                  defaultMessage="Connect to Tukhe"
-                  id="login.button.title"
-                  values={Object {}}
-                />
-              </WithStyles(Typography)>
-              <WithStyles(Button)
-                className="undefined undefined"
-              >
-                <FormattedMessage
-                  defaultMessage="Login with Twitter"
-                  id="login.button.twitter"
-                  values={Object {}}
-                />
-              </WithStyles(Button)>
-            </WithStyles(Paper)>,
-            "item": true,
-            "xs": 3,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": Array [
+                <WithStyles(Paper)>
+                  <FormattedMessage
+                    defaultMessage="Your browser seems to be blocking login popup... Please allow popup for our site - you can do so by clicking on the little icon in the address bar"
+                    id="login.popup.error"
+                    values={Object {}}
+                  />
+                </WithStyles(Paper)>
+              </ConditionalComponent>,
+              <WithStyles(Paper)>
                 <WithStyles(Typography)
                   variant="h5"
                 >
@@ -376,7 +392,7 @@ ShallowWrapper {
                     id="login.button.title"
                     values={Object {}}
                   />
-                </WithStyles(Typography)>,
+                </WithStyles(Typography)>
                 <WithStyles(Button)
                   className="undefined undefined"
                 >
@@ -385,24 +401,40 @@ ShallowWrapper {
                     id="login.button.twitter"
                     values={Object {}}
                   />
-                </WithStyles(Button)>,
-              ],
-              "className": undefined,
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
+                </WithStyles(Button)>
+              </WithStyles(Paper)>,
+            ],
+            "item": true,
+            "xs": 3,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <WithStyles(Paper)>
+                  <FormattedMessage
+                    defaultMessage="Your browser seems to be blocking login popup... Please allow popup for our site - you can do so by clicking on the little icon in the address bar"
+                    id="login.popup.error"
+                    values={Object {}}
+                  />
+                </WithStyles(Paper)>,
+                "render": true,
+              },
+              "ref": null,
+              "rendered": Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
                   "children": <FormattedMessage
-                    defaultMessage="Connect to Tukhe"
-                    id="login.button.title"
+                    defaultMessage="Your browser seems to be blocking login popup... Please allow popup for our site - you can do so by clicking on the little icon in the address bar"
+                    id="login.popup.error"
                     values={Object {}}
                   />,
                   "className": undefined,
-                  "variant": "h5",
                 },
                 "ref": null,
                 "rendered": Object {
@@ -410,8 +442,8 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "class",
                   "props": Object {
-                    "defaultMessage": "Connect to Tukhe",
-                    "id": "login.button.title",
+                    "defaultMessage": "Your browser seems to be blocking login popup... Please allow popup for our site - you can do so by clicking on the little icon in the address bar",
+                    "id": "login.popup.error",
                     "values": Object {},
                   },
                   "ref": null,
@@ -420,38 +452,99 @@ ShallowWrapper {
                 },
                 "type": [Function],
               },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {
-                  "children": <FormattedMessage
-                    defaultMessage="Login with Twitter"
-                    id="login.button.twitter"
-                    values={Object {}}
-                  />,
-                  "className": "undefined undefined",
-                  "onClick": undefined,
-                },
-                "ref": null,
-                "rendered": Object {
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(Typography)
+                    variant="h5"
+                  >
+                    <FormattedMessage
+                      defaultMessage="Connect to Tukhe"
+                      id="login.button.title"
+                      values={Object {}}
+                    />
+                  </WithStyles(Typography)>,
+                  <WithStyles(Button)
+                    className="undefined undefined"
+                  >
+                    <FormattedMessage
+                      defaultMessage="Login with Twitter"
+                      id="login.button.twitter"
+                      values={Object {}}
+                    />
+                  </WithStyles(Button)>,
+                ],
+                "className": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "class",
                   "props": Object {
-                    "defaultMessage": "Login with Twitter",
-                    "id": "login.button.twitter",
-                    "values": Object {},
+                    "children": <FormattedMessage
+                      defaultMessage="Connect to Tukhe"
+                      id="login.button.title"
+                      values={Object {}}
+                    />,
+                    "className": undefined,
+                    "variant": "h5",
                   },
                   "ref": null,
-                  "rendered": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Connect to Tukhe",
+                      "id": "login.button.title",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
                   "type": [Function],
                 },
-                "type": [Function],
-              },
-            ],
-            "type": [Function],
-          },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Login with Twitter"
+                      id="login.button.twitter"
+                      values={Object {}}
+                    />,
+                    "className": "undefined undefined",
+                    "onClick": undefined,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Login with Twitter",
+                      "id": "login.button.twitter",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
           "type": [Function],
         },
       ],
@@ -509,6 +602,17 @@ ShallowWrapper {
             item={true}
             xs={3}
           >
+            <ConditionalComponent
+              render={true}
+            >
+              <WithStyles(Paper)>
+                <FormattedMessage
+                  defaultMessage="Your browser seems to be blocking login popup... Please allow popup for our site - you can do so by clicking on the little icon in the address bar"
+                  id="login.popup.error"
+                  values={Object {}}
+                />
+              </WithStyles(Paper)>
+            </ConditionalComponent>
             <WithStyles(Paper)>
               <WithStyles(Typography)
                 variant="h5"
@@ -580,6 +684,17 @@ ShallowWrapper {
               item={true}
               xs={3}
             >
+              <ConditionalComponent
+                render={true}
+              >
+                <WithStyles(Paper)>
+                  <FormattedMessage
+                    defaultMessage="Your browser seems to be blocking login popup... Please allow popup for our site - you can do so by clicking on the little icon in the address bar"
+                    id="login.popup.error"
+                    values={Object {}}
+                  />
+                </WithStyles(Paper)>
+              </ConditionalComponent>
               <WithStyles(Paper)>
                 <WithStyles(Typography)
                   variant="h5"
@@ -752,36 +867,19 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "children": <WithStyles(Paper)>
-                <WithStyles(Typography)
-                  variant="h5"
+              "children": Array [
+                <ConditionalComponent
+                  render={true}
                 >
-                  <FormattedMessage
-                    defaultMessage="Connect to Tukhe"
-                    id="login.button.title"
-                    values={Object {}}
-                  />
-                </WithStyles(Typography)>
-                <WithStyles(Button)
-                  className="undefined undefined"
-                >
-                  <FormattedMessage
-                    defaultMessage="Login with Twitter"
-                    id="login.button.twitter"
-                    values={Object {}}
-                  />
-                </WithStyles(Button)>
-              </WithStyles(Paper)>,
-              "item": true,
-              "xs": 3,
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": Array [
+                  <WithStyles(Paper)>
+                    <FormattedMessage
+                      defaultMessage="Your browser seems to be blocking login popup... Please allow popup for our site - you can do so by clicking on the little icon in the address bar"
+                      id="login.popup.error"
+                      values={Object {}}
+                    />
+                  </WithStyles(Paper)>
+                </ConditionalComponent>,
+                <WithStyles(Paper)>
                   <WithStyles(Typography)
                     variant="h5"
                   >
@@ -790,7 +888,7 @@ ShallowWrapper {
                       id="login.button.title"
                       values={Object {}}
                     />
-                  </WithStyles(Typography)>,
+                  </WithStyles(Typography)>
                   <WithStyles(Button)
                     className="undefined undefined"
                   >
@@ -799,24 +897,40 @@ ShallowWrapper {
                       id="login.button.twitter"
                       values={Object {}}
                     />
-                  </WithStyles(Button)>,
-                ],
-                "className": undefined,
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
+                  </WithStyles(Button)>
+                </WithStyles(Paper)>,
+              ],
+              "item": true,
+              "xs": 3,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <WithStyles(Paper)>
+                    <FormattedMessage
+                      defaultMessage="Your browser seems to be blocking login popup... Please allow popup for our site - you can do so by clicking on the little icon in the address bar"
+                      id="login.popup.error"
+                      values={Object {}}
+                    />
+                  </WithStyles(Paper)>,
+                  "render": true,
+                },
+                "ref": null,
+                "rendered": Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "class",
                   "props": Object {
                     "children": <FormattedMessage
-                      defaultMessage="Connect to Tukhe"
-                      id="login.button.title"
+                      defaultMessage="Your browser seems to be blocking login popup... Please allow popup for our site - you can do so by clicking on the little icon in the address bar"
+                      id="login.popup.error"
                       values={Object {}}
                     />,
                     "className": undefined,
-                    "variant": "h5",
                   },
                   "ref": null,
                   "rendered": Object {
@@ -824,8 +938,8 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "class",
                     "props": Object {
-                      "defaultMessage": "Connect to Tukhe",
-                      "id": "login.button.title",
+                      "defaultMessage": "Your browser seems to be blocking login popup... Please allow popup for our site - you can do so by clicking on the little icon in the address bar",
+                      "id": "login.popup.error",
                       "values": Object {},
                     },
                     "ref": null,
@@ -834,38 +948,99 @@ ShallowWrapper {
                   },
                   "type": [Function],
                 },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "class",
-                  "props": Object {
-                    "children": <FormattedMessage
-                      defaultMessage="Login with Twitter"
-                      id="login.button.twitter"
-                      values={Object {}}
-                    />,
-                    "className": "undefined undefined",
-                    "onClick": undefined,
-                  },
-                  "ref": null,
-                  "rendered": Object {
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(Typography)
+                      variant="h5"
+                    >
+                      <FormattedMessage
+                        defaultMessage="Connect to Tukhe"
+                        id="login.button.title"
+                        values={Object {}}
+                      />
+                    </WithStyles(Typography)>,
+                    <WithStyles(Button)
+                      className="undefined undefined"
+                    >
+                      <FormattedMessage
+                        defaultMessage="Login with Twitter"
+                        id="login.button.twitter"
+                        values={Object {}}
+                      />
+                    </WithStyles(Button)>,
+                  ],
+                  "className": undefined,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
                     "instance": null,
                     "key": undefined,
                     "nodeType": "class",
                     "props": Object {
-                      "defaultMessage": "Login with Twitter",
-                      "id": "login.button.twitter",
-                      "values": Object {},
+                      "children": <FormattedMessage
+                        defaultMessage="Connect to Tukhe"
+                        id="login.button.title"
+                        values={Object {}}
+                      />,
+                      "className": undefined,
+                      "variant": "h5",
                     },
                     "ref": null,
-                    "rendered": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "defaultMessage": "Connect to Tukhe",
+                        "id": "login.button.title",
+                        "values": Object {},
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
                     "type": [Function],
                   },
-                  "type": [Function],
-                },
-              ],
-              "type": [Function],
-            },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <FormattedMessage
+                        defaultMessage="Login with Twitter"
+                        id="login.button.twitter"
+                        values={Object {}}
+                      />,
+                      "className": "undefined undefined",
+                      "onClick": undefined,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "defaultMessage": "Login with Twitter",
+                        "id": "login.button.twitter",
+                        "values": Object {},
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
             "type": [Function],
           },
         ],

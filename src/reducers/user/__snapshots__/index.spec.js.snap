@@ -50,3 +50,13 @@ Object {
   "widgets": "test",
 }
 `;
+
+exports[`Should have correct reducers 7`] = `
+Object {
+  "currentDashboard": null,
+  "dashboards": Array [],
+  "popupError": true,
+  "token": false,
+  "widgets": Array [],
+}
+`;
