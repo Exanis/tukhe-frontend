@@ -79,7 +79,8 @@ export const styles = theme => ({
     root: {
         backgroundImage: `url(${logo})`,
         backgroundPosition: "bottom right",
-        backgroundRepeat: "no-repeat"
+        backgroundRepeat: "no-repeat",
+        minHeight: "100%"
     }
 });
 

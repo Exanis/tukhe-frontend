@@ -716,6 +716,7 @@ Object {
     "backgroundImage": "url(logo.png)",
     "backgroundPosition": "bottom right",
     "backgroundRepeat": "no-repeat",
+    "minHeight": "100%",
   },
 }
 `;
